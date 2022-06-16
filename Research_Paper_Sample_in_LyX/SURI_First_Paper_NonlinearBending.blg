@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SURI_First_Paper_NonlinearBending.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+The style file: model3-num-names.bst
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+Database file #1: SURI_Paper_NonlinearBending.bib
+Warning--entry type for "levy1942square" isn't style-file defined
+--line 560 of file SURI_Paper_NonlinearBending.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 81 entries,
+            3138 wiz_defined-function locations,
+            1279 strings with 24229 characters,
+and the built_in function-call counts, 78163 in all, are:
+= -- 6828
+> -- 1655
+< -- 43
++ -- 897
+- -- 434
+* -- 8945
+:= -- 9759
+add.period$ -- 322
+call.type$ -- 81
+change.case$ -- 406
+chr.to.int$ -- 80
+cite$ -- 81
+duplicate$ -- 6886
+empty$ -- 6919
+format.name$ -- 737
+if$ -- 15594
+int.to.chr$ -- 2
+int.to.str$ -- 82
+missing$ -- 861
+newline$ -- 500
+num.names$ -- 243
+pop$ -- 1422
+preamble$ -- 1
+purify$ -- 405
+quote$ -- 0
+skip$ -- 1262
+stack$ -- 0
+substring$ -- 8243
+swap$ -- 3302
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 484
+warning$ -- 0
+while$ -- 384
+width$ -- 0
+write$ -- 1304
+(There was 1 warning)

@@ -1,0 +1,288 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Dear Editor,
+\end_layout
+
+\begin_layout Standard
+Thank you very much for the review of our manuscript 
+\begin_inset Quotes eld
+\end_inset
+
+Geometrically nonlinear flexural analysis of multilayered composite plate
+ using polynomial and non-polynomial shear deformation theories
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We sincerely appreciate all valuable comments and suggestions, which helped
+ us to improve the quality of the article.
+ Our responses to the reviewer's comments are described below in a point-to-poin
+t manner.
+ Appropriated changes, suggested by the reviewers, has been introduced to
+ the manuscript (highlighted within the manuscript).
+ 
+\end_layout
+
+\begin_layout Standard
+We hope that our manuscript will be acceptable for publication in Aerospace
+ Science and Technology.
+\end_layout
+
+\begin_layout Standard
+Yours sincerely,
+\end_layout
+
+\begin_layout Standard
+Babu Ranjan Thakur
+\end_layout
+
+\begin_layout Standard
+corresponding author
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reviewer #1: No comments
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reviewer #2:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Query 
+\series default
+2— authors are mentioning [71, 72] for their patch recovery.
+ However, such procedure which was demonstrated to be super-convergent has
+ been applied to Poisson-type equations.
+ The procedure has not been proven to be super-convergent for plates which
+ unlikely it would be.
+ It is suggested to report the algebraic equations used by the authors to
+ carry out post-processing of stresses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reply : As per the reviewer's suggestion, a dedicated subsection 3.3 named
+ as stress-recovery technique over the surface has been added in the updated
+ manuscript and the same has been highlighted with magenta color.
+ In this subsection, a detailed procedure with various illustrations along
+ with algebraic equations has been shown in a comprehensive manner.
+ To avoid the repetition in section 4.3, the lines corresponding to stress
+ recovery are modified and changes are highlighted with magenta color.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Query 
+\series default
+3— what stated is not completely true, since 3D equilibrium should be always
+ valid both in linear and non-linear regimes.
+ Thus, since the present approach considers an engineering theory and not
+ a 3D elastic solution the correct and real shear components of stress can
+ be obtained only via recovery processes which have been proven in the literatur
+e to work in this context such as 
+\end_layout
+
+\begin_layout Standard
+-- https://doi.org/10.1002/(SICI)1097-0207(19990410)44:10<1481::AID-NME554>3.0.CO;2-
+Q 
+\end_layout
+
+\begin_layout Standard
+-- https://doi.org/10.1080/15376494.2015.1121521 
+\end_layout
+
+\begin_layout Standard
+-- https://doi.org/10.1016/j.compstruct.2020.112675 
+\end_layout
+
+\begin_layout Standard
+-- https://doi.org/10.1016/j.compositesb.2017.06.012
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Reply : We would like to thank you for the comment and pointing out our
+ mistake of not clearly stating out about the constitutive approach used
+ for calculating the transverse stresses.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Yes, the 3D equilibrium approach is valid for both linear and non-linear
+ regimes.
+ Further, the correct and real shear components of transverse stresses can
+ be obtained only via recovery processes due to the variation of plies in
+ the thickness direction.
+ Hence, it is important to use stress recovery technique in thickness direction
+ using 3D equilibrium approach and the same conclusion regarding the transverse
+ stresses is drawn in the conclusion section and highlighted with magenta
+ color.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Furthermore, in the present study, no recovery technique has been considered
+ in thickness direction to show the limitation of constitutive approach
+ for Green-Lagrange strain.
+ The stress recovery technique shown in section 3.3 (in the updated manuscript)
+ is only for inplane distribution of stresses which is required due to the
+ usage of 
+\begin_inset Formula $C^{0}$
+\end_inset
+
+ Lagrange interpolation function.
+ Moreover, the continuous through-thickness transverse stresses can be obtained
+ by constitutive and 3D equilibrium approaches.
+ Even though, the 3D equilibrium approach is an appropriate approach for
+ calculating the continuous transverse stresses, the constitutive approach
+ also gives reasonable values for HSDTs.
+ Thus, for the constitutive approach, it is observed that the zero transverse
+ stresses condition is satisfied through the linear strain-displacement
+ relation.
+ Moreover, this condition is also satisfied in von Kármán nonlinear model
+ as well as linear model due to absence of nonlinear transverse strain-displacem
+ent terms.
+ However, due to the presence of nonlinear transverse strain terms in the
+ Green-Lagrange nonlinear model, zero transverse stresses condition using
+ constitutive approach is not satisfied at the top and bottom boundary condition.
+ Hence, for accurate predication of transverse stresses, the only choice
+ left is the 3D equilibrium approach in the laminated and sandwich plates.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+In the updated manuscript, the above stated explanation is clearly written
+ in the section 4.3.8 and same is highlighted with magenta color.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+We would like to thank reviewers for taking the time and effort necessary
+ to review the manuscript.
+ We sincerely appreciate all valuable comments and suggestions, which helped
+ us to improve the quality of the manuscript.
+\end_layout
+
+\end_body
+\end_document

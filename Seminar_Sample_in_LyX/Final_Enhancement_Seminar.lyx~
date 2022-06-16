@@ -1,0 +1,5608 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{listings}
+%\usetheme{Warsaw}
+% or ...
+%\usetheme{Antibes}	% tree outline, neat
+%\usetheme{Marburg}	% nice, outline on right
+%\usetheme{PaloAlto}	% looks good
+%\usetheme{Montpellier}	% tree outline on top, plainish white
+%\usetheme{JuanLesPins}	% like Antibes, with shading
+%\usetheme{Boadilla}	% nice, white bg, no top bar
+%\usetheme{Hannover}	% like Goett with bar on left
+%\usetheme{boxes}	% ???
+%\usetheme{Rochester}	% like boxy, unshaded warsaw
+%\usetheme{Singapore}	% purple gradient top
+%\usetheme{Goettingen}	% light purple right bar outline
+%\usetheme{default}
+
+%%usetheme{Bergen}	% outline on side
+%\usetheme{Pittsburgh}
+%\usetheme{Luebeck}	% like Warsaw, square sides
+%\usetheme{Berkeley}	% interesting left bar outline
+
+\usetheme{Madrid}	% clean, nice.  7/12 page numbers
+%\usetheme{CambridgeUS}
+%\usetheme{Berlin}	% dots show slide number
+%\usetheme{Malmoe}	% OK, plain, unshaded
+%\usetheme{Copenhagen}	% like Warsaw
+%\usetheme{Darmstadt}	% like Warsaw with circle outline
+%\usetheme{Dresden}	% circle outline on top
+%\usetheme{Frankfurt}	% like Warsaw with circle outline on top
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+%\usetheme{compatibility}
+%\usetheme{Ilmenau}
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+%\usecolortheme{seahorse}
+%\usecolortheme{rose}
+
+% seems to fix typewriter font in outline header:
+%\usepackage{ae,aecompl}
+\usepackage{babel}
+\geometry{paperwidth=200mm,paperheight=140mm}
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+%\date{}
+
+%/
+
+%/
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\color white
+Enhancement Seminar
+\begin_inset Newline newline
+\end_inset
+
+on
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\color inherit
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Nonlinear bending and buckling analysis
+\end_layout
+
+\end_inset
+
+
+\color white
+Nonlinear bending and buckling analysis of laminated and sandwich curved
+ panels in hygrothermal environment
+\color orange
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+\color white
+
+\begin_inset Newline newline
+\end_inset
+
+by
+\begin_inset Newline newline
+\end_inset
+
+
+\size default
+Surendra Verma
+\family roman
+\size larger
+\color orange
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
+\color white
+(16AE91R01)
+\family roman
+\color orange
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+
+\size scriptsize
+\begin_inset VSpace 0.6cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+
+\series bold
+\size normal
+Under the supervision of
+\begin_inset Newline newline
+\end_inset
+
+ Prof.
+ B.N Singh and Prof.
+ D.K Maiti 
+\size scriptsize
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Surendra Verma (16AE91R01)
+\end_layout
+
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size footnotesize
+
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename all images/black IIT_Kharagpur_Logo.svg.png
+	display false
+	width 1.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+
+\series bold
+\size normal
+Department of Aerospace Engineering,
+\begin_inset Newline newline
+\end_inset
+
+ IIT Kharagpur - 721302
+\end_layout
+
+\begin_layout Date
+28 August, 2018
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Now a days, structural components are trending from traditional material
+ to advanced structural materials, require high specific strength, low specific
+ density and other properties.
+\end_layout
+
+\begin_layout Itemize
+Composite material one such type of advanced structural materials, is widely
+ in various engineering fields like aerospace and aeronautical, mechanical,
+ marine and naval, etc.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image4.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fiber reinforced composite material
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image3.jpg
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sandwich composite material
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+However, laminated and sandwich composites are weak in shear due to their
+ low shear modulus compared to extensional rigidity which makes shear deformatio
+n a prominent factor during external influence.
+\end_layout
+
+\begin_layout Itemize
+A clear understanding on shear deformation and structural response is required
+ to achieve the full range of capabilities on the exemplary performance
+ of composite structure.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only material with specific strength and stiffness is not sufficient, material
+ in a proper geometric shape is necessary to utilize the benefit.
+\end_layout
+
+\begin_layout Itemize
+Among various geometric shape, shell structure resist the external applied
+ loads with optimum use of material.
+ By virtue of the curved shape, shell structure withstand both membrane
+ and bending forces in compare to only bending forces in plate structure,
+ which makes them useful for utilizing various purposes and large space.
+\end_layout
+
+\begin_layout Itemize
+From application point of view, shell is the most commonly used geometric
+ shape in many engineering and industrial structure to meet the required
+ demand for applications, like wings and fuselage of airplanes, exteriors
+ of rockets, missiles, tanks, pressure vessels, fluid reservoir, containers
+ of liquids, pipes, submarine hulls, ships hulls, hydro-space, concrete
+ roofs, buildings and many other structure.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In general, Light-weight structures usually thin-walled are very much used
+ in the aircraft industries.
+ 
+\end_layout
+
+\begin_layout Itemize
+But, thin-walled structure undergo large deformation when subjected to external
+ aerodynamic load and liable to buckle under the influence of compression
+ load during flight operation.
+\end_layout
+
+\begin_layout Itemize
+Thus, structural stability and large bending analysis gives a safety margin
+ for operation, and plays an important role in design and analysis.
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+To illustrate the importance of non-linear bending and stability analysis
+ in low safety-margin-structure, a comparison is considered.
+ For Example : When a car-driver finds a visible buckle in a fender of his
+ car and he knows that this buckle has not yet deteriorated the safety of
+ his car.
+ But, same buckle is not tolerable in the aircraft due to there less margin
+ of safety in compare to car, building and like same.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Moreover, load carrying ability of structure augmented by visible buckles
+ or after buckling depends upon on the post-buckling behavior of the structure.
+\end_layout
+
+\begin_layout Itemize
+Thus, post buckling is also important for buckled or geometrical imperfect
+ structure for further strengthening of the structure.
+ The post-buckling behavior is not only tell about the load carrying capacity
+ after buckling, but it also influence the magnitude of buckling load and
+ it is very useful for design and manufacturing purpose.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename BucklingofPlateShell.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Buckling and post-buckling behavior of imperfect structures 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "esslinger1975post"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Considering all the aspect of curved panel, theoretically buckling load
+ of the perfect shell must not be considered as the load carrying capacity
+ and actual load in the most unfavorable case can as low as 20% of the theoretic
+al buckling load for the perfect shell due to surpass effect of imperfection.
+\end_layout
+
+\begin_layout Itemize
+Higher factor of safety has to be prescribed for curved panel, than to a
+ flat plate which carry several times of the buckling load after buckling.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Motivation
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usage of composite material in day to day life is increasing constantly
+ due to their low specific weight with equivalent required stiffness.
+\end_layout
+
+\begin_layout Enumerate
+A clear understanding of structural response of these structure under various
+ operating condition is mandatory for wide range of applicability.
+\end_layout
+
+\begin_layout Enumerate
+However, the thin shell structure underwent large deformation under the
+ influence of external load or elevated hygrothermal atmosphere.
+ So, it is necessary to consider the non-linearity during design and analysis.
+\end_layout
+
+\begin_layout Enumerate
+A clear understanding of geometrically non-linear analysis of composite
+ structure, which possesses complex response during mechanical and thermal
+ load is necessary.
+ The same non-linear behavior is exhibit during buckling due to in-plane
+ mechanical and thermal load.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+These interesting behavior of composite shell panel has motivated to carry
+ out the further research work on this area.
+ 
+\end_layout
+
+\begin_layout Itemize
+In next section, Literature on large bending deformation of the composite
+ plate subjected to the mechanical load is reviewed.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Literature Review
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Literature Review
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of Plate due to transverse mechanical load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Observations and remarks from the Literature survey
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Nonlinear Bending analysis of laminated composite plate
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of laminated composite plate due to transverse
+ mechanical load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Sabir AB and Lock AC (1972) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sabir1972applications"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+investigated geometrically nonlinear response of cylindrical shells under
+ lateral loading.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Bathe and Bolourchi (1980)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bathe1980geometric"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the degenerated shell element for geometric and material nonlinear
+ analysis for both total and updated Lagrangian formulation.
+\end_layout
+
+\begin_layout Itemize
+a variable node shell element is developed to be employed as transition
+ element which has a compatibility with both shell and solid shell element.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Kim (1999) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kim1999non"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented nonlinear finite element analysis of composite panel; in this
+ an eight-node shell element with six degrees of freedom per node is used.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of laminated composite plate due to transverse
+ mechanical load (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+X.
+ Zhao, et al.(2008) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhao2008geometric"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+has analyzed the geometrically nonlinear behavior of shells and plates using
+ linearly conforming radial point interpolation method.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Riberio et al.
+ (2010) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ribeiro2010non"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the p-version of FEM on deep cylindrical shell using shallow shell
+ element for transient and vibration analysis.
+ Geometrical nonlinearity due to large deflection is considered, occur in
+ shallower shells and thinner deep shells.
+\end_layout
+
+\begin_layout Itemize
+it is observed that computation cost of p-version FEM is lower computation
+ cost than regular h-FEM due to finer mesh require to capture the curvature
+ in the shell.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Patel (2015)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "patel2015nonlinear"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+analyzed the nonlinear finite element bending of composite shell panel subjected
+ to transverse load using degenerated shell element with five degree of
+ freedom.
+\end_layout
+
+\begin_layout Itemize
+Total Lagrangian approach is used for formulation in conjunction of Green-Lagran
+ge strain displacement relationship with arc-length technique.
+\end_layout
+
+\begin_layout Itemize
+However, results are compared up to limit point in load-displacement curve.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Hughes and Liu (1981) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hughes1981nonlinear"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented a nonlinear finite element model for the three dimensional quasi
+ static analysis of shell structures.
+ 
+\end_layout
+
+\begin_layout Itemize
+They considered large strains and rotation effects in their analysis.
+\end_layout
+
+\begin_layout Itemize
+Same work was extended to two-dimensional shell 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hughes1981nonlinear2"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Nonlinear Bending analysis of laminated composite plate*
+\end_layout
+
+\begin_layout PlainFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of laminated composite plate due to transverse
+ mechanical load* (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+ Zhang and Kim (2006) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhang2006geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+developed a 4-noded quadrilateral finite element model using FSDT, based
+ on 
+\color red
+von-Karman's
+\color inherit
+ large deflection theory with total Lagrangian approach.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Cetkovic and Vuksanovic (2011) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cetkovic2011geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+developed a geometrically non-linear laminated finite element based on 
+\color red
+layer-wise displacement field of Reddy
+\color inherit
+.
+\end_layout
+
+\begin_layout Itemize
+Their formulation considered the 
+\color red
+Green-Lagrange small strain
+\color inherit
+ relation and non-linear system of equations are solved by 
+\color red
+direct iteration procedure
+\color inherit
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Kundu et al.
+ (2007) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kundu2007nonlinear"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+studied the effect of elevated hygrothermal environment on bending behavior
+ of doubly curved laminated shell using FEM.
+ A FSDT is employed with 
+\color red
+von-Karman
+\color inherit
+ geometrically non-linear relation.
+\end_layout
+
+\begin_layout Itemize
+A total Lagrangian approach in-conjunction with Arc-length method is used
+ to trace the equilibrium path of shell panel.
+\end_layout
+
+\begin_layout Itemize
+It was observed that residual stresses due to elevate temperature and moisture
+ induce large bending deformation.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of laminated composite plate due to transverse
+ mechanical load* (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Patel (2015) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "patel2015nonlinear"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the same degenerated technique to predict the non-linear behavior
+ of the composite shell subjected to transverse load using FEM utilizing
+ FSDT.
+ 
+\end_layout
+
+\begin_layout Itemize
+A total Lagrangian approach is utilized to formulate the problem considering
+ 
+\color red
+Green-Lagrange
+\color inherit
+ strain-displacement relationship with 
+\color red
+arc-length technique
+\color inherit
+.
+ However, results are compared up to limit point in the load-displacement
+ curve.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Fares (1999) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "fares1999non"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented a refined single-layered, first-order laminates model using a
+ 
+\color red
+mixed variational approach
+\color inherit
+ which incorporates the 
+\color red
+von-Karman
+\color inherit
+ type of geometric non-linearity in his formulation.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Urthaler and Reddy (2008) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "urthaler2008mixed"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+investigated the nonlinear bending analysis of laminated composite plate
+ using a 
+\color red
+mixed variational formulation
+\color inherit
+ of the FSDT in which displacement and bending moments are treated as independen
+t fields.
+ 
+\end_layout
+
+\begin_layout Itemize
+The finite element consists of eight degrees of freedom per node with five
+ normal degree of freedom and three bending moments.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Dash and Singh (2010) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dash2010geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+proposed a penalty based nine-noded isoparametric finite element with 
+\begin_inset Formula $10$
+\end_inset
+
+ degrees of freedom per node.
+ 
+\end_layout
+
+\begin_layout Itemize
+Their formulation is based on higher order shear deformation theory (HSDT)
+ based on full 
+\color red
+Green-Lagrange
+\color inherit
+ type of nonlinearity.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of laminated composite plate due to transverse
+ mechanical load* (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Shukla and Nath (2000) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "shukla2000nonlinear"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented an analytical solution based on 
+\color red
+Chebyshev
+\color inherit
+ polynomial for geometrically non-linear bending problem of the laminated
+ composite plate which undergo moderately large deformation.
+\end_layout
+
+\begin_layout Itemize
+Influence of boundary conditions is also obtained, and their method was
+ found to be less expensive.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Andakhshideh et al.
+ (2009) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "andakhshideh2009non"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the 
+\color red
+generalized differential quadrature
+\color inherit
+ (GDQ) method to obtained linear and nonlinear response of laminated composite
+ plate considering 
+\color red
+von-Karman
+\color inherit
+ nonlinearity using FSDT.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Singh and Shukla (2012) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "singh2012nonlinear"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the 
+\color red
+mesh-free
+\color inherit
+ method to calculate the non-linear flexural response of laminated using
+ HSDT with 
+\color red
+von-Karman
+\color inherit
+ non-linear kinematics.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Kapoor and Kapania (2012) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kapoor2012geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+analyzed the geometrically non-linear behavior of laminated composite plates
+ using non-uniform rational B-splines (
+\color red
+NURBS
+\color inherit
+) based isogeometric finite element analysis.
+\end_layout
+
+\begin_layout Itemize
+Their formulation considered the
+\color red
+ von-Karman
+\color inherit
+ type of non-linearity with FSDT to model the deformation of the plate.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tran et al.
+ (2015) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tran2015geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented a numerical approach based on isogeometric analysis (IGA) and
+ HSDT for geometrically nonlinear (
+\color red
+von-Karman
+\color inherit
+) analysis of laminated composite plates.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Nonlinear Bending analysis of sandwich composite plate
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear Bending analysis of sandwich composite plate due to transverse
+ mechanical load* (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Marcinowski (2003) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "marcinowski2003geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+applied the degenerated shell element for full geometrically non-linear
+ bending analysis of sandwich structure.
+ However, the proposed formulation does not consider for the local deformation
+ of the face sheets.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Madhukar and Singha (2013) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "madhukar2013geometrically"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+studied the behavior of geometrically non-linear analysis of soft core sandwich
+ plate using higher order finite element model, considering the effect of
+ transverse shear and normal deformation in the formulation.
+\end_layout
+
+\begin_layout Itemize
+It is observed that the effect of shear and normal deformation increases
+ with increase in thickness-to-span ratio and core-to-face thickness ratio
+ of the sandwich plate.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Elmalich and Rabinovitch (2013) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "elmalich2013geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A specially tailored geometrically nonlinear finite element based on higher-orde
+r sandwich plate theory was developed
+\end_layout
+
+\begin_layout Itemize
+This procedure accounts for the 
+\color red
+von-Karman
+\color inherit
+ type of geometrical nonlinearity in the face sheet and considers a shear
+ and through-thickness deformation of the core.
+\end_layout
+
+\begin_layout Itemize
+This study also reveals an interesting physical phenomenon, like localized
+ diagonal wrinkling patterns, evolved due to small-scale effect and coupling
+ between local and global response in the sandwich plate.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Nguyen et al.
+ (2014) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nguyen2014geometrically"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+presented a improved finite element computation model using a flat four-node
+ element with smoothed strain for geometrically non-linear analysis of composite
+ plate and shell structure.
+ 
+\end_layout
+
+\begin_layout Itemize
+A 
+\color red
+von-Karman
+\color inherit
+ type of non-linearity in the framework of total Lagrangian approach utilizing
+ the FSDT is considered, which provides less loss of accuracy in the distorted
+ coarse meshes as integration is done on boundaries of smoothing element.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Observations and remarks from the Literature survey
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Observations and remarks
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Observations and remarks from the Literature survey
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The existing literature mainly focuses on the analysis of composite plate,
+ less work is done on the composite shell.
+ 
+\end_layout
+
+\begin_layout Itemize
+Characteristic response of laminated composite plate have been dealt by
+ many researcher.
+ However, 
+\color red
+few studies
+\color inherit
+ have been conducted on 
+\color red
+sandwich structure
+\color inherit
+ due to high shear to longitudinal modulus ratio which leads to prominent
+ transverse effect.
+\end_layout
+
+\begin_layout Itemize
+The plate models, which satisfies zero transverse shear stress condition
+ on the top and bottom of the plate for nonlinear problem is generally limited
+ to 
+\color red
+Von-karman
+\color inherit
+ sense and is not reported adequately in Green-Lagrange sense.
+\end_layout
+
+\begin_layout Itemize
+In general mathematical model are based on polynomial approximation; on
+ the other hand non-polynomial based approximation perform better, however
+ is less studied and thus in dept study is needed to explorer for better
+ design, performance and safety of the structure.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Research objective and Scope
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Research objective and Scope
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Non-linear bending and post-buckling analysis of laminated and sandwich
+ curved panel in hygrothermal environment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Scope
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Flat Plate 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Validation and comparative study of linear bending and buckling using NPSDT
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+Geometric non-linear analysis of laminated and sandwich composite plate
+ under mechanical load using NPSDT
+\end_layout
+
+\begin_layout Enumerate
+Post buckling analysis of laminated plate under the influence of in-plane
+ mechanical load using NPSDT
+\end_layout
+
+\begin_layout Enumerate
+Post buckling analysis of composite plate under hygrothermal environment
+ using NPSDT
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Shell Panel
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Linear and Nonlinear bending analysis of various laminated curved panel
+\end_layout
+
+\begin_layout Enumerate
+Linear buckling and nonlinear buckling analysis of laminated and sandwich
+ panel
+\end_layout
+
+\begin_layout Enumerate
+Nonlinear post buckling analysis of composite panel under hygrothermal environme
+nt.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Non-linear finite element formulation for laminated and sandwich composite
+ plate
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Non-linear finite element formulation for laminated and sandwich composite
+ plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Present formulation consider both linear and non-linear linear strain, 
+\color red
+von-Karman
+\color inherit
+ type of geometrically nonlinearity is employed to model the behavior of
+ laminated and sandwich composite plate.
+\end_layout
+
+\begin_layout Itemize
+In this case, material exhibits 
+\color red
+within the linear elastic
+\color inherit
+ limit.
+\end_layout
+
+\begin_layout Standard
+A rectangular laminated composite plate of dimension 
+\begin_inset Formula $a\times b\times h$
+\end_inset
+
+, consist of 
+\begin_inset Formula $n$
+\end_inset
+
+ orthotropic ply stacked in particular orientation is considered.
+ A schematic diagram of laminated composite plate in cartesian coordinate
+ system 
+\begin_inset Formula $\left(X-Y-Z\right)$
+\end_inset
+
+ is shown in Figure.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:LaminatedCompositePlate"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Laminated Composite Plate.eps
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:LaminatedCompositePlate"
+
+\end_inset
+
+Schematic diagram of laminated composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Displacement Field Model
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Displacement Field Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A non-polynomial based higher order displacement fields are considered for
+ modeling of deformation of plate as represented as :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{gathered}u\left(x,y,z\right)=u_{0}\left(x,y\right)-z\frac{\partial w_{0}}{\partial x}+\left(g\left(z\right)+z\Omega\right)\phi_{x}\left(x,y\right)\\
+v\left(x,y,z\right)=v_{0}\left(x,y\right)-z\frac{\partial w_{0}}{\partial y}+\left(g\left(z\right)+z\Omega\right)\phi_{y}\left(x,y\right)\\
+w\left(x,y,z\right)=w_{0}\left(x,y\right)
+\end{gathered}
+\label{eq:DisplacementModelNPSDT}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $u_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $v_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $w_{0}$
+\end_inset
+
+ are displacements along the mid plane of plate, 
+\begin_inset Formula $\phi_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\phi_{y}$
+\end_inset
+
+ are the shear deformation at the mid plane.
+ 
+\end_layout
+
+\begin_layout Standard
+The functions 
+\begin_inset Formula $g\left(z\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ incorporate the nonlinear sense in transverse strain and represent the
+ warping of cross-section perpendicular to mid-plane.
+ 
+\end_layout
+
+\begin_layout Itemize
+Different nature of shear strain function, as proposed by many researchers
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "touratier1991efficient,soldatos1992transverse,grover2013new,stein1986nonlinear,karama2003mechanical,mantari2012new,sarangan2016higher"
+literal "true"
+
+\end_inset
+
+, give rise to several type of shear deformation theory and among these
+ three are listed in the Table.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:DisplacementFields"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:DisplacementFields"
+
+\end_inset
+
+ Various shear strain function used in non-polynomial shear deformation
+ theories
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.
+ No.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $g\left(z\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abbreviation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $sinh^{-1}\left(\frac{rz}{h}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\frac{2r}{h\sqrt{r^{2}+4}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $IHDT$
+\end_inset
+
+ (Inverse Hyperbolic) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "grover2013new"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $tanh\left(\frac{rz}{h}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\frac{r}{h}sech^{2}\left(\frac{r}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $HDT$
+\end_inset
+
+ (Hyperbolic) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sarangan2016higher"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(\frac{rz}{h}\right)^{3}e^{\left(2\sqrt{\pi}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\frac{3e^{2\sqrt{\pi}}r^{3}}{4h}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.95$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $EDT$
+\end_inset
+
+ (Exponential)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sarangan2016higher"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Strain-Displacement-Relation"
+
+\end_inset
+
+Strain-Displacement Relation
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Strain-Displacement Relation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The state-of-strain 
+\begin_inset Formula $\left\{ \epsilon\right\} $
+\end_inset
+
+ at a point correspond to non-polynomial displacement fields, in the cartesian
+ coordinate, is expressed as 
+\begin_inset Formula 
+\begin{equation}
+\left\{ \epsilon\right\} =\left\{ \begin{array}{c}
+\frac{\partial u}{\partial x}\\
+\frac{\partial v}{\partial y}\\
+\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\\
+\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\\
+\frac{\partial u}{\partial z}+\frac{\partial w}{\partial x}
+\end{array}\right\} =\left[\begin{array}{ccccc}
+\frac{\partial}{\partial x} & 0 & -z\frac{\partial^{2}}{\partial x^{2}} & \left(g\left(z\right)+z\Omega\right)\frac{\partial}{\partial x} & 0\\
+0 & \frac{\partial}{\partial y} & -z\frac{\partial^{2}}{\partial y^{2}} & 0 & \left(g\left(z\right)+z\Omega\right)\frac{\partial}{\partial y}\\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & -2z\frac{\partial^{2}}{\partial x\partial y} & \left(g\left(z\right)+z\Omega\right)\frac{\partial}{\partial x} & \left(g\left(z\right)+z\Omega\right)\frac{\partial}{\partial y}\\
+0 & 0 & 0 & 0 & \left(\frac{\partial g}{\partial z}+\Omega\right)\\
+0 & 0 & 0 & \left(\frac{\partial g}{\partial z}+\Omega\right) & 0
+\end{array}\right]\left\{ \begin{array}{c}
+u_{0}\\
+v_{0}\\
+w_{0}\\
+\phi_{x}\\
+\phi_{y}
+\end{array}\right\} \label{eq:StrainDisplacementRelation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In Equation.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:StrainDisplacementRelation"
+
+\end_inset
+
+, presence of 
+\color red
+second order derivative operator
+\color inherit
+ require 
+\begin_inset Formula $C^{1}$
+\end_inset
+
+continuity of field variable, specifically 
+\begin_inset Formula $w_{0}$
+\end_inset
+
+.
+ For analytical Navier type of solution, 
+\begin_inset Formula $C^{1}$
+\end_inset
+
+continuity is easily satisfied, however numerical method like finite element
+ method used Lagrangian element that gives at most 
+\begin_inset Formula $C^{0}$
+\end_inset
+
+continuity of field variables.
+ 
+\end_layout
+
+\begin_layout Itemize
+The reduction of 
+\begin_inset Formula $C^{1}$
+\end_inset
+
+ to 
+\begin_inset Formula $C^{0}$
+\end_inset
+
+ continuity requirement in finite element method using Lagrangian element
+ is achieved by imposing an artificial constraint.
+ The constraint treats 
+\begin_inset Formula $\partial w_{0}/\partial x$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial w_{0}/\partial y$
+\end_inset
+
+ as separate parameter 
+\begin_inset Formula $\theta_{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{y}$
+\end_inset
+
+ respectively.
+ So, after incorporating the above constraint, the finite element model
+ contain seven field variables.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(\frac{\partial w_{0}}{\partial x}=\theta_{x}\right),\text{and}\left(\frac{\partial w_{0}}{\partial y}=\theta_{y}\right)\label{eq:PenaltyCondition}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Consequence of this 
+\color red
+artificial constraint
+\color inherit
+ has been taken care in 
+\color red
+strain energy
+\color inherit
+ expression as a 
+\color red
+penalty
+\color inherit
+ and detail implementation is given in next section.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Strain-Displacement Relation (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The state-of-strain 
+\begin_inset Formula $\left\{ \epsilon\right\} $
+\end_inset
+
+ at a point, considering von-Karman non-linearity, correspond to non-polynomial
+ displacement fields, in the cartesian coordinate, is expressed as 
+\begin_inset Formula 
+\begin{equation}
+\left\{ \epsilon\right\} =\left\{ \begin{array}{c}
+\frac{\partial u}{\partial x}\\
+\frac{\partial v}{\partial y}\\
+\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\\
+\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\\
+\frac{\partial u}{\partial z}+\frac{\partial w}{\partial x}
+\end{array}\right\} +\left\{ \begin{array}{c}
+\frac{1}{2}\left(\frac{\partial w}{\partial x}\right)^{2}\\
+\frac{1}{2}\left(\frac{\partial w}{\partial y}\right)^{2}\\
+\frac{\partial w}{\partial x}\frac{\partial w}{\partial y}\\
+0\\
+0
+\end{array}\right\} \label{eq:StrainDisplacementRelation-von-Karman-Nonlinearity}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The total strain vector 
+\begin_inset Formula $\left\{ \boldsymbol{\epsilon}\right\} $
+\end_inset
+
+ is the sum of the linear strain vector 
+\begin_inset Formula $\left\{ \boldsymbol{\boldsymbol{\epsilon}_{L}}\right\} $
+\end_inset
+
+ and non-linear strain vector 
+\begin_inset Formula $\left\{ \boldsymbol{\epsilon_{NL}}\right\} $
+\end_inset
+
+, and can be written as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ \boldsymbol{\epsilon}\right\} =\left\{ \boldsymbol{\epsilon_{L}}\right\} +\left\{ \boldsymbol{\epsilon_{NL}}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Strain-Displacement Relation (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Again
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \boldsymbol{\boldsymbol{\epsilon}}_{\boldsymbol{L}}\right\} =\left\{ \begin{array}{c}
+\boldsymbol{\boldsymbol{\epsilon}_{m}}\\
+\boldsymbol{\boldsymbol{\beta}_{1}}
+\end{array}\right\} +z\left\{ \begin{array}{c}
+\boldsymbol{\boldsymbol{k}_{1}}\\
+0
+\end{array}\right\} +\left\{ \begin{array}{c}
+g\left(z\right)\boldsymbol{\boldsymbol{k}_{2}}\\
+g'\left(z\right)\boldsymbol{\boldsymbol{\beta}_{2}}
+\end{array}\right\} \label{eq:VonKarmanStrain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in which
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{\boldsymbol{\epsilon}_{m}}=\left\{ \begin{array}{c}
+u_{0,x}\\
+v_{0,y}\\
+u_{0,y}+v_{0,x}
+\end{array}\right\} ;\,\,\,\boldsymbol{k}_{1}=\left\{ \begin{array}{c}
+\Omega\phi_{x,x}-\theta_{x,x}\\
+\Omega\phi_{y,y}-\theta_{y,y}\\
+\Omega\left(\phi_{x,y}+\phi_{y,x}\right)-\left(\theta_{x,y}+\theta_{y,x}\right)
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{\boldsymbol{k}_{2}}=\left\{ \begin{array}{c}
+\phi_{x,x}\\
+\phi_{y,y}\\
+\phi_{x,y}+\phi_{y,x}
+\end{array}\right\} ;\,\,\boldsymbol{\boldsymbol{\beta}}_{\boldsymbol{1}}=\left\{ \begin{array}{c}
+w_{0,y}-\theta_{y}+\Omega\phi_{y}\\
+w_{0,x}-\theta_{x}+\Omega\phi_{x}
+\end{array}\right\} ;\,\,\boldsymbol{\boldsymbol{\beta}}_{\boldsymbol{2}}=\left\{ \begin{array}{c}
+\phi_{y}\\
+\phi_{x}
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the non-linear strain vector 
+\begin_inset Formula $\left\{ \boldsymbol{\epsilon_{NL}}\right\} $
+\end_inset
+
+ can be written as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ \boldsymbol{\epsilon}_{\boldsymbol{NL}}\right\} =\frac{1}{2}\left\{ \begin{array}{c}
+w_{,x}^{2}\\
+w_{,y}^{2}\\
+2w_{,xy}
+\end{array}\right\} =\frac{1}{2}\boldsymbol{A}_{\theta}\theta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\boldsymbol{A}_{\theta}=\left[\begin{array}{cc}
+w_{0,x} & 0\\
+0 & w_{0,y}\\
+w_{0,y} & w_{0,x}
+\end{array}\right]$
+\end_inset
+
+ and 
+\begin_inset Formula $\boldsymbol{\theta}=\left\{ \begin{array}{c}
+w_{0,x}\\
+w_{0,y}
+\end{array}\right\} $
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Constitutive Equation
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Constitutive Equation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+In equivalent single layer (ESL) theories, stress-strain relation (constitutive
+ relation) for an arbitrary 
+\begin_inset Formula $k^{th}$
+\end_inset
+
+ orthotropic layer in structural reference system (global coordinate) for
+ plane stress problem is given by the following relation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \boldsymbol{\sigma}\right\} ^{\left(k\right)}=\left[\bar{\boldsymbol{Q}}\right]^{\left(k\right)}\left\{ \boldsymbol{\epsilon}\right\} ^{\left(k\right)}\label{eq:ConstitutiveEquation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which can be elaborately written as
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \begin{array}{c}
+\sigma_{xx}\\
+\sigma_{yy}\\
+\tau_{yz}\\
+\tau_{xz}\\
+\tau_{xy}
+\end{array}\right\} ^{\left(k\right)}=\left[\mathcal{R}^{\left(k\right)}\right]\left[\begin{array}{ccccc}
+Q_{11} & Q_{12} & 0 & 0 & Q_{16}\\
+Q_{21} & Q_{22} & 0 & 0 & Q_{26}\\
+0 & 0 & Q_{44} & Q_{45} & 0\\
+0 & 0 & Q_{54} & Q_{55} & 0\\
+Q_{61} & Q_{62} & 0 & 0 & Q_{66}
+\end{array}\right]\left[\mathcal{R}^{\left(k\right)}\right]^{T}\left\{ \begin{array}{c}
+\epsilon_{xx}\\
+\epsilon_{yy}\\
+\gamma_{yz}\\
+\gamma_{xz}\\
+\gamma_{xy}
+\end{array}\right\} ^{\left(k\right)}\label{eq:StressStrainRelation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+where, 
+\begin_inset Formula $\left\{ \sigma\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $\left\{ \epsilon\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $\left[\bar{Q}\right]$
+\end_inset
+
+ are stress vector, strain vector and the material constants in the global
+ coordinate, respectively and 
+\begin_inset Formula $\left[\mathcal{R}\right]$
+\end_inset
+
+ is the local-to-global transformation matrix 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "reddy2004mechanics"
+literal "true"
+
+\end_inset
+
+.
+ Due to symmetry in the orthotropic material 
+\begin_inset Formula $Q_{21}=Q_{12}$
+\end_inset
+
+, 
+\begin_inset Formula $Q_{61}=Q_{16}$
+\end_inset
+
+, 
+\begin_inset Formula $Q_{62}=Q_{26}$
+\end_inset
+
+, and 
+\begin_inset Formula $Q_{54}=Q_{45}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Each material matrix coefficient can be expressed as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q_{11}=\frac{E_{1}}{1-\nu_{12}\nu_{21}},\,\,Q_{12}=\frac{\nu_{12}E_{2}}{1-\nu_{12}\nu_{21}},\,\,Q_{22}=\frac{E_{2}}{1-\nu_{12}\nu_{21}},\,\,Q_{66}=G_{12},\,\,Q_{44}=G_{23},\,\,Q_{55}=G_{13}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Longitudinal and transverse direction are defined by 
+\begin_inset Formula $1$
+\end_inset
+
+ and 
+\begin_inset Formula $2$
+\end_inset
+
+ respectively.
+ Above, 
+\begin_inset Formula $E_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $E_{2}$
+\end_inset
+
+ are the Young's modulus; 
+\begin_inset Formula $G_{12}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{23}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{13}$
+\end_inset
+
+ are the shear modulus; and 
+\begin_inset Formula $\nu_{12}$
+\end_inset
+
+ and 
+\begin_inset Formula $\nu_{21}$
+\end_inset
+
+ are major and minor Poisson ratios.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Constitutive Equation (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The in-plane forces, moments and shear forces are defined as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \begin{array}{c}
+N_{ij}\\
+M_{ij}\\
+P_{ij}
+\end{array}\right\} =\int_{-h/2}^{h/2}\sigma_{ij}\left\{ \begin{array}{c}
+1\\
+z\\
+g(z)
+\end{array}\right\} dz\text{ and }\left[\begin{array}{cc}
+Q_{y} & R_{y}\\
+Q_{x} & R_{x}
+\end{array}\right]=\int_{-h/2}^{h/2}\left(\begin{array}{cc}
+1 & g'(z)\end{array}\right)\left\{ \begin{array}{c}
+\tau_{yz}\\
+\tau_{xz}
+\end{array}\right\} dz\label{eq:Resultant}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:StressStrainRelation"
+
+\end_inset
+
+ into Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Resultant"
+
+\end_inset
+
+, stress resultants are obtained as
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{\hat{\sigma}}=\left\{ \begin{array}{c}
+\boldsymbol{N}\\
+\boldsymbol{M}\\
+\boldsymbol{P}\\
+\boldsymbol{Q}\\
+\boldsymbol{R}
+\end{array}\right\} =\left[\begin{array}{ccccc}
+\boldsymbol{A} & \boldsymbol{B} & \boldsymbol{E} & 0 & 0\\
+\boldsymbol{B} & \boldsymbol{D} & \boldsymbol{F} & 0 & 0\\
+\boldsymbol{E} & \boldsymbol{F} & \boldsymbol{H} & 0 & 0\\
+0 & 0 & 0 & \boldsymbol{A}^{s} & \boldsymbol{B}^{s}\\
+0 & 0 & 0 & \boldsymbol{B}^{s} & \boldsymbol{D}^{s}
+\end{array}\right]\left\{ \begin{array}{c}
+\boldsymbol{\epsilon}_{L}\\
+\boldsymbol{\kappa}_{1}\\
+\boldsymbol{\kappa}_{2}\\
+\boldsymbol{\beta}_{1}\\
+\boldsymbol{\beta}_{2}
+\end{array}\right\} =\boldsymbol{\hat{D}}\boldsymbol{\hat{\epsilon}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{ij},B_{ij},D_{ij},E_{ij},F_{ij},H_{ij}=\int_{-h/2}^{h/2}\left(1,z,z^{2},g(z),zg(z),g^{2}(z)\right)\bar{Q}_{ij}dz,\,\,\,\,i,j=1,2,6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{ij}^{s},B_{ij}^{s},D_{ij}^{s}=\int_{-h/2}^{h/2}\left(1,g'(z),g'\left(z\right)\right)^{2}\bar{Q}_{ij}dz,\,\,\,\,i,j=4,5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the generalized strain vector,
+\series bold
+ 
+\begin_inset Formula $\boldsymbol{\hat{\epsilon}}$
+\end_inset
+
+
+\series default
+ is divided into linear and non-linear strain components 
+\begin_inset Formula $\hat{\epsilon}_{L}=\left[\begin{array}{ccccc}
+\boldsymbol{\epsilon}_{L} & \boldsymbol{\kappa}_{1} & \boldsymbol{\kappa}_{2} & \boldsymbol{\beta}_{1} & \boldsymbol{\beta}_{2}\end{array}\right]^{T}$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{\epsilon}_{NL}=\left[\begin{array}{ccccc}
+\boldsymbol{\epsilon}_{NL} & 0 & 0 & 0 & 0\end{array}\right]^{T}$
+\end_inset
+
+ respectively.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{\hat{\epsilon}}=\boldsymbol{\hat{\epsilon}_{L}}+\frac{1}{2}\boldsymbol{\hat{\epsilon}_{NL}}\label{eq:GeneralizedStrain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Energy Principle
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Energy Principle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Lagrange equation for conservative system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d}{dt}\left(\frac{\partial K}{\partial\left\{ \dot{q}\right\} }\right)-\frac{\partial U}{\partial\left\{ q\right\} }+\frac{\partial W}{\partial\left\{ q\right\} }-\frac{\partial U_{\gamma}}{\partial\left\{ q\right\} }=0\label{eq:LagrangeEquation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Formula $K$
+\end_inset
+
+ : Kinetic energy of the system
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U$
+\end_inset
+
+ : Total strain energy of the system
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $W$
+\end_inset
+
+ : Work done by external forces
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{\gamma}$
+\end_inset
+
+: strain energy due to imposition of artificial constraint
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Finite element discretization
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finite element discretization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Element selection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nine node iso-parametric element with 7 DOFs at each node of the element
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{array}{ccc}
+\left\{ q\right\} =\sum_{i=1}^{9}N_{i}\left\{ q_{i}\right\} ; & x=\sum_{i=1}^{9}N_{i}x_{i}; & y=\sum_{i=1}^{9}N_{i}y_{i}\end{array}\label{eq:ShapeFunction}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Where, 
+\begin_inset Formula $\left\{ q\right\} $
+\end_inset
+
+ is the generalized field variables and 
+\begin_inset Formula $\left\{ q_{i}\right\} $
+\end_inset
+
+ is the corresponding nodal field variables associated with 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ node, 
+\begin_inset Formula $x\text{ and }y$
+\end_inset
+
+ are the generalized spatial coordinate and 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ are the coordinate values of the corresponding 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ node.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ q_{i}\right\} =\left\{ u_{0i},v_{0i},w_{0i},\phi_{xi},\phi_{yi},\theta_{xi},\theta_{yi}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $7\;\text{dof}\times9\text{ node}=63$
+\end_inset
+
+ DOFs per element.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finite element discretization (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Governing equation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Substituting Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:ShapeFunction"
+
+\end_inset
+
+ into Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GeneralizedStrain"
+
+\end_inset
+
+, the generalized strains can be rewritten as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{\hat{\epsilon}}=\sum_{A=1}^{9}\left(\boldsymbol{B}_{A}^{L}+\frac{1}{2}\boldsymbol{B}_{A}^{NL}\right)\boldsymbol{q}_{A}\label{eq:GeneralizedLinearStrain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{B}_{A}^{L}=\left[\begin{array}{ccccc}
+\left(\boldsymbol{B}_{A}^{m}\right)^{T} & \left(\boldsymbol{B}_{A}^{b1}\right)^{T} & \left(\boldsymbol{B}_{A}^{b2}\right)^{T} & \left(\boldsymbol{B}_{A}^{s1}\right)^{T} & \left(\boldsymbol{B}_{A}^{s2}\right)^{T}\end{array}\right]^{T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in which
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{B}_{A}^{m}=\left[\begin{array}{ccccccc}
+N_{A,x} & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & N_{A,y} & 0 & 0 & 0 & 0 & 0\\
+N_{A,y} & N_{A,x} & 0 & 0 & 0 & 0 & 0
+\end{array}\right],\,\,\boldsymbol{B}_{A}^{b2}=\left[\begin{array}{ccccccc}
+0 & 0 & 0 & N_{A,x} & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & N_{A,y} & 0 & 0\\
+0 & 0 & 0 & N_{A,y} & N_{A,x} & 0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{B}_{A}^{b1}=\left[\begin{array}{ccccccc}
+0 & 0 & 0 & \Omega N_{A,x} & 0 & -N_{A,x} & 0\\
+0 & 0 & 0 & 0 & \Omega N_{A,y} & 0 & -N_{A,y}\\
+0 & 0 & 0 & \Omega N_{A,y} & \Omega N_{A,x} & -N_{A,y} & -N_{A,x}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{B}_{A}^{s1}=\left[\begin{array}{ccccccc}
+0 & 0 & N_{A,y} & 0 & \Omega N_{A} & 0 & -N_{A}\\
+0 & 0 & N_{A,x} & \Omega N_{A} & 0 & -N_{A} & 0
+\end{array}\right],\,\,\,\,\boldsymbol{B}_{A}^{s2}=\left[\begin{array}{ccccccc}
+0 & 0 & 0 & 0 & N_{A} & 0 & 0\\
+0 & 0 & 0 & N_{A} & 0 & 0 & 0
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finite element discretization (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Governing equation (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+while non-linear strain matrix, 
+\begin_inset Formula $\boldsymbol{B}_{A}^{NL}$
+\end_inset
+
+is still dependent upon displacement gradient
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{B}_{A}^{NL}\left(\boldsymbol{q}\right)=\left[\begin{array}{c}
+\boldsymbol{A}_{\theta}\\
+\boldsymbol{0}
+\end{array}\right]\boldsymbol{B}_{A}^{g}\label{eq:GeneralizedNonlinearStrain}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\boldsymbol{B}_{A}^{g}=\left[\begin{array}{ccccccc}
+0 & 0 & N_{A,x} & 0 & 0 & 0 & 0\\
+0 & 0 & N_{A,y} & 0 & 0 & 0 & 0
+\end{array}\right]$
+\end_inset
+
+ and penalty condition in Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:PenaltyCondition"
+
+\end_inset
+
+ can be written as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{array}{c}
+\frac{\partial w_{0}}{\partial y}-\theta_{y}\end{array}=\boldsymbol{B}_{A}^{\gamma1}\boldsymbol{q}_{A}\,\,\text{and}\,\,\frac{\partial w_{0}}{\partial x}-\theta_{x}=\boldsymbol{B}_{A}^{\gamma2}\boldsymbol{q}_{A}\label{eq:PenaltyStrain}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting Eqs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:ShapeFunction"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GeneralizedLinearStrain"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GeneralizedNonlinearStrain"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:PenaltyStrain"
+
+\end_inset
+
+ in Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:LagrangeEquation"
+
+\end_inset
+
+, and equation of equilibrium can be obtained in the following matrix form
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left[\boldsymbol{K}\left(\boldsymbol{q}\right)+\gamma\boldsymbol{K}_{\gamma}\right]\left\{ \boldsymbol{q}\right\} =\left\{ \boldsymbol{F}\right\} \label{eq:GoverningEquation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\boldsymbol{K}$
+\end_inset
+
+, 
+\begin_inset Formula $\boldsymbol{K}_{\gamma}$
+\end_inset
+
+, 
+\begin_inset Formula $\boldsymbol{F}$
+\end_inset
+
+and 
+\begin_inset Formula $\boldsymbol{q}$
+\end_inset
+
+ are the elemental stiffness, penalty stiffness matrices, force and displacement
+ vector contain unknown degree of freedom, respectively.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{K}\left(\boldsymbol{q}\right)=\int_{\Omega}\left(\boldsymbol{B}^{L}+\boldsymbol{B}^{NL}\right)^{T}\boldsymbol{\hat{D}}\left(\boldsymbol{B}^{L}+0.5\boldsymbol{B}^{NL}\right)d\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{K}_{\gamma}=\left(\left(\boldsymbol{B}^{\gamma1}\right)^{T}\boldsymbol{B}^{\gamma1}+\left(\boldsymbol{B}^{\gamma2}\right)^{T}\boldsymbol{B}^{\gamma2}\right)d\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{F}=\int_{\Omega}\left\{ \begin{array}{ccccccc}
+0 & 0 & N_{A} & 0 & 0 & 0 & 0\end{array}\right\} ^{T}P\left(x,y\right)d\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $P$
+\end_inset
+
+ is the transverse mechanical load and elemental load vector, 
+\begin_inset Formula $\left\{ \boldsymbol{F}\right\} $
+\end_inset
+
+ consist 
+\begin_inset Formula $63$
+\end_inset
+
+ components, non-zero at 
+\begin_inset Formula $w$
+\end_inset
+
+ degree of freedom.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Solution technique - Newton-Raphson
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finite element discretization (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Solution technique - Newton-Raphson
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+In non-linear analysis, the unknown solution is obtained by various iteration
+ methods 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "riks1979incremental,ramm1981strategies,crisfield1981fast,ma1986newton,mukhopadhyay2004matrix,bhatti2006advanced"
+literal "true"
+
+\end_inset
+
+, the residual force vector, 
+\begin_inset Formula $\left\{ \boldsymbol{\mathbb{R}}\right\} $
+\end_inset
+
+ is introduced to represent the error in approximation and which tends to
+ zero during each iteration as solution approaches to exact value.
+\end_layout
+
+\begin_layout Standard
+From Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GoverningEquation"
+
+\end_inset
+
+, the residual force vector, 
+\begin_inset Formula $\left\{ \boldsymbol{\mathbb{R}}\right\} $
+\end_inset
+
+ at 
+\begin_inset Formula $i^{th}$
+\end_inset
+
+ iteration can be defined as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ \boldsymbol{\mathbb{R}}_{i}\right\} =\left[\boldsymbol{K}_{i}\left(\boldsymbol{q}_{i}\right)+\gamma\boldsymbol{K}_{\gamma}\right]\left\{ \boldsymbol{q}_{i}\right\} -\left\{ \boldsymbol{F}_{i}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To make 
+\begin_inset Formula $\left\{ \boldsymbol{\mathbb{R}_{i}}\right\} $
+\end_inset
+
+ equal to zero within the tolerance limit of 
+\begin_inset Formula $1/10^{6}$
+\end_inset
+
+.
+ An improved solution 
+\begin_inset Formula $\left\{ \boldsymbol{q}_{i+1}\right\} $
+\end_inset
+
+ can be obtained as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ \boldsymbol{q}_{i+1}\right\} =\left\{ \boldsymbol{q}_{i}\right\} +\Delta\left\{ \boldsymbol{q}_{i}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\Delta\left\{ \boldsymbol{q}_{i}\right\} $
+\end_inset
+
+ is the incremental displacement vector and calculated as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta\left\{ \boldsymbol{q}_{i}\right\} =-\left\{ \boldsymbol{\mathbb{R}}_{i}\right\} /\left[\boldsymbol{K}_{T}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in which 
+\begin_inset Formula $\left[\boldsymbol{K}_{T}\right]$
+\end_inset
+
+ is called tangent stiffness matrix and computed by following Newton-Raphson
+ method, i.e, 
+\begin_inset Formula $\left[\boldsymbol{K}_{T}\right]=\partial\boldsymbol{\mathbb{R}}_{i}/\partial\boldsymbol{q}_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Finite element discretization (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Solution technique - Newton-Raphson (cont.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+More elaborately, tangent stiffness matrix can be expressed as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\boldsymbol{K}_{T}\right]=\left[\boldsymbol{K}_{L}\right]+\left[\boldsymbol{K}_{NL}\right]+\left[\boldsymbol{K}_{\sigma}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+herein, 
+\begin_inset Formula $\left[\boldsymbol{K}_{L}\right]$
+\end_inset
+
+, 
+\begin_inset Formula $\left[\boldsymbol{K}_{NL}\right]$
+\end_inset
+
+, 
+\begin_inset Formula $\left[\boldsymbol{K}_{\sigma}\right]$
+\end_inset
+
+ are the linear, non-linear and geometric stiffness matrix, respectively
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\boldsymbol{K}_{L}\right]+\left[\boldsymbol{K}_{NL}\right]=\int_{\Omega}\left(\boldsymbol{B}^{L}+\boldsymbol{B}^{NL}\right)^{T}\boldsymbol{\hat{D}}\left(\boldsymbol{B}^{L}+\boldsymbol{B}^{NL}\right)d\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\boldsymbol{K}_{\sigma}\right]=\int_{\Omega}\left(\boldsymbol{B}^{\sigma}\right)^{T}\left[\boldsymbol{N}_{i}^{0}\right]\left(\boldsymbol{B}^{\sigma}\right)d\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+in which 
+\begin_inset Formula $\left[\boldsymbol{N}_{i}^{0}\right]=\left[\begin{array}{cc}
+N_{xx}^{0} & N_{xy}^{0}\\
+N_{xy}^{0} & N_{yy}^{0}
+\end{array}\right]$
+\end_inset
+
+ is a matrix related to in-plane forces and 
+\begin_inset Formula $\boldsymbol{B}^{\sigma}$
+\end_inset
+
+is same as 
+\begin_inset Formula $\boldsymbol{B}^{g}$
+\end_inset
+
+ in Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:GeneralizedNonlinearStrain"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The iteration is repeated until the displacement error between two consecutive
+ iteration reduced to desired error tolerance, 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For present case, 
+\begin_inset Formula $\mathbb{N}=10^{-6}$
+\end_inset
+
+is considered.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\parallel\boldsymbol{q}_{i+1}-\boldsymbol{q}_{i}\parallel}{\parallel\boldsymbol{q}_{i}\parallel}<\mathbb{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Numerical Example and Discussions
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Numerical Examples and Discussions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Boundary Condition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simply supported condition for cross-ply plate 
+\begin_inset Formula $\left(SSSS1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Edge parallel to x-axis : 
+\begin_inset Formula $u_{o}=w_{o}=\phi_{x}=\theta_{x}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Edge parallel to y-axis : 
+\begin_inset Formula $v_{o}=w_{o}=\phi_{y}=\theta_{y}=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Simply supported condition for angle-ply plate
+\begin_inset Formula $\left(SSSS2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Edge parallel to x-axis : 
+\begin_inset Formula $v_{o}=w_{o}=\phi_{x}=\theta_{x}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Edge parallel to y-axis : 
+\begin_inset Formula $u_{o}=w_{o}=\phi_{y}=\theta_{y}=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Clamped condition 
+\begin_inset Formula $\left(CCCC\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All sides : 
+\begin_inset Formula $u_{o}=v_{0}=w_{o}=\phi_{x}=\phi_{y}=\theta_{x}=\theta_{y}=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Material Properties
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The material properties used for the analyses are : 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Material$
+\end_inset
+
+ 
+\begin_inset Formula $I$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tran2015geometrically"
+literal "true"
+
+\end_inset
+
+ : 
+\begin_inset Formula $E_{1}/E_{2}=40$
+\end_inset
+
+; 
+\begin_inset Formula $G_{12}=G_{13}=0.6E_{2}$
+\end_inset
+
+; 
+\begin_inset Formula $G_{23}=0.5E_{2}$
+\end_inset
+
+; 
+\begin_inset Formula $\nu_{12}=0.25$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $Material$
+\end_inset
+
+ 
+\begin_inset Formula $II$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pagano1970exact"
+literal "true"
+
+\end_inset
+
+: The following properties of sandwich material are
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Face sheets : 
+\begin_inset Formula $E_{1}=25E_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{12}=G_{13}=0.5E_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{23}=0.2E_{2}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\nu=0.25$
+\end_inset
+
+, 
+\begin_inset Formula $E_{2}=10^{6}\text{psi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Core : 
+\begin_inset Formula $E_{1}=E_{2}=0.04\times10^{6}\text{psi}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{13}=G_{23}=0.06\times10^{6}\text{psi}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $G_{12}=0.016\times10^{6}\text{psi}$
+\end_inset
+
+, 
+\begin_inset Formula $\nu=0.25$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Laminated composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Antisymmetric simply supported under UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Material$
+\end_inset
+
+ 
+\begin_inset Formula $I$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tran2015geometrically"
+literal "true"
+
+\end_inset
+
+ : 
+\begin_inset Formula $E_{1}/E_{2}=40$
+\end_inset
+
+; 
+\begin_inset Formula $G_{12}=G_{13}=0.6E_{2}$
+\end_inset
+
+; 
+\begin_inset Formula $G_{23}=0.5E_{2}$
+\end_inset
+
+; 
+\begin_inset Formula $\nu_{12}=0.25$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Dimension: 
+\begin_inset Formula $a/h=10,\,a=b=$
+\end_inset
+
+1
+\end_layout
+
+\begin_layout Itemize
+Non-dimensional parameter : 
+\begin_inset Formula $\bar{P}=\frac{Pa^{4}}{E_{2}h^{3}},\,\,\bar{w}=\frac{w}{h}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium path for this problem is traced by Newton-Raphson method.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Laminated composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left[0^{0}/90^{0}\right]_{N}$
+\end_inset
+
+ Antisymmetric cross-ply simply supported under UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename all images/IGA_IHSDT_Nonlinear_Bending_Symmetric_h_By_a_1_10.eps
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Nonlinear-BendingAntisymmetric-Cross-Ply"
+
+\end_inset
+
+Effect of number of layers on deflection of the 
+\begin_inset Formula $[0/90]_{N}$
+\end_inset
+
+ laminated composite plate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Same total thickness with increase in number of layers, 
+\begin_inset Formula $N$
+\end_inset
+
+ the plate becomes stiffer with reduction in deflection.
+ 
+\end_layout
+
+\begin_layout Itemize
+Reduction in the non-linear effect on the laminated plate.
+\end_layout
+
+\begin_layout Itemize
+Load-deflection curve becomes closer to straight line as the linear solution.
+\end_layout
+
+\begin_layout Itemize
+Results obtained from present finite element code are compared with available
+ TSDT results 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tran2015geometrically"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout FragileFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Laminated composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left[-\theta/\theta/-\theta/\theta\right]$
+\end_inset
+
+ Anti-symmetric angle-ply simply supported under UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename all images/IGA_IHSDT_Nonlinear_Bending_AntiSymmetric_h_By_a_1_10.eps
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Nonlinear-BendingAntisymmetric-Angle-Ply"
+
+\end_inset
+
+Effect of fiber orientation angle on load–deflection curves of the angle-ply
+ 
+\begin_inset Formula $[-θ/θ/-θ/θ]$
+\end_inset
+
+ plate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+As seen, the plate obtains the lowest transverse displacement 
+\begin_inset Formula $\bar{w}$
+\end_inset
+
+ at fiber angle 
+\begin_inset Formula $\theta=45^{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Again, results obtained from present finite element code are compared with
+ available TSDT results 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tran2015geometrically"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Collectively, IHSDT has no significant effect on non-linear bending response
+ of laminated plate.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Laminated composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Anti-symmetric cross-ply with clamped boundary condition under both SSL
+ and UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename all images/IGA_IHSDT_SSL,UDL_Clamped_AntiSymmetric_Cross_Ply.eps
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Nonlinear-Bending-Antisymmetric-Cross-Ply-Boundary-Condition-SSL-UDL"
+
+\end_inset
+
+ Nonlinear response of anti-symmetric cross ply laminated plate subjected
+ to clamped boundary condition under SSL and UDL transverse load.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $h=0.3$
+\end_inset
+
+, 
+\begin_inset Formula $a=b=12\,\text{inch}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Material-I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Reference : FSDT 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "reddy2004mechanics"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Sandwich composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(0^{0}/C/0^{0}\right)$
+\end_inset
+
+ simply supported under UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Material$
+\end_inset
+
+ 
+\begin_inset Formula $II$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pagano1970exact"
+literal "true"
+
+\end_inset
+
+: The following properties of sandwich material are
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Face sheets : 
+\begin_inset Formula $E_{1}=25E_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{12}=G_{13}=0.5E_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{23}=0.2E_{2}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\nu=0.25$
+\end_inset
+
+, 
+\begin_inset Formula $E_{2}=10^{6}\text{psi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Core : 
+\begin_inset Formula $E_{1}=E_{2}=0.04\times10^{6}\text{psi}$
+\end_inset
+
+, 
+\begin_inset Formula $G_{13}=G_{23}=0.06\times10^{6}\text{psi}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $G_{12}=0.016\times10^{6}\text{psi}$
+\end_inset
+
+, 
+\begin_inset Formula $\nu=0.25$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Dimension : 
+\begin_inset Formula $a/h=10,\text{and}100$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Non-dimensional parameter : 
+\begin_inset Formula $\bar{w}=\frac{w}{h};\,\,\bar{P}=\frac{P}{E_{2}}\left(\frac{a}{h}\right)^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Equilibrium path for this problem is traced by Newton-Raphson method.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Sandwich composite plate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(0^{0}/C/0^{0}\right)$
+\end_inset
+
+ simply supported under UDL transverse load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename all images/FEM_IHSDT_Nonlinear_Bending_Sandwich.eps
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:NonlinearSandwichPlate"
+
+\end_inset
+
+Displacement vs load for simply supported 
+\begin_inset Formula $\left(SSSS1\right)$
+\end_inset
+
+ square sandwich 
+\begin_inset Formula $\left(0^{0}/C/0^{0}\right)$
+\end_inset
+
+ plate under uniformly distributed transverse load.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Present IHSDT results coincide with HSDT results 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kant1992c0"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Similar to laminated plate, IHSDT does not show any significant change in
+ bending response of sandwich composite plate.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Nonlinear bending analysis - Laminated composite plate using ArcLength Method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Anti-symmetric cross-ply with clamped boundary condition under UDL transverse
+ load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename all images/NR_ArcLength_ArcLengthAdaptive.eps
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Nonlinear response of anti-symmetric cross ply 
+\begin_inset Formula $\left(0^{0}/90^{0}\right)$
+\end_inset
+
+ laminated plate subjected to clamped boundary condition under UDL transverse
+ load.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $h=0.3$
+\end_inset
+
+, 
+\begin_inset Formula $a=b=12\,\text{inch}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Material-I$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Conclusions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non-linear finite element formulation is developed for laminated and sandwich
+ composite plate.
+\end_layout
+
+\begin_layout Itemize
+Non-linear equilibrium path is traced with Newton-Raphson method.
+\end_layout
+
+\begin_layout Itemize
+Non-linear response obtained with IHSDT and TSDT are same.
+\end_layout
+
+\begin_layout Itemize
+No significant change is observed for the results of IHSDT as observed in
+ the linear analysis using same.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Work done so far
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Work done so far
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Linear bending and buckling analysis of laminated composite plate using
+ various NPSDTs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Geometrical non-linear bending analysis of laminated and sandwich plate
+ using NPSDT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Work to be completed
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Work to be completed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Post buckling analysis of laminated and sandwich plate under the influence
+ of in-plane mechanical load using FSDT and NPSDT.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Post buckling analysis of laminated and sandwich composite plate under hygrother
+mal environment using NPSDT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Linear and non-linear bending analysis of various laminated and sandwich
+ curved panel due to external mechanical load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Linear and non-linear buckling analysis of laminated and sandwich panel
+ due to mechanical load
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+References
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "SURI_Registration_Report"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+
+\family roman
+\series bold
+\size huge
+\color blue
+THANK YOU
+\end_layout
+
+\begin_layout Standard
+\align center
+Queries ?
+\end_layout
+
+\end_deeper
+\begin_layout Block
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

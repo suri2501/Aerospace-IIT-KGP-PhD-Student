@@ -1,0 +1,1845 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\begin_preamble
+\date{}
+\hypersetup{urlcolor=blue}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{xcolor}
+
+%\usepackage{natbib}
+%\usepackage[authoryear-comp]{natbib}
+%\usepackage{breqn}
+%linkcolor = black,urlcolor  = black,citecolor = black,anchorcolor = black
+%linkcolor = blue,urlcolor  = pink,citecolor = red,anchorcolor = green
+
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}.}
+\renewcommand\thesubsubsection{\thesubsection\arabic{subsubsection}.}
+
+%\linespread{1.25}
+\usepackage{cite}
+
+
+
+
+
+\usepackage[noabbrev,capitalise]{cleveref}
+%\crefname{figure}{figure}{figures}
+%\Crefname{figure}{Figure}{Figures}
+\crefname{figure}{Fig.}{Figs.}
+\Crefname{figure}{Fig.}{Figs.}
+%\crefname{table}{table}{tables}
+%\Crefname{table}{Table}{Tables}
+\crefname{table}{Table}{Tables}
+\Crefname{table}{Table}{Tables}
+%\crefname{equation}{eq.}{eqs.}
+%\Crefname{equation}{Eq.}{Eqs.}
+\crefname{equation}{Eq.}{Eqs.}
+\Crefname{equation}{Eq.}{Eqs.}
+\crefname{section}{Section}{Sections}
+\Crefname{section}{Section}{Sections}
+
+\newcommand{\crefrangeconjunction}{--}
+
+\AtBeginDocument{%
+\let\ref\cref
+}
+
+\AtBeginDocument{%
+\let\Ref\Cref
+}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor = blue,urlcolor  = pink,citecolor = red,anchorcolor = green"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2cm
+\rightmargin 2.5cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Connecting ....
+ 4 Aerospace PhD Students
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+P
+\series default
+PP (
+\series bold
+Papers
+\series default
+, PhD students, Projects)
+\end_layout
+
+\begin_layout Standard
+These are three 
+\series bold
+P
+\series default
+ which are important for Assitant/Associate/Full Professor.
+\end_layout
+
+\begin_layout Itemize
+Read 
+\series bold
+
+\begin_inset CommandInset href
+LatexCommand href
+name "ugc guidelines for assistant professor"
+target "https://www.ugc.ac.in/pdfnews/5323630_New_Draft_UGCRegulation-2018-9-2.pdf"
+literal "false"
+
+\end_inset
+
+
+\series default
+ to get the idea what Indian colleges are looking in the candidate.
+\end_layout
+
+\begin_layout Itemize
+However, for PhD student, who will seek for assistant professor position
+ in their future, 
+\series bold
+only
+\series default
+ papers are important.
+ 
+\end_layout
+
+\begin_layout Itemize
+PhD topic must be such that PhD candidate can publish papers, get postdoc,
+ get job, and get project easily.
+ In other words, research area should be new and trending research topic
+ which make you future life easy and peaceful.
+\end_layout
+
+\begin_layout Part
+PhD
+\end_layout
+
+\begin_layout Itemize
+Regularly visit 
+\begin_inset CommandInset href
+LatexCommand href
+name "Apna IITKGP"
+target "http://www.apna.iitkgp.ac.in/"
+literal "false"
+
+\end_inset
+
+ and attend relevant seminar (apart from our department).
+\end_layout
+
+\begin_layout Itemize
+Calendar for tracking the conference and targets.
+ Make use of holiday and Bdays to remain connected with friends/Prof./Guide/Forei
+gn Prof.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sticky Notes
+\series default
+ for scheduling the tasks
+\end_layout
+
+\begin_layout Itemize
+Make your website and keep it update.
+ Use GitHub
+\end_layout
+
+\begin_layout Itemize
+List of professor 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Make a list of professor in your area so that you can find out who are the
+ people working in your area.
+\end_layout
+
+\begin_layout Itemize
+Helpful in targeted collaboration
+\end_layout
+
+\begin_layout Itemize
+Helpful during synopsis
+\end_layout
+
+\begin_layout Itemize
+Helpful after PhD
+\end_layout
+
+\begin_layout Itemize
+Helpful in making the list of university
+\end_layout
+
+\begin_layout Itemize
+Subscribe to their google scholar profile, RG profile, and other profiles.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+List of University
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Make a list of University in your area so that you can find apply for postDoc
+ and find the postion and fellowship
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+List of Fellowship
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "DUO-India Fellowship Programme "
+target "https://international.iitkgp.ac.in/programs/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+List of Journal and 
+\series bold
+make alert 
+\series default
+\color red
+very important
+\end_layout
+
+\begin_layout Itemize
+Project (very important): learn how to write project and how to find the
+ funding agency
+\end_layout
+
+\begin_layout Itemize
+Article
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Review article will give citation.
+\end_layout
+
+\begin_layout Itemize
+An article has 4 point; 2 point for first author (you); 2 points for remaining
+ author;
+\end_layout
+
+\begin_layout Itemize
+Include your friends (contributor) name as second author; First author (you)
+ still getting 2 points; your friend (contributor) will be benefit.
+\end_layout
+
+\begin_layout Itemize
+If you contribute in your friends paper, your friend as first author will
+ get 2 points, you as second author will get some points, and rest authors
+ (supervisor/guide)will get some points 
+\end_layout
+
+\begin_layout Itemize
+Always be a first author or second author or corresponding author.
+\end_layout
+
+\begin_layout Itemize
+Check the quality of journal at 
+\begin_inset CommandInset href
+LatexCommand href
+name "Scimago"
+target "https://www.scimagojr.com"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Book chapter (important): 1 and 2 are sufficient
+\end_layout
+
+\begin_layout Itemize
+Patent (optional): 1 is sufficient
+\end_layout
+
+\begin_layout Itemize
+Lab Setup: learn the experience, it will be helpful after getting the Asst.
+ Prof.
+ position.
+ Take certificate very important.
+\end_layout
+
+\begin_layout Itemize
+Website for searching the literature
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Scopus and click on number in the 
+\series bold
+cited by 
+\series default
+column.
+\end_layout
+
+\begin_layout Enumerate
+Research Gate
+\end_layout
+
+\begin_layout Enumerate
+Journal website very helpful; while put latest paper for target journal.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Always cite last 2 year papers of targeted journal.
+ For editor, his/her journal impact is important and you are helping to
+ improve the impact factor.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Citation key for bibTEX with DOI
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Crossref 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://search.crossref.org/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Google scholar does not include DOI
+\end_layout
+
+\begin_layout Enumerate
+Use cite option for particular article from the journal website
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Notemaking: Evernote
+\end_layout
+
+\begin_layout Itemize
+Cloud to keep the codes and reports
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+DropBox; Signup using this link and get 500 MB 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://www.dropbox.com/referrals/AADZBivDNz1lITBEAyy5gB0tqwprSbAGwHk?src=global9"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mega
+\end_layout
+
+\begin_layout Enumerate
+OneDrive use iitkgp email for 1TB
+\end_layout
+
+\begin_layout Enumerate
+GoogleDrive
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Everything for searching the files and other things
+\end_layout
+
+\begin_layout Itemize
+WordWeb, WordTune, Grammarly for writing papers
+\end_layout
+
+\begin_layout Itemize
+Writing report/papers: MikTEX + TeXStudio + LyX
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write paper/report in LyX to save the time then export the tex file 
+\end_layout
+
+\begin_layout Enumerate
+Run the tex file in the texstudio and submit the zip file in journal
+\end_layout
+
+\begin_layout Enumerate
+Texmaker is also good instead of TexStudio
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "mathpix"
+target "https://mathpix.com/"
+literal "false"
+
+\end_inset
+
+ for writing equation from image.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+For presentation: Beamer document in LyX
+\end_layout
+
+\begin_layout Itemize
+Texteditor: Notepad++ or sublime text
+\end_layout
+
+\begin_layout Itemize
+Drawings: Inkscape (free) or Illustrator
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+First install miktex
+\end_layout
+
+\begin_layout Itemize
+Then, integrate 
+\begin_inset CommandInset href
+LatexCommand href
+name "textext"
+target "https://textext.github.io/textext/"
+literal "false"
+
+\end_inset
+
+ in Inkscape for writing latex formula.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Version control for code: Git + GitHuB
+\end_layout
+
+\begin_layout Itemize
+Compression and extraction: 7Zip (winRar give popups)
+\end_layout
+
+\begin_layout Itemize
+To mount image/iso file: Virtual Clone Drive
+\end_layout
+
+\begin_layout Itemize
+Coding
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+MATLAB, Mathematica, Python
+\end_layout
+
+\begin_layout Itemize
+C, C++, Julia
+\end_layout
+
+\begin_layout Itemize
+Data structure and algorithm
+\end_layout
+
+\begin_layout Itemize
+Parallel computing, Open MP, MPI
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Software
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+ANSYS
+\end_layout
+
+\begin_layout Enumerate
+ABAQUS
+\end_layout
+
+\begin_layout Enumerate
+COMSOL
+\end_layout
+
+\begin_layout Enumerate
+NASTRAN & PATRAN
+\end_layout
+
+\begin_layout Enumerate
+other check 
+\begin_inset CommandInset href
+LatexCommand href
+name "CIC website"
+target "http://www.cic.iitkgp.ac.in/?q=node/28"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "software repo"
+target "http://swrepo.iitkgp.ac.in/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Plotting
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+matplotlib in python
+\end_layout
+
+\begin_layout Enumerate
+MATLAB
+\end_layout
+
+\begin_layout Enumerate
+Origin Pro, TecPlot, or GNU plot
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Computational power
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+HPC
+\end_layout
+
+\begin_layout Itemize
+Paramshakti
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Use Remote desktop or Teamviewer and work from room.
+ (Find the video inside the repo) 
+\end_layout
+
+\begin_layout Itemize
+Course/Workshop 
+\begin_inset CommandInset href
+LatexCommand href
+name "Noticeboard"
+target "https://www.noticebard.com/||Noticeboard"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Short term course
+\end_layout
+
+\begin_layout Itemize
+IIT KGP 
+\begin_inset CommandInset href
+LatexCommand href
+name "Events"
+target "http://iitkgp.ac.in/events"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "courses"
+target "https://erp.iitkgp.ac.in/CEP/courses.htm"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "GIAN"
+target "https://gian.iitkgp.ac.in/ccourses/approvecourses2"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Online course
+\end_layout
+
+\begin_layout Itemize
+Attend workshop organized by IIT KGP and other universities
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Building your professional network.
+ 
+\series bold
+very important
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Make a list of professional bodies for prospect membership.
+ 
+\end_layout
+
+\begin_layout Section
+Semester 1
+\end_layout
+
+\begin_layout Enumerate
+Make a list of conference
+\end_layout
+
+\begin_layout Enumerate
+Learn LyX/Latex for writing conference paper
+\end_layout
+
+\begin_layout Enumerate
+Learn Inkscape
+\end_layout
+
+\begin_layout Enumerate
+Try for PMRF fellowship
+\end_layout
+
+\begin_layout Enumerate
+Attend our library workshop
+\end_layout
+
+\begin_layout Enumerate
+Learn how to used HPC
+\end_layout
+
+\begin_layout Enumerate
+Learn about journal writing or proposal writing or any other stuff.
+\end_layout
+
+\begin_layout Enumerate
+Improve coding
+\end_layout
+
+\begin_layout Enumerate
+Important websites: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Internation relation IITKGP"
+target "https://international.iitkgp.ac.in/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "CDC"
+target "http://www.cdc.iitkgp.ac.in/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Internation Relation Cell Facebook"
+target "https://www.facebook.com/IRCIITKGP/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Department Facebook Page"
+target "https://www.facebook.com/aeroiitkgp/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "APNA IITKGP"
+target "http://www.apna.iitkgp.ac.in/"
+literal "false"
+
+\end_inset
+
+ and check semester 6.
+ To grab the opportunity, don't miss the information.
+ 
+\end_layout
+
+\begin_layout Section
+Semester 2
+\end_layout
+
+\begin_layout Enumerate
+Read fundamental book and papers
+\end_layout
+
+\begin_layout Enumerate
+Know all your seniors and their work areas.
+ With this we can get some help from seniors.
+\end_layout
+
+\begin_layout Enumerate
+Do literature survey
+\end_layout
+
+\begin_layout Enumerate
+Balance TA work 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+There is no point for TA.
+ Balance your research work.
+\end_layout
+
+\begin_layout Enumerate
+But if you are under your guide/DSC then put effort.
+ It will improve your relation with guide/DSC.
+\end_layout
+
+\begin_layout Enumerate
+If TA subject is within your research field then TA will help in improving
+ the fundamental.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Work on comprehensive viva 
+\begin_inset CommandInset href
+LatexCommand href
+name "Questions"
+target "https://docs.google.com/spreadsheets/d/13vbM4ww2g8GRpI5DYbnLKfR5EeMsKTbWfFFpLLtjDe4/edit#gid=0"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Semester 3
+\end_layout
+
+\begin_layout Enumerate
+Find the gaps in literature, discuss with group members.
+\end_layout
+
+\begin_layout Enumerate
+Fix objective and scopes 
+\end_layout
+
+\begin_layout Enumerate
+Work on Registration
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Download relevant thesis from 
+\begin_inset CommandInset href
+LatexCommand href
+name "IDR-IITKGP"
+target "http://www.idr.iitkgp.ac.in/xmlui/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Download thesis from other sources like 
+\begin_inset CommandInset href
+LatexCommand href
+name "shodhganga"
+target "https://shodhganga.inflibnet.ac.in/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "proquest"
+target "https://www.proquest.com/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "OATD"
+target "https://oatd.org/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Publish conference paper (in collaboration or individual).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Conference paper has 1 point (only 0.5 for first author).
+ There is cap of maximum 5 points.
+\end_layout
+
+\begin_layout Enumerate
+It will not help to become the Asst.
+ Prof.
+\end_layout
+
+\begin_layout Enumerate
+It will help to improve English and writing skill and other skills require
+ to write papers.
+\end_layout
+
+\begin_layout Enumerate
+Conference is for making contacts only and getting new idea.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+For Prof., thesis reviewer and collobration.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Semester 4
+\end_layout
+
+\begin_layout Enumerate
+Work on enhancement 
+\end_layout
+
+\begin_layout Enumerate
+Search code from GitHub
+\end_layout
+
+\begin_layout Enumerate
+Keep working on research objective for writing your first paper 
+\end_layout
+
+\begin_layout Enumerate
+Start looking for short term course and other.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Make contact with that prof.
+ during the short term course
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Write first paper (in collaboration or individual): let it be rejected,
+ feedback is very important to improve.
+\end_layout
+
+\begin_layout Section
+Semester 5
+\end_layout
+
+\begin_layout Enumerate
+Start searching for prof.
+ (make use of list) for Research Intern/Exchange program/Dual doctorate
+ program
+\end_layout
+
+\begin_layout Section
+Semester 6
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Foreign training opportunities"
+target "http://cdc.iitkgp.ac.in/p/foreign-training-opportunities"
+literal "false"
+
+\end_inset
+
+ through CDC website
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "International relation cell"
+target "https://ircell.iitkgp.ac.in/ftp/"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "RS opportunities"
+target "http://cdc.iitkgp.ac.in/post/rs-opportunities"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Upcoming opportunities"
+target "https://international.iitkgp.ac.in/upcoming_opportunities/allevents/"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Foreign training program"
+target "https://ircell.iitkgp.ac.in/ftp/"
+literal "false"
+
+\end_inset
+
+ and login 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://ircell.iitkgp.ac.in/ftp/login/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Semester away, Student exchange and Joint Doctoral Programs 
+\begin_inset CommandInset href
+LatexCommand href
+name "check here"
+target "https://international.iitkgp.ac.in/programs/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Extension seminar for 3 to 4 year
+\end_layout
+
+\begin_layout Section
+Semester 7
+\end_layout
+
+\begin_layout Enumerate
+Keep working on PhD (8 hours)
+\end_layout
+
+\begin_layout Enumerate
+Start working on new research area for postDoc according to list of professor,
+ list of university, alert from journal.
+ (1 hour)
+\end_layout
+
+\begin_layout Enumerate
+Start looking for foreign prof for post doc.
+\end_layout
+
+\begin_layout Section
+Semester 8
+\end_layout
+
+\begin_layout Enumerate
+Publish paper in collaborations
+\end_layout
+
+\begin_layout Enumerate
+Extension seminar for 4-4.5 year
+\end_layout
+
+\begin_layout Enumerate
+Look for people who can recommend (3 recommendations) you later.
+ You have published a collaborated paper.
+ Contact collaborated Prof.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ask concern people to 
+\series bold
+recommendation
+\series default
+ you (make use of calender).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Start thinking about postdoc and search prof., university, fellowship.
+\end_layout
+
+\begin_layout Section
+Semester 9
+\end_layout
+
+\begin_layout Enumerate
+International conference
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+SERB funding
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Shri Gopal Rajgarhia International Program"
+target "https://international.iitkgp.ac.in/programs/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Other travel funding
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Start writing 
+\series bold
+Thesis
+\end_layout
+
+\begin_layout Enumerate
+Learn how to write research project proposal according to the interest of
+ the foreign prof.
+\end_layout
+
+\begin_layout Enumerate
+Extension seminar for 4.5-5 year
+\end_layout
+
+\begin_layout Section
+Semester 10
+\end_layout
+
+\begin_layout Enumerate
+Finish your thesis
+\end_layout
+
+\begin_layout Enumerate
+Start writing synopsis report
+\end_layout
+
+\begin_layout Enumerate
+Complete synopsis report
+\end_layout
+
+\begin_layout Enumerate
+Procedure for Synopsis and Thesis submission: find inside the repo.
+\end_layout
+
+\begin_layout Part
+PostDoc (University QS ranking < 500)
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Enumerate
+Research Intern after B.
+ Tech.
+ or M.
+ Tech
+\end_layout
+
+\begin_layout Enumerate
+Research fellowship for PhD
+\end_layout
+
+\begin_layout Enumerate
+Postdoctoral Fellow (funding from institute)
+\end_layout
+
+\begin_layout Enumerate
+Postdoctoral Fellow (student has its funding)
+\end_layout
+
+\begin_layout Section
+Type of fellowship
+\end_layout
+
+\begin_layout Enumerate
+Teaching fellowship
+\end_layout
+
+\begin_layout Enumerate
+Individual fellowships 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Government funding
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+National Science Foundation in the U.S
+\end_layout
+
+\begin_layout Enumerate
+Deutsche Forschungsgemeinschaft in Germany
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Institutional funding 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+List of foreign fellowships
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Click here for list"
+target "https://academicpositions.com/career-advice/major-postdoc-fellowships"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "GitHub"
+target "https://asntech.github.io/postdoc-funding-schemes/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "fulbrightonline"
+target "https://us.fulbrightonline.org/applicants/types-of-awards/study-research"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "marie-curie"
+target "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "newton"
+target "https://royalsociety.org/grants-schemes-awards/grants/newton-international/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "humboldt"
+target "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship"
+literal "false"
+
+\end_inset
+
+, and others
+\end_layout
+
+\begin_layout Subsection
+List of Indian fellowships
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Noticeboard"
+target "https://www.noticebard.com/||Noticeboard"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Where to search for postdoc job
+\end_layout
+
+\begin_layout Subsection
+Foreign
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "academicpositions"
+target "https://academicpositions.com/find-jobs"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Canada 
+\begin_inset CommandInset href
+LatexCommand href
+name "nserc-crsng"
+target "https://www.nserc-crsng.gc.ca/Students-Etudiants/PD-NP/index_eng.asp"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+USA 
+\begin_inset CommandInset href
+LatexCommand href
+name "postdocinusa"
+target "https://postdocinusa.com/postdoc-jobs/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "academicjobsonline"
+target "https://academicjobsonline.org/ajo/jobs"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "findapostdoc"
+target "https://www.findapostdoc.com/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "nature"
+target "https://www.nature.com/naturecareers"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "sciencecareers"
+target "https://jobs.sciencecareers.org/searchjobs/?Keywords=postdoc"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "postdocjobs"
+target "https://www.postdocjobs.com/job/category/list?name=Engineering"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "eurosciencejobs"
+target "https://www.eurosciencejobs.com/job_search/keyword/postdoc"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "postdoc"
+target "https://www.postdoc.com/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+India
+\end_layout
+
+\begin_layout Itemize
+Go to IISC and then go to foreign
+\end_layout
+
+\begin_layout Section
+Stage 1
+\end_layout
+
+\begin_layout Itemize
+Start building your network.
+\end_layout
+
+\begin_layout Itemize
+Start searching about a year before submitting your synopsis.
+ 
+\end_layout
+
+\begin_layout Itemize
+Start your search for postdoc position by contacting the person(s) who cited
+ you.
+ Reference: 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://www.lpl.arizona.edu/grad/guidebook/finding-funding/advice-and-tips-getting-jobpostdoc"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Follow prof.
+ and university website.
+ Here make use of Lists (including fellowship).
+ Reference: 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://www.brains-explained.com/how-to-apply-for-postdocs/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Where to search:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Linkedin (follow targetted Prof.
+ and university)
+\end_layout
+
+\begin_layout Enumerate
+Twitter (follow targetted Prof.
+ and university)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Imechanics"
+target "https://imechanica.org/"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "academicpositions.com"
+target "https://academicpositions.com/find-jobs"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "findapostdoc"
+target "https://www.findapostdoc.com/"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "postdocjobs"
+target "https://www.postdocjobs.com/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Stage 2 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Email
+\series default
+: "Dear XYZ, I saw that the XYZ postdoctoral fellowship is being offered
+ this fall.
+ I'm trying finish my thesis this spring, and was considering applying.
+ I would certainly be interested in working with you--are you currently
+ looking to take on any postdocs? I'd be happy to discuss further if you're
+ interested."
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cover Letter
+\series default
+: Emphasize how your work is relevant to the goal of the postdoc, and reframe
+ your work within their context of the project.
+ Briefly summarize your relevant qualifications for this position.
+ You want to convey how the lab or department will benefit having you there,
+ rather than how you will benefit from getting this postdoc.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Research Proposal
+\series default
+: Your research proposal explains the research you would do during the postdoc.
+ You should introduce the topic while referring to past literature and point
+ out the knowledge gaps in the field that your project will fill.
+ Then go through your timeline of what you will accomplish (including publicatio
+ns) and when.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Research statement
+\series default
+: Unlike the research proposal, this document goes through your previous
+ research experience and includes publications, talks, conference presentations
+ or posters that have come from it.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+CV
+\series default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "click here"
+target "https://academicpositions.com/career-advice/how-to-write-a-professional-academic-cv"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Recommendation
+\series default
+: Two or three good recommendation letters.
+\end_layout
+
+\begin_layout Standard
+Reference: 
+\begin_inset CommandInset href
+LatexCommand href
+name "1"
+target "https://academicpositions.com/career-advice/where-to-find-a-postdoc"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "2"
+target "https://www.goldbio.com/articles/article/a-detailed-guide-to-your-postdoc-application-plus-printable-companion-checklist"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "3"
+target "https://www.theguardian.com/higher-education-network/2015/feb/01/applying-for-a-postdoc-job-here-are-18-tips-for-a-successful-application"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Before thinking about postdoc
+\end_layout
+
+\begin_layout Itemize
+Published good and many papers.
+\end_layout
+
+\begin_layout Itemize
+Go to conference to make contact and find out what prof.
+ are doing.
+ Make list of people.
+\end_layout
+
+\begin_layout Itemize
+Make CV
+\end_layout
+
+\begin_layout Itemize
+Make Web page
+\end_layout
+
+\begin_layout Section
+During your last year
+\end_layout
+
+\begin_layout Itemize
+Contact your listed people by saying thank you and wish them on their birth
+ day or any specific occasional.
+ 
+\end_layout
+
+\begin_layout Itemize
+Learn writing email about introducing yourself.
+\end_layout
+
+\begin_layout Itemize
+Write research proposal include figure.
+\end_layout
+
+\begin_layout Itemize
+Make ppt in addition to research proposal.
+\end_layout
+
+\begin_layout Itemize
+Previous/Current Phd research
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2/3 page what you are doing now
+\end_layout
+
+\begin_layout Itemize
+Include attractive pictures.
+ Graphical abstract will help here.
+\end_layout
+
+\begin_layout Itemize
+Highlight your skill relevant to publish papers.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Research proposal for postdoc position
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What you will do in future related to post doc prof.
+\end_layout
+
+\begin_layout Itemize
+Define problem
+\end_layout
+
+\begin_layout Itemize
+How you will contribute to their lab.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Reference: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Arizona"
+target "https://www.lpl.arizona.edu/grad/guidebook/finding-funding/advice-and-tips-getting-jobpostdoc"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Academic position as faculty
+\end_layout
+
+\begin_layout Itemize
+Become member of professional boards/institutions.
+ It is good to take membership as it give wider connection for job and awards.
+\end_layout
+
+\begin_layout Section
+Assistant Professor
+\end_layout
+
+\begin_layout Enumerate
+Outline your most significant contribution towards research.
+\end_layout
+
+\begin_layout Enumerate
+How you as a faculty will contribute in the institute?
+\end_layout
+
+\begin_layout Enumerate
+Present your vision for the department for the next five years.
+\end_layout
+
+\begin_layout Enumerate
+Outline your proposed road map for teaching and research for the next five
+ years.
+\end_layout
+
+\begin_layout Enumerate
+How would you create an innovative learning environment?
+\end_layout
+
+\begin_layout Part
+Nonacademic Job
+\end_layout
+
+\begin_layout Enumerate
+Linkedin, 
+\end_layout
+
+\begin_layout Enumerate
+Subscribe to 
+\begin_inset CommandInset href
+LatexCommand href
+name "facultyplus"
+target "https://www.facultyplus.com/"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "facultyon"
+target "https://www.facultyon.com/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+UPSC (only for legends)
+\end_layout
+
+\begin_layout Standard
+\align center
+Thank You & Enjoy!
+\end_layout
+
+\end_body
+\end_document

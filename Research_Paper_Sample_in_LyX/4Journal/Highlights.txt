@@ -1,0 +1,5 @@
+Geometrically non-linear flexural analysis of laminated composite plate using inverse-hyperbolic and third-order shear deformation theories (IHSDT & TSDT).
+Both von Karman and Green–Lagrange strain are considered for incorporation of geometric nonlinearity.
+Importance of Green-Lagrange strain over von Karman strain is highlighted for movable simply supported and free boundary conditions.
+Significance of penalty stiffness matrix  for thick anti-symmetric cross-ply laminate is also highlighted.
+Selection of TSDT and IHSDT for anti-symmetric and symmetric laminated plate is emphasised.
