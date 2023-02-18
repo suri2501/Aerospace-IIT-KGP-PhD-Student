@@ -1,0 +1,822 @@
+\begin{thebibliography}{96}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\eprint}[1]{\href{http://arxiv.org/abs/#1}{\path{#1}}}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\BIBand}{and}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Nikbakt et~al.(2018)Nikbakt, Kamarian and
+  Shakeri}]{nikbakt2018review}
+\bibinfo{author}{Nikbakt\xfnm[ S.]}, \bibinfo{author}{Kamarian\xfnm[ S.]},
+  \bibinfo{author}{Shakeri\xfnm[ M.]}.
+\newblock \bibinfo{title}{A review on optimization of composite structures part
+  i: Laminated composites}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2018};\bibinfo{volume}{195}:\bibinfo{pages}{158--185}.
+%Type = Book
+\bibitem[{Timoshenko and Woinowsky-Krieger(1959)}]{timoshenko1959theory}
+\bibinfo{author}{Timoshenko\xfnm[ S.P.]},
+  \bibinfo{author}{Woinowsky-Krieger\xfnm[ S.]}.
+\newblock \bibinfo{title}{Theory of plates and shells}.
+\newblock \bibinfo{publisher}{McGraw-hill}; \bibinfo{year}{1959}.
+%Type = Article
+\bibitem[{Reissner(1945)}]{reissner1945effect}
+\bibinfo{author}{Reissner\xfnm[ E.]}.
+\newblock \bibinfo{title}{The effect of transverse shear deformation on the
+  bending of elastic plates}.
+\newblock \bibinfo{journal}{Journal of Applied Mechanics}
+  \bibinfo{year}{1945};:\bibinfo{pages}{A69--A77}.
+%Type = Article
+\bibitem[{Pai(1995)}]{pai1995new}
+\bibinfo{author}{Pai\xfnm[ P.F.]}.
+\newblock \bibinfo{title}{A new look at shear correction factors and warping
+  functions of anisotropic laminates}.
+\newblock \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{year}{1995};\bibinfo{volume}{32}(\bibinfo{number}{16}):\bibinfo{pages}{2295--2313}.
+%Type = Article
+\bibitem[{Levinson(1980)}]{levinson1980accurate}
+\bibinfo{author}{Levinson\xfnm[ M.]}.
+\newblock \bibinfo{title}{An accurate, simple theory of the statics and
+  dynamics of elastic plates}.
+\newblock \bibinfo{journal}{Mechanics Research Communications}
+  \bibinfo{year}{1980};\bibinfo{volume}{7}(\bibinfo{number}{6}):\bibinfo{pages}{343--350}.
+%Type = Article
+\bibitem[{Lo et~al.(1977)Lo, Christensen and Wu}]{lo1977high}
+\bibinfo{author}{Lo\xfnm[ K.]}, \bibinfo{author}{Christensen\xfnm[ R.]},
+  \bibinfo{author}{Wu\xfnm[ E.]}.
+\newblock \bibinfo{title}{A high-order theory of plate deformation—part 2:
+  Laminated plates}.
+\newblock \bibinfo{journal}{Journal of applied mechanics}
+  \bibinfo{year}{1977};\bibinfo{volume}{44}(\bibinfo{number}{4}):\bibinfo{pages}{669--676}.
+%Type = Article
+\bibitem[{Reddy(1984)}]{reddy1984simple}
+\bibinfo{author}{Reddy\xfnm[ J.N.]}.
+\newblock \bibinfo{title}{A simple higher-order theory for laminated composite
+  plates}.
+\newblock \bibinfo{journal}{Journal of applied mechanics}
+  \bibinfo{year}{1984};\bibinfo{volume}{51}(\bibinfo{number}{4}):\bibinfo{pages}{745--752}.
+%Type = Article
+\bibitem[{Ambartsumian(1958)}]{ambartsumian1958theory}
+\bibinfo{author}{Ambartsumian\xfnm[ S.]}.
+\newblock \bibinfo{title}{On the theory of bending plates}.
+\newblock \bibinfo{journal}{Izv Otd Tech Nauk AN SSSR}
+  \bibinfo{year}{1958};\bibinfo{volume}{5}(\bibinfo{number}{5}):\bibinfo{pages}{69--77}.
+%Type = Article
+\bibitem[{Touratier(1991)}]{touratier1991efficient}
+\bibinfo{author}{Touratier\xfnm[ M.]}.
+\newblock \bibinfo{title}{An efficient standard plate theory}.
+\newblock \bibinfo{journal}{International journal of engineering science}
+  \bibinfo{year}{1991};\bibinfo{volume}{29}(\bibinfo{number}{8}):\bibinfo{pages}{901--916}.
+%Type = Article
+\bibitem[{Soldatos(1992)}]{Soldatos1992}
+\bibinfo{author}{Soldatos\xfnm[ K.]}.
+\newblock \bibinfo{title}{A transverse shear deformation theory for homogeneous
+  monoclinic plates}.
+\newblock \bibinfo{journal}{Acta Mechanica}
+  \bibinfo{year}{1992};\bibinfo{volume}{94}(\bibinfo{number}{3}):\bibinfo{pages}{195--220}.
+%Type = Article
+\bibitem[{Mantari et~al.(2011)Mantari, Oktem and Soares}]{mantari2011static}
+\bibinfo{author}{Mantari\xfnm[ J.]}, \bibinfo{author}{Oktem\xfnm[ A.]},
+  \bibinfo{author}{Soares\xfnm[ C.G.]}.
+\newblock \bibinfo{title}{Static and dynamic analysis of laminated composite
+  and sandwich plates and shells by using a new higher-order shear deformation
+  theory}.
+\newblock \bibinfo{journal}{Composite structures}
+  \bibinfo{year}{2011};\bibinfo{volume}{94}(\bibinfo{number}{1}):\bibinfo{pages}{37--49}.
+%Type = Article
+\bibitem[{Mantari et~al.(2012{\natexlab{a}})Mantari, Oktem and
+  Soares}]{mantari2012new}
+\bibinfo{author}{Mantari\xfnm[ J.]}, \bibinfo{author}{Oktem\xfnm[ A.]},
+  \bibinfo{author}{Soares\xfnm[ C.G.]}.
+\newblock \bibinfo{title}{A new trigonometric shear deformation theory for
+  isotropic, laminated composite and sandwich plates}.
+\newblock \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{year}{2012}{\natexlab{a}};\bibinfo{volume}{49}(\bibinfo{number}{1}):\bibinfo{pages}{43--53}.
+%Type = Article
+\bibitem[{Mantari et~al.(2012{\natexlab{b}})Mantari, Oktem and
+  Soares}]{Mantari2012}
+\bibinfo{author}{Mantari\xfnm[ J.]}, \bibinfo{author}{Oktem\xfnm[ A.]},
+  \bibinfo{author}{Soares\xfnm[ C.G.]}.
+\newblock \bibinfo{title}{A new higher order shear deformation theory for
+  sandwich and composite laminated plates}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2012}{\natexlab{b}};\bibinfo{volume}{43}(\bibinfo{number}{3}):\bibinfo{pages}{1489--1499}.
+%Type = Article
+\bibitem[{El~Meiche et~al.(2011)El~Meiche, Tounsi, Ziane, Mechab
+  et~al.}]{el2011new}
+\bibinfo{author}{El~Meiche\xfnm[ N.]}, \bibinfo{author}{Tounsi\xfnm[ A.]},
+  \bibinfo{author}{Ziane\xfnm[ N.]}, \bibinfo{author}{Mechab\xfnm[ I.]}, et~al.
+\newblock \bibinfo{title}{A new hyperbolic shear deformation theory for
+  buckling and vibration of functionally graded sandwich plate}.
+\newblock \bibinfo{journal}{International Journal of Mechanical Sciences}
+  \bibinfo{year}{2011};\bibinfo{volume}{53}(\bibinfo{number}{4}):\bibinfo{pages}{237--247}.
+%Type = Article
+\bibitem[{Abrate and Di~Sciuva(2017)}]{abrate2017equivalent}
+\bibinfo{author}{Abrate\xfnm[ S.]}, \bibinfo{author}{Di~Sciuva\xfnm[ M.]}.
+\newblock \bibinfo{title}{Equivalent single layer theories for composite and
+  sandwich structures: A review}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2017};\bibinfo{volume}{179}:\bibinfo{pages}{482--494}.
+%Type = Article
+\bibitem[{Ghugal and Shimpi(2002)}]{ghugal2002review}
+\bibinfo{author}{Ghugal\xfnm[ Y.]}, \bibinfo{author}{Shimpi\xfnm[ R.]}.
+\newblock \bibinfo{title}{A review of refined shear deformation theories of
+  isotropic and anisotropic laminated plates}.
+\newblock \bibinfo{journal}{Journal of Reinforced Plastics and Composites}
+  \bibinfo{year}{2002};\bibinfo{volume}{21}(\bibinfo{number}{9}):\bibinfo{pages}{775--813}.
+%Type = Article
+\bibitem[{dos Reis et~al.(2011)dos Reis, Albuquerque, Torsani, Palermo and
+  Sollero}]{dos2011computation}
+\bibinfo{author}{dos Reis\xfnm[ A.]}, \bibinfo{author}{Albuquerque\xfnm[
+  {\'E}.L.]}, \bibinfo{author}{Torsani\xfnm[ F.L.]},
+  \bibinfo{author}{Palermo\xfnm[ L.]}, \bibinfo{author}{Sollero\xfnm[ P.]}.
+\newblock \bibinfo{title}{Computation of moments and stresses in laminated
+  composite plates by the boundary element method}.
+\newblock \bibinfo{journal}{Engineering analysis with boundary elements}
+  \bibinfo{year}{2011};\bibinfo{volume}{35}(\bibinfo{number}{1}):\bibinfo{pages}{105--113}.
+%Type = Article
+\bibitem[{Nguyen-Thanh et~al.(2008)Nguyen-Thanh, Rabczuk, Nguyen-Xuan and
+  Bordas}]{nguyen2008smoothed}
+\bibinfo{author}{Nguyen-Thanh\xfnm[ N.]}, \bibinfo{author}{Rabczuk\xfnm[ T.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}, \bibinfo{author}{Bordas\xfnm[
+  S.P.]}.
+\newblock \bibinfo{title}{A smoothed finite element method for shell analysis}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2008};\bibinfo{volume}{198}(\bibinfo{number}{2}):\bibinfo{pages}{165--177}.
+%Type = Article
+\bibitem[{Nguyen-Xuan et~al.(2010)Nguyen-Xuan, Liu, Thai-Hoang and
+  Nguyen-Thoi}]{nguyen2010edge}
+\bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}, \bibinfo{author}{Liu\xfnm[ G.]},
+  \bibinfo{author}{Thai-Hoang\xfnm[ C.a.]}, \bibinfo{author}{Nguyen-Thoi\xfnm[
+  T.]}.
+\newblock \bibinfo{title}{An edge-based smoothed finite element method (es-fem)
+  with stabilized discrete shear gap technique for analysis of
+  reissner--mindlin plates}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2010};\bibinfo{volume}{199}(\bibinfo{number}{9-12}):\bibinfo{pages}{471--489}.
+%Type = Misc
+\bibitem[{Reddy(1997)}]{reddy1997mechanics}
+\bibinfo{author}{Reddy\xfnm[ J.]}.
+\newblock \bibinfo{title}{Mechanics of laminated plates: theory and analysis}.
+\newblock \bibinfo{year}{1997}.
+%Type = Article
+\bibitem[{Rabczuk and Belytschko(2004)}]{rabczuk2004cracking}
+\bibinfo{author}{Rabczuk\xfnm[ T.]}, \bibinfo{author}{Belytschko\xfnm[ T.]}.
+\newblock \bibinfo{title}{Cracking particles: a simplified meshfree method for
+  arbitrary evolving cracks}.
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Engineering}
+  \bibinfo{year}{2004};\bibinfo{volume}{61}(\bibinfo{number}{13}):\bibinfo{pages}{2316--2343}.
+%Type = Book
+\bibitem[{Bhavikatti(2005)}]{bhavikatti2005finite}
+\bibinfo{author}{Bhavikatti\xfnm[ S.S.]}.
+\newblock \bibinfo{title}{Finite element analysis}.
+\newblock \bibinfo{publisher}{New Age International, New Delhi};
+  \bibinfo{year}{2005}.
+%Type = Article
+\bibitem[{Hughes et~al.(2005)Hughes, Cottrell and
+  Bazilevs}]{hughes2005isogeometric}
+\bibinfo{author}{Hughes\xfnm[ T.J.]}, \bibinfo{author}{Cottrell\xfnm[ J.A.]},
+  \bibinfo{author}{Bazilevs\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Isogeometric analysis: Cad, finite elements, nurbs,
+  exact geometry and mesh refinement}.
+\newblock \bibinfo{journal}{Computer methods in applied mechanics and
+  engineering}
+  \bibinfo{year}{2005};\bibinfo{volume}{194}(\bibinfo{number}{39}):\bibinfo{pages}{4135--4195}.
+%Type = Book
+\bibitem[{Cottrell et~al.(2009)Cottrell, Hughes and
+  Bazilevs}]{cottrell2009isogeometric}
+\bibinfo{author}{Cottrell\xfnm[ J.A.]}, \bibinfo{author}{Hughes\xfnm[ T.J.]},
+  \bibinfo{author}{Bazilevs\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Isogeometric analysis: toward integration of CAD and
+  FEA}.
+\newblock \bibinfo{address}{New York, USA}: \bibinfo{publisher}{John Wiley \&
+  Sons}; \bibinfo{year}{2009}.
+%Type = Book
+\bibitem[{Piegl and Tiller(1997)}]{piegl1997monographs}
+\bibinfo{author}{Piegl\xfnm[ L.]}, \bibinfo{author}{Tiller\xfnm[ W.]}.
+\newblock \bibinfo{title}{The NURBS book (Monographs in Visual Communication)}.
+\newblock \bibinfo{edition}{Second} ed.; \bibinfo{address}{New York, USA}:
+  \bibinfo{publisher}{Springer-Verlag}; \bibinfo{year}{1997}.
+%Type = Book
+\bibitem[{Rogers(2001)}]{rogers2001introduction}
+\bibinfo{author}{Rogers\xfnm[ D.]}.
+\newblock \bibinfo{title}{An Introduction to NURBS: With Historical
+  Perspective}.
+\newblock \bibinfo{address}{San Diego, CA}: \bibinfo{publisher}{Academic
+  Press}; \bibinfo{year}{2001}.
+%Type = Article
+\bibitem[{Da~Veiga et~al.(2012)Da~Veiga, Buffa, Lovadina, Martinelli and
+  Sangalli}]{da2012isogeometric}
+\bibinfo{author}{Da~Veiga\xfnm[ L.B.]}, \bibinfo{author}{Buffa\xfnm[ A.]},
+  \bibinfo{author}{Lovadina\xfnm[ C.]}, \bibinfo{author}{Martinelli\xfnm[ M.]},
+  \bibinfo{author}{Sangalli\xfnm[ G.]}.
+\newblock \bibinfo{title}{An isogeometric method for the reissner--mindlin
+  plate bending problem}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2012};\bibinfo{volume}{209}:\bibinfo{pages}{45--53}.
+%Type = Article
+\bibitem[{Nguyen-Xuan et~al.(2014)Nguyen-Xuan, Tran, Thai, Kulasegaram and
+  Bordas}]{nguyen2014isogeometric}
+\bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}, \bibinfo{author}{Tran\xfnm[ L.V.]},
+  \bibinfo{author}{Thai\xfnm[ C.H.]}, \bibinfo{author}{Kulasegaram\xfnm[ S.]},
+  \bibinfo{author}{Bordas\xfnm[ S.P.A.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of functionally graded plates
+  using a refined plate theory}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2014};\bibinfo{volume}{64}:\bibinfo{pages}{222--234}.
+%Type = Article
+\bibitem[{Tran et~al.(2014)Tran, Thai, Le, Gan, Lee and
+  Nguyen-Xuan}]{tran2014isogeometric}
+\bibinfo{author}{Tran\xfnm[ L.V.]}, \bibinfo{author}{Thai\xfnm[ C.H.]},
+  \bibinfo{author}{Le\xfnm[ H.T.]}, \bibinfo{author}{Gan\xfnm[ B.S.]},
+  \bibinfo{author}{Lee\xfnm[ J.]}, \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of laminated composite plates
+  based on a four-variable refined plate theory}.
+\newblock \bibinfo{journal}{Engineering Analysis with Boundary Elements}
+  \bibinfo{year}{2014};\bibinfo{volume}{47}:\bibinfo{pages}{68--81}.
+%Type = Article
+\bibitem[{Guo et~al.(2014)Guo, Nagy and G{\"u}rdal}]{guo2014layerwise}
+\bibinfo{author}{Guo\xfnm[ Y.]}, \bibinfo{author}{Nagy\xfnm[ A.P.]},
+  \bibinfo{author}{G{\"u}rdal\xfnm[ Z.]}.
+\newblock \bibinfo{title}{A layerwise theory for laminated composites in the
+  framework of isogeometric analysis}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2014};\bibinfo{volume}{107}:\bibinfo{pages}{447--457}.
+%Type = Article
+\bibitem[{Thai et~al.(2013)Thai, Ferreira, Carrera and
+  Nguyen-Xuan}]{thai2013isogeometric}
+\bibinfo{author}{Thai\xfnm[ C.H.]}, \bibinfo{author}{Ferreira\xfnm[ A.]},
+  \bibinfo{author}{Carrera\xfnm[ E.]}, \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of laminated composite and
+  sandwich plates using a layerwise deformation theory}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2013};\bibinfo{volume}{104}:\bibinfo{pages}{196--214}.
+%Type = Article
+\bibitem[{Thai et~al.(2012)Thai, Nguyen-Xuan, Nguyen-Thanh, Le, Nguyen-Thoi and
+  Rabczuk}]{thai2012static}
+\bibinfo{author}{Thai\xfnm[ C.H.]}, \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]},
+  \bibinfo{author}{Nguyen-Thanh\xfnm[ N.]}, \bibinfo{author}{Le\xfnm[ T.H.]},
+  \bibinfo{author}{Nguyen-Thoi\xfnm[ T.]}, \bibinfo{author}{Rabczuk\xfnm[ T.]}.
+\newblock \bibinfo{title}{Static, free vibration, and buckling analysis of
+  laminated composite reissner--mindlin plates using nurbs-based isogeometric
+  approach}.
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Engineering}
+  \bibinfo{year}{2012};\bibinfo{volume}{91}(\bibinfo{number}{6}):\bibinfo{pages}{571--603}.
+%Type = Article
+\bibitem[{Thai et~al.(2014)Thai, Ferreira, Bordas, Rabczuk and
+  Nguyen-Xuan}]{thai2014isogeometric}
+\bibinfo{author}{Thai\xfnm[ C.H.]}, \bibinfo{author}{Ferreira\xfnm[ A.]},
+  \bibinfo{author}{Bordas\xfnm[ S.P.A.]}, \bibinfo{author}{Rabczuk\xfnm[ T.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of laminated composite and
+  sandwich plates using a new inverse trigonometric shear deformation theory}.
+\newblock \bibinfo{journal}{European Journal of Mechanics-A/Solids}
+  \bibinfo{year}{2014};\bibinfo{volume}{43}:\bibinfo{pages}{89--108}.
+%Type = Article
+\bibitem[{Thai et~al.(2015)Thai, Nguyen-Xuan, Bordas, Nguyen-Thanh and
+  Rabczuk}]{thai2015isogeometric}
+\bibinfo{author}{Thai\xfnm[ C.H.]}, \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]},
+  \bibinfo{author}{Bordas\xfnm[ S.P.A.]}, \bibinfo{author}{Nguyen-Thanh\xfnm[
+  N.]}, \bibinfo{author}{Rabczuk\xfnm[ T.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of laminated composite plates
+  using the higher-order shear deformation theory}.
+\newblock \bibinfo{journal}{Mechanics of Advanced Materials and Structures}
+  \bibinfo{year}{2015};\bibinfo{volume}{22}(\bibinfo{number}{6}):\bibinfo{pages}{451--469}.
+%Type = Article
+\bibitem[{Nguyen-Xuan et~al.(2013)Nguyen-Xuan, Thai and
+  Nguyen-Thoi}]{nguyen2013isogeometric}
+\bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}, \bibinfo{author}{Thai\xfnm[ C.H.]},
+  \bibinfo{author}{Nguyen-Thoi\xfnm[ T.]}.
+\newblock \bibinfo{title}{Isogeometric finite element analysis of composite
+  sandwich plates using a higher order shear deformation theory}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2013};\bibinfo{volume}{55}:\bibinfo{pages}{558--574}.
+%Type = Article
+\bibitem[{Kant and Swaminathan(2002)}]{kant2002analytical}
+\bibinfo{author}{Kant\xfnm[ T.]}, \bibinfo{author}{Swaminathan\xfnm[ K.]}.
+\newblock \bibinfo{title}{Analytical solutions for the static analysis of
+  laminated composite and sandwich plates based on a higher order refined
+  theory}.
+\newblock \bibinfo{journal}{Composite structures}
+  \bibinfo{year}{2002};\bibinfo{volume}{56}(\bibinfo{number}{4}):\bibinfo{pages}{329--344}.
+%Type = Article
+\bibitem[{Shimpi and Patel(2006)}]{shimpi2006two}
+\bibinfo{author}{Shimpi\xfnm[ R.]}, \bibinfo{author}{Patel\xfnm[ H.]}.
+\newblock \bibinfo{title}{A two variable refined plate theory for orthotropic
+  plate analysis}.
+\newblock \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{year}{2006};\bibinfo{volume}{43}(\bibinfo{number}{22-23}):\bibinfo{pages}{6783--6799}.
+%Type = Article
+\bibitem[{Thai and Kim(2010)}]{thai2010free}
+\bibinfo{author}{Thai\xfnm[ H.T.]}, \bibinfo{author}{Kim\xfnm[ S.E.]}.
+\newblock \bibinfo{title}{Free vibration of laminated composite plates using
+  two variable refined plate theory}.
+\newblock \bibinfo{journal}{International Journal of Mechanical Sciences}
+  \bibinfo{year}{2010};\bibinfo{volume}{52}(\bibinfo{number}{4}):\bibinfo{pages}{626--633}.
+%Type = Article
+\bibitem[{Thai and Kim(2012{\natexlab{a}})}]{thai2012levy}
+\bibinfo{author}{Thai\xfnm[ H.T.]}, \bibinfo{author}{Kim\xfnm[ S.E.]}.
+\newblock \bibinfo{title}{Levy-type solution for free vibration analysis of
+  orthotropic plates based on two variable refined plate theory}.
+\newblock \bibinfo{journal}{Applied Mathematical Modelling}
+  \bibinfo{year}{2012}{\natexlab{a}};\bibinfo{volume}{36}(\bibinfo{number}{8}):\bibinfo{pages}{3870--3882}.
+%Type = Article
+\bibitem[{Thai and Kim(2012{\natexlab{b}})}]{thai2012analytical}
+\bibinfo{author}{Thai\xfnm[ H.T.]}, \bibinfo{author}{Kim\xfnm[ S.E.]}.
+\newblock \bibinfo{title}{Analytical solution of a two variable refined plate
+  theory for bending analysis of orthotropic levy-type plates}.
+\newblock \bibinfo{journal}{International Journal of Mechanical Sciences}
+  \bibinfo{year}{2012}{\natexlab{b}};\bibinfo{volume}{54}(\bibinfo{number}{1}):\bibinfo{pages}{269--276}.
+%Type = Article
+\bibitem[{Adim et~al.(2016)Adim, Daouadji and Rabahi}]{adim2016simple}
+\bibinfo{author}{Adim\xfnm[ B.]}, \bibinfo{author}{Daouadji\xfnm[ T.H.]},
+  \bibinfo{author}{Rabahi\xfnm[ A.]}.
+\newblock \bibinfo{title}{A simple higher order shear deformation theory for
+  mechanical behavior of laminated composite plates}.
+\newblock \bibinfo{journal}{International Journal of Advanced Structural
+  Engineering (IJASE)}
+  \bibinfo{year}{2016};\bibinfo{volume}{8}(\bibinfo{number}{2}):\bibinfo{pages}{103--117}.
+%Type = Article
+\bibitem[{Nguyen et~al.(2017)Nguyen, Ngo and Nguyen-Xuan}]{nguyen2017novel}
+\bibinfo{author}{Nguyen\xfnm[ T.N.]}, \bibinfo{author}{Ngo\xfnm[ T.D.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{A novel three-variable shear deformation plate
+  formulation: theory and isogeometric implementation}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2017};\bibinfo{volume}{326}:\bibinfo{pages}{376--401}.
+%Type = Article
+\bibitem[{Nguyen et~al.(2016)Nguyen, Thai and Nguyen-Xuan}]{nguyen2016general}
+\bibinfo{author}{Nguyen\xfnm[ T.N.]}, \bibinfo{author}{Thai\xfnm[ C.H.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{On the general framework of high order shear
+  deformation theories for laminated composite plate structures: a novel
+  unified approach}.
+\newblock \bibinfo{journal}{International Journal of Mechanical Sciences}
+  \bibinfo{year}{2016};\bibinfo{volume}{110}:\bibinfo{pages}{242--255}.
+%Type = Article
+\bibitem[{Shimpi et~al.(2003)Shimpi, Arya and Naik}]{shimpi2003higher}
+\bibinfo{author}{Shimpi\xfnm[ R.]}, \bibinfo{author}{Arya\xfnm[ H.]},
+  \bibinfo{author}{Naik\xfnm[ N.]}.
+\newblock \bibinfo{title}{A higher order displacement model for the plate
+  analysis}.
+\newblock \bibinfo{journal}{Journal of reinforced plastics and composites}
+  \bibinfo{year}{2003};\bibinfo{volume}{22}(\bibinfo{number}{18}):\bibinfo{pages}{1667--1688}.
+%Type = Article
+\bibitem[{Madhukar and Singha(2013)}]{madhukar2013geometrically}
+\bibinfo{author}{Madhukar\xfnm[ S.]}, \bibinfo{author}{Singha\xfnm[ M.]}.
+\newblock \bibinfo{title}{Geometrically nonlinear finite element analysis of
+  sandwich plates using normal deformation theory}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2013};\bibinfo{volume}{97}:\bibinfo{pages}{84--90}.
+%Type = Article
+\bibitem[{Sayyad and Ghugal(2014)}]{sayyad2014new}
+\bibinfo{author}{Sayyad\xfnm[ A.S.]}, \bibinfo{author}{Ghugal\xfnm[ Y.M.]}.
+\newblock \bibinfo{title}{A new shear and normal deformation theory for
+  isotropic, transversely isotropic, laminated composite and sandwich plates}.
+\newblock \bibinfo{journal}{International Journal of Mechanics and Materials in
+  Design}
+  \bibinfo{year}{2014};\bibinfo{volume}{10}(\bibinfo{number}{3}):\bibinfo{pages}{247--267}.
+%Type = Article
+\bibitem[{Tran and Kim(2018)}]{tran2018static}
+\bibinfo{author}{Tran\xfnm[ L.V.]}, \bibinfo{author}{Kim\xfnm[ S.E.]}.
+\newblock \bibinfo{title}{Static and free vibration analyses of multilayered
+  plates by a higher-order shear and normal deformation theory and isogeometric
+  analysis}.
+\newblock \bibinfo{journal}{Thin-Walled Structures}
+  \bibinfo{year}{2018};\bibinfo{volume}{130}:\bibinfo{pages}{622--640}.
+%Type = Article
+\bibitem[{Natarajan et~al.(2014)Natarajan, Ferreira and
+  Nguyen-Xuan}]{natarajan2014analysis}
+\bibinfo{author}{Natarajan\xfnm[ S.]}, \bibinfo{author}{Ferreira\xfnm[ A.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}.
+\newblock \bibinfo{title}{Analysis of cross-ply laminated plates using
+  isogeometric analysis and unified formulation}.
+\newblock \bibinfo{journal}{Curved and Layered Structures}
+  \bibinfo{year}{2014};\bibinfo{volume}{1}(\bibinfo{number}{1}).
+%Type = Article
+\bibitem[{Li et~al.(2014)Li, Zhang and Zheng}]{li2014static}
+\bibinfo{author}{Li\xfnm[ X.]}, \bibinfo{author}{Zhang\xfnm[ J.]},
+  \bibinfo{author}{Zheng\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Static and free vibration analysis of laminated
+  composite plates using isogeometric approach based on the third order shear
+  deformation theory}.
+\newblock \bibinfo{journal}{Advances in Mechanical Engineering}
+  \bibinfo{year}{2014};\bibinfo{volume}{6}:\bibinfo{pages}{232019}.
+%Type = Article
+\bibitem[{Pavan and Rao(2017)}]{pavan2017bending}
+\bibinfo{author}{Pavan\xfnm[ G.]}, \bibinfo{author}{Rao\xfnm[ K.N.]}.
+\newblock \bibinfo{title}{Bending analysis of laminated composite plates using
+  isogeometric collocation method}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2017};\bibinfo{volume}{176}:\bibinfo{pages}{715--728}.
+%Type = Article
+\bibitem[{Liu and Jeffers(2017)}]{liu2017isogeometric}
+\bibinfo{author}{Liu\xfnm[ N.]}, \bibinfo{author}{Jeffers\xfnm[ A.E.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of laminated composite and
+  functionally graded sandwich plates based on a layerwise displacement
+  theory}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2017};\bibinfo{volume}{176}:\bibinfo{pages}{143--153}.
+%Type = Article
+\bibitem[{Dufour et~al.(2018)Dufour, Antolin, Sangalli, Auricchio and
+  Reali}]{DUFOUR201812}
+\bibinfo{author}{Dufour\xfnm[ J.E.]}, \bibinfo{author}{Antolin\xfnm[ P.]},
+  \bibinfo{author}{Sangalli\xfnm[ G.]}, \bibinfo{author}{Auricchio\xfnm[ F.]},
+  \bibinfo{author}{Reali\xfnm[ A.]}.
+\newblock \bibinfo{title}{A cost-effective isogeometric approach for composite
+  plates based on a stress recovery procedure}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2018};\bibinfo{volume}{138}:\bibinfo{pages}{12 -- 18}.
+%Type = Article
+\bibitem[{Cottrell et~al.(2006)Cottrell, Reali, Bazilevs and
+  Hughes}]{cottrell2006isogeometric}
+\bibinfo{author}{Cottrell\xfnm[ J.A.]}, \bibinfo{author}{Reali\xfnm[ A.]},
+  \bibinfo{author}{Bazilevs\xfnm[ Y.]}, \bibinfo{author}{Hughes\xfnm[ T.J.]}.
+\newblock \bibinfo{title}{Isogeometric analysis of structural vibrations}.
+\newblock \bibinfo{journal}{Computer methods in applied mechanics and
+  engineering}
+  \bibinfo{year}{2006};\bibinfo{volume}{195}(\bibinfo{number}{41}):\bibinfo{pages}{5257--5296}.
+%Type = Article
+\bibitem[{Shojaee et~al.(2012)Shojaee, Valizadeh, Izadpanah, Bui and
+  Vu}]{shojaee2012free}
+\bibinfo{author}{Shojaee\xfnm[ S.]}, \bibinfo{author}{Valizadeh\xfnm[ N.]},
+  \bibinfo{author}{Izadpanah\xfnm[ E.]}, \bibinfo{author}{Bui\xfnm[ T.]},
+  \bibinfo{author}{Vu\xfnm[ T.V.]}.
+\newblock \bibinfo{title}{Free vibration and buckling analysis of laminated
+  composite plates using the nurbs-based isogeometric finite element method}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2012};\bibinfo{volume}{94}(\bibinfo{number}{5}):\bibinfo{pages}{1677--1693}.
+%Type = Article
+\bibitem[{Wang et~al.(2013)Wang, Liu and Zhang}]{wang2013novel}
+\bibinfo{author}{Wang\xfnm[ D.]}, \bibinfo{author}{Liu\xfnm[ W.]},
+  \bibinfo{author}{Zhang\xfnm[ H.]}.
+\newblock \bibinfo{title}{Novel higher order mass matrices for isogeometric
+  structural vibration analysis}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2013};\bibinfo{volume}{260}:\bibinfo{pages}{92--108}.
+%Type = Article
+\bibitem[{Pekovi{\'c} et~al.(2015)Pekovi{\'c}, Stupar, Simonovi{\'c}, Svorcan
+  and Trivkovi{\'c}}]{pekovic2015free}
+\bibinfo{author}{Pekovi{\'c}\xfnm[ O.]}, \bibinfo{author}{Stupar\xfnm[ S.]},
+  \bibinfo{author}{Simonovi{\'c}\xfnm[ A.]}, \bibinfo{author}{Svorcan\xfnm[
+  J.]}, \bibinfo{author}{Trivkovi{\'c}\xfnm[ S.]}.
+\newblock \bibinfo{title}{Free vibration and buckling analysis of higher order
+  laminated composite plates using the isogeometric approach}.
+\newblock \bibinfo{journal}{Journal of Theoretical and Applied Mechanics}
+  \bibinfo{year}{2015};\bibinfo{volume}{53}(\bibinfo{number}{2}):\bibinfo{pages}{453--466}.
+%Type = Article
+\bibitem[{Fantuzzi and Tornabene(2016)}]{FANTUZZI2016173}
+\bibinfo{author}{Fantuzzi\xfnm[ N.]}, \bibinfo{author}{Tornabene\xfnm[ F.]}.
+\newblock \bibinfo{title}{Strong formulation isogeometric analysis (sfiga) for
+  laminated composite arbitrarily shaped plates}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2016};\bibinfo{volume}{96}:\bibinfo{pages}{173 -- 203}.
+%Type = Article
+\bibitem[{Shi et~al.(2018)Shi, Dong, Sun, Liu and Hu}]{shi2018new}
+\bibinfo{author}{Shi\xfnm[ P.]}, \bibinfo{author}{Dong\xfnm[ C.]},
+  \bibinfo{author}{Sun\xfnm[ F.]}, \bibinfo{author}{Liu\xfnm[ W.]},
+  \bibinfo{author}{Hu\xfnm[ Q.]}.
+\newblock \bibinfo{title}{A new higher order shear deformation theory for
+  static, vibration and buckling responses of laminated plates with the
+  isogeometric analysis}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2018};\bibinfo{volume}{204}:\bibinfo{pages}{342--358}.
+%Type = Article
+\bibitem[{Kiani(2018)}]{kiani2018isogeometric}
+\bibinfo{author}{Kiani\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Isogeometric large amplitude free vibration of
+  graphene reinforced laminated plates in thermal environment using nurbs
+  formulation}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2018};\bibinfo{volume}{332}:\bibinfo{pages}{86--101}.
+%Type = Article
+\bibitem[{Faroughi et~al.(2019)Faroughi, Shafei and Eriksson}]{FAROUGHI201989}
+\bibinfo{author}{Faroughi\xfnm[ S.]}, \bibinfo{author}{Shafei\xfnm[ E.]},
+  \bibinfo{author}{Eriksson\xfnm[ A.]}.
+\newblock \bibinfo{title}{Nurbs-based modeling of laminated composite beams
+  with isogeometric displacement-only theory}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2019};\bibinfo{volume}{162}:\bibinfo{pages}{89 -- 102}.
+%Type = Article
+\bibitem[{Kapoor and Kapania(2012)}]{kapoor2012geometrically}
+\bibinfo{author}{Kapoor\xfnm[ H.]}, \bibinfo{author}{Kapania\xfnm[ R.]}.
+\newblock \bibinfo{title}{Geometrically nonlinear nurbs isogeometric finite
+  element analysis of laminated composite plates}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2012};\bibinfo{volume}{94}(\bibinfo{number}{12}):\bibinfo{pages}{3434--3447}.
+%Type = Article
+\bibitem[{Tran et~al.(2015)Tran, Lee, Nguyen-Van, Nguyen-Xuan and
+  Wahab}]{tran2015geometrically}
+\bibinfo{author}{Tran\xfnm[ L.V.]}, \bibinfo{author}{Lee\xfnm[ J.]},
+  \bibinfo{author}{Nguyen-Van\xfnm[ H.]}, \bibinfo{author}{Nguyen-Xuan\xfnm[
+  H.]}, \bibinfo{author}{Wahab\xfnm[ M.A.]}.
+\newblock \bibinfo{title}{Geometrically nonlinear isogeometric analysis of
+  laminated composite plates based on higher-order shear deformation theory}.
+\newblock \bibinfo{journal}{International Journal of Non-Linear Mechanics}
+  \bibinfo{year}{2015};\bibinfo{volume}{72}:\bibinfo{pages}{42--52}.
+%Type = Article
+\bibitem[{Phung-Van et~al.(2017)Phung-Van, Ferreira, Nguyen-Xuan and
+  Wahab}]{phung2017isogeometric}
+\bibinfo{author}{Phung-Van\xfnm[ P.]}, \bibinfo{author}{Ferreira\xfnm[ A.]},
+  \bibinfo{author}{Nguyen-Xuan\xfnm[ H.]}, \bibinfo{author}{Wahab\xfnm[ M.A.]}.
+\newblock \bibinfo{title}{An isogeometric approach for size-dependent
+  geometrically nonlinear transient analysis of functionally graded
+  nanoplates}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2017};\bibinfo{volume}{118}:\bibinfo{pages}{125--134}.
+%Type = Inproceedings
+\bibitem[{Gupta and Ghosh(2017)}]{gupta2017transient}
+\bibinfo{author}{Gupta\xfnm[ A.]}, \bibinfo{author}{Ghosh\xfnm[ A.]}.
+\newblock \bibinfo{title}{Transient analysis of anti-symmetric cross-ply and
+  angle-ply laminated composite plates using nurbs-based isogeometric
+  analysis}.
+\newblock In: \bibinfo{booktitle}{58th AIAA/ASCE/AHS/ASC Structures, Structural
+  Dynamics, and Materials Conference}. \bibinfo{year}{2017}, p.
+  \bibinfo{pages}{1980}.
+%Type = Article
+\bibitem[{Morgantis et~al.(2014)Morgantis, Auricchio, Benson, Gambarin,
+  Hartmann, Hughes et~al.}]{morgantis2014ices}
+\bibinfo{author}{Morgantis\xfnm[ S.]}, \bibinfo{author}{Auricchio\xfnm[ F.]},
+  \bibinfo{author}{Benson\xfnm[ D.]}, \bibinfo{author}{Gambarin\xfnm[ F.]},
+  \bibinfo{author}{Hartmann\xfnm[ S.]}, \bibinfo{author}{Hughes\xfnm[ T.]},
+  et~al.
+\newblock \bibinfo{title}{Ices report 14-10} \bibinfo{year}{2014};.
+%Type = Article
+\bibitem[{Grover et~al.(2013{\natexlab{a}})Grover, Maiti and
+  Singh}]{grover2013new}
+\bibinfo{author}{Grover\xfnm[ N.]}, \bibinfo{author}{Maiti\xfnm[ D.]},
+  \bibinfo{author}{Singh\xfnm[ B.]}.
+\newblock \bibinfo{title}{A new inverse hyperbolic shear deformation theory for
+  static and buckling analysis of laminated composite and sandwich plates}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2013}{\natexlab{a}};\bibinfo{volume}{95}:\bibinfo{pages}{667--675}.
+%Type = Article
+\bibitem[{Grover et~al.(2014)Grover, Maiti and Singh}]{grover2014efficient}
+\bibinfo{author}{Grover\xfnm[ N.]}, \bibinfo{author}{Maiti\xfnm[ D.]},
+  \bibinfo{author}{Singh\xfnm[ B.]}.
+\newblock \bibinfo{title}{An efficient c0 finite element modeling of an inverse
+  hyperbolic shear deformation theory for the flexural and stability analysis
+  of laminated composite and sandwich plates}.
+\newblock \bibinfo{journal}{Finite Elements in Analysis and Design}
+  \bibinfo{year}{2014};\bibinfo{volume}{80}:\bibinfo{pages}{11--22}.
+%Type = Article
+\bibitem[{Talha and Singh(2010)}]{talha2010static}
+\bibinfo{author}{Talha\xfnm[ M.]}, \bibinfo{author}{Singh\xfnm[ B.]}.
+\newblock \bibinfo{title}{Static response and free vibration analysis of fgm
+  plates using higher order shear deformation theory}.
+\newblock \bibinfo{journal}{Applied Mathematical Modelling}
+  \bibinfo{year}{2010};\bibinfo{volume}{34}(\bibinfo{number}{12}):\bibinfo{pages}{3991--4011}.
+%Type = Book
+\bibitem[{Reddy(2004)}]{reddy2004mechanics}
+\bibinfo{author}{Reddy\xfnm[ J.N.]}.
+\newblock \bibinfo{title}{Mechanics of laminated composite plates and shells:
+  theory and analysis}.
+\newblock \bibinfo{edition}{Second} ed.; \bibinfo{address}{Boca Raton, USA}:
+  \bibinfo{publisher}{CRC press}; \bibinfo{year}{2004}.
+%Type = Article
+\bibitem[{Cottrell et~al.(2007)Cottrell, Hughes and
+  Reali}]{cottrell2007studies}
+\bibinfo{author}{Cottrell\xfnm[ J.]}, \bibinfo{author}{Hughes\xfnm[ T.]},
+  \bibinfo{author}{Reali\xfnm[ A.]}.
+\newblock \bibinfo{title}{Studies of refinement and continuity in isogeometric
+  structural analysis}.
+\newblock \bibinfo{journal}{Computer methods in applied mechanics and
+  engineering}
+  \bibinfo{year}{2007};\bibinfo{volume}{196}(\bibinfo{number}{41}):\bibinfo{pages}{4160--4183}.
+%Type = Article
+\bibitem[{Benson et~al.(2010)Benson, Bazilevs, Hsu and
+  Hughes}]{benson2010isogeometric}
+\bibinfo{author}{Benson\xfnm[ D.]}, \bibinfo{author}{Bazilevs\xfnm[ Y.]},
+  \bibinfo{author}{Hsu\xfnm[ M.C.]}, \bibinfo{author}{Hughes\xfnm[ T.]}.
+\newblock \bibinfo{title}{Isogeometric shell analysis: the reissner--mindlin
+  shell}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2010};\bibinfo{volume}{199}(\bibinfo{number}{5}):\bibinfo{pages}{276--289}.
+%Type = Book
+\bibitem[{Krenk(2009)}]{krenk2009non}
+\bibinfo{author}{Krenk\xfnm[ S.]}.
+\newblock \bibinfo{title}{Non-linear modeling and analysis of solids and
+  structures}.
+\newblock \bibinfo{address}{Cambridge, England}: \bibinfo{publisher}{Cambridge
+  University Press}; \bibinfo{year}{2009}.
+%Type = Article
+\bibitem[{Srinivas(1973)}]{srinivas1973refined}
+\bibinfo{author}{Srinivas\xfnm[ S.]}.
+\newblock \bibinfo{title}{A refined analysis of composite laminates}.
+\newblock \bibinfo{journal}{Journal of Sound and Vibration}
+  \bibinfo{year}{1973};\bibinfo{volume}{30}(\bibinfo{number}{4}):\bibinfo{pages}{495--507}.
+%Type = Article
+\bibitem[{Grover et~al.(2013{\natexlab{b}})Grover, Singh and
+  Maiti}]{grover2013analytical}
+\bibinfo{author}{Grover\xfnm[ N.]}, \bibinfo{author}{Singh\xfnm[ B.]},
+  \bibinfo{author}{Maiti\xfnm[ D.]}.
+\newblock \bibinfo{title}{Analytical and finite element modeling of laminated
+  composite and sandwich plates: An assessment of a new shear deformation
+  theory for free vibration response}.
+\newblock \bibinfo{journal}{International Journal of Mechanical Sciences}
+  \bibinfo{year}{2013}{\natexlab{b}};\bibinfo{volume}{67}:\bibinfo{pages}{89--99}.
+%Type = Article
+\bibitem[{Kulkarni and Kapuria(2008)}]{kulkarni2008free}
+\bibinfo{author}{Kulkarni\xfnm[ S.]}, \bibinfo{author}{Kapuria\xfnm[ S.]}.
+\newblock \bibinfo{title}{Free vibration analysis of composite and sandwich
+  plates using an improved discrete kirchhoff quadrilateral element based on
+  third-order zigzag theory}.
+\newblock \bibinfo{journal}{Computational mechanics}
+  \bibinfo{year}{2008};\bibinfo{volume}{42}(\bibinfo{number}{6}):\bibinfo{pages}{803--824}.
+%Type = Article
+\bibitem[{Chen et~al.(2000)Chen, Dawe and Wang}]{chen2000nonlinear}
+\bibinfo{author}{Chen\xfnm[ J.]}, \bibinfo{author}{Dawe\xfnm[ D.]},
+  \bibinfo{author}{Wang\xfnm[ S.]}.
+\newblock \bibinfo{title}{Nonlinear transient analysis of rectangular composite
+  laminated plates}.
+\newblock \bibinfo{journal}{Composite structures}
+  \bibinfo{year}{2000};\bibinfo{volume}{49}(\bibinfo{number}{2}):\bibinfo{pages}{129--139}.
+%Type = Incollection
+\bibitem[{Nosier et~al.(1990)Nosier, Librescu and
+  Frederick}]{nosier1990effects}
+\bibinfo{author}{Nosier\xfnm[ A.]}, \bibinfo{author}{Librescu\xfnm[ L.]},
+  \bibinfo{author}{Frederick\xfnm[ D.]}.
+\newblock \bibinfo{title}{The effects of time-dependent excitation on the
+  oscillatory motion of viscously damped laminated composite flat panels}.
+\newblock In: \bibinfo{booktitle}{Studies in Applied Mechanics};
+  vol.~\bibinfo{volume}{24}. \bibinfo{publisher}{Elsevier};
+  \bibinfo{year}{1990}, p. \bibinfo{pages}{249--268}.
+%Type = Article
+\bibitem[{Khdeir and Reddy(1988)}]{khdeir1988dynamic}
+\bibinfo{author}{Khdeir\xfnm[ A.]}, \bibinfo{author}{Reddy\xfnm[ J.]}.
+\newblock \bibinfo{title}{Dynamic response of antisymmetric angle-ply laminated
+  plates subjected to arbitrary loading}.
+\newblock \bibinfo{journal}{Journal of Sound and Vibration}
+  \bibinfo{year}{1988};\bibinfo{volume}{126}(\bibinfo{number}{3}):\bibinfo{pages}{437--445}.
+%Type = Article
+\bibitem[{Kazanc{\i}(2016)}]{kazanci2016review}
+\bibinfo{author}{Kazanc{\i}\xfnm[ Z.]}.
+\newblock \bibinfo{title}{A review on the response of blast loaded laminated
+  composite plates}.
+\newblock \bibinfo{journal}{Progress in Aerospace Sciences}
+  \bibinfo{year}{2016};\bibinfo{volume}{81}:\bibinfo{pages}{49--59}.
+%Type = Article
+\bibitem[{Gupta et~al.(1987)Gupta, Gregory, Bitting and
+  Bhattacharya}]{gupta1987dynamic}
+\bibinfo{author}{Gupta\xfnm[ A.D.]}, \bibinfo{author}{Gregory\xfnm[ F.H.]},
+  \bibinfo{author}{Bitting\xfnm[ R.L.]}, \bibinfo{author}{Bhattacharya\xfnm[
+  S.]}.
+\newblock \bibinfo{title}{Dynamic analysis of an explosively loaded hinged
+  rectangular plate}.
+\newblock \bibinfo{journal}{Computers \& structures}
+  \bibinfo{year}{1987};\bibinfo{volume}{26}(\bibinfo{number}{1-2}):\bibinfo{pages}{339--344}.
+%Type = Article
+\bibitem[{Adam et~al.(2014)Adam, Bouabdallah, Zarroug and
+  Maitournam}]{adam2014improved}
+\bibinfo{author}{Adam\xfnm[ C.]}, \bibinfo{author}{Bouabdallah\xfnm[ S.]},
+  \bibinfo{author}{Zarroug\xfnm[ M.]}, \bibinfo{author}{Maitournam\xfnm[ H.]}.
+\newblock \bibinfo{title}{Improved numerical integration for locking treatment
+  in isogeometric structural elements, part i: Beams}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2014};\bibinfo{volume}{279}:\bibinfo{pages}{1--28}.
+%Type = Article
+\bibitem[{Adam et~al.(2015)Adam, Bouabdallah, Zarroug and
+  Maitournam}]{adam2015improved}
+\bibinfo{author}{Adam\xfnm[ C.]}, \bibinfo{author}{Bouabdallah\xfnm[ S.]},
+  \bibinfo{author}{Zarroug\xfnm[ M.]}, \bibinfo{author}{Maitournam\xfnm[ H.]}.
+\newblock \bibinfo{title}{Improved numerical integration for locking treatment
+  in isogeometric structural elements. part ii: Plates and shells}.
+\newblock \bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}
+  \bibinfo{year}{2015};\bibinfo{volume}{284}:\bibinfo{pages}{106--137}.
+%Type = Book
+\bibitem[{Prathap(1993)}]{prathap2013finite}
+\bibinfo{author}{Prathap\xfnm[ G.]}.
+\newblock \bibinfo{title}{The finite element method in structural mechanics}.
+\newblock \bibinfo{address}{Dordrecht, Boston}: \bibinfo{publisher}{Kluwer
+  Academic Publishers}; \bibinfo{year}{1993}.
+%Type = Article
+\bibitem[{Hinton and Campbell(1974)}]{hinton1974local}
+\bibinfo{author}{Hinton\xfnm[ E.]}, \bibinfo{author}{Campbell\xfnm[ J.]}.
+\newblock \bibinfo{title}{Local and global smoothing of discontinuous finite
+  element functions using a least squares method}.
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Engineering}
+  \bibinfo{year}{1974};\bibinfo{volume}{8}(\bibinfo{number}{3}):\bibinfo{pages}{461--480}.
+%Type = Article
+\bibitem[{Hassani et~al.(2012)Hassani, Ganjali and
+  Tavakkoli}]{hassani2012isogeometrical}
+\bibinfo{author}{Hassani\xfnm[ B.]}, \bibinfo{author}{Ganjali\xfnm[ A.]},
+  \bibinfo{author}{Tavakkoli\xfnm[ M.]}.
+\newblock \bibinfo{title}{An isogeometrical approach to error estimation and
+  stress recovery}.
+\newblock \bibinfo{journal}{European Journal of Mechanics-A/Solids}
+  \bibinfo{year}{2012};\bibinfo{volume}{31}(\bibinfo{number}{1}):\bibinfo{pages}{101--109}.
+%Type = Article
+\bibitem[{Karama et~al.(2009)Karama, Afaq and Mistou}]{karama2009new}
+\bibinfo{author}{Karama\xfnm[ M.]}, \bibinfo{author}{Afaq\xfnm[ K.]},
+  \bibinfo{author}{Mistou\xfnm[ S.]}.
+\newblock \bibinfo{title}{A new theory for laminated composite plates}.
+\newblock \bibinfo{journal}{Proceedings of the Institution of Mechanical
+  Engineers, Part L: Journal of Materials: Design and Applications}
+  \bibinfo{year}{2009};\bibinfo{volume}{223}(\bibinfo{number}{2}):\bibinfo{pages}{53--62}.
+%Type = Article
+\bibitem[{Rodrigues et~al.(2012)Rodrigues, Roque, Ferreira, Cinefra and
+  Carrera}]{rodrigues2012radial}
+\bibinfo{author}{Rodrigues\xfnm[ J.]}, \bibinfo{author}{Roque\xfnm[ C.]},
+  \bibinfo{author}{Ferreira\xfnm[ A.]}, \bibinfo{author}{Cinefra\xfnm[ M.]},
+  \bibinfo{author}{Carrera\xfnm[ E.]}.
+\newblock \bibinfo{title}{Radial basis functions-differential quadrature
+  collocation and a unified formulation for bending, vibration and buckling
+  analysis of laminated plates, according to murakami’s zig-zag theory}.
+\newblock \bibinfo{journal}{Computers \& Structures}
+  \bibinfo{year}{2012};\bibinfo{volume}{90}:\bibinfo{pages}{107--115}.
+%Type = Article
+\bibitem[{Pagano(1970)}]{pagano1970exact}
+\bibinfo{author}{Pagano\xfnm[ N.J.]}.
+\newblock \bibinfo{title}{Exact solutions for rectangular bidirectional
+  composites and sandwich plates}.
+\newblock \bibinfo{journal}{Journal of composite materials}
+  \bibinfo{year}{1970};\bibinfo{volume}{4}(\bibinfo{number}{1}):\bibinfo{pages}{20--34}.
+%Type = Phdthesis
+\bibitem[{Sarangan(2017)}]{SSarangan2017}
+\bibinfo{author}{Sarangan\xfnm[ S.]}.
+\newblock \bibinfo{title}{Deterministic and non-deterministic structural
+  analysis of laminated composite and sandwich plates using non-polynomial
+  shear deformation theories}.
+\newblock Ph.D. thesis; Indian Institute of Technology Kharagpur;
+  \bibinfo{year}{2017}.
+%Type = Article
+\bibitem[{Xiang et~al.(2009)Xiang, Wang, Ai, Sha and Shi}]{xiang2009analysis}
+\bibinfo{author}{Xiang\xfnm[ S.]}, \bibinfo{author}{Wang\xfnm[ K.m.]},
+  \bibinfo{author}{Ai\xfnm[ Y.t.]}, \bibinfo{author}{Sha\xfnm[ Y.d.]},
+  \bibinfo{author}{Shi\xfnm[ H.]}.
+\newblock \bibinfo{title}{Analysis of isotropic, sandwich and laminated plates
+  by a meshless method and various shear deformation theories}.
+\newblock \bibinfo{journal}{Composite Structures}
+  \bibinfo{year}{2009};\bibinfo{volume}{91}(\bibinfo{number}{1}):\bibinfo{pages}{31--37}.
+%Type = Article
+\bibitem[{Ferreira et~al.(2003)Ferreira, Roque and
+  Martins}]{ferreira2003analysis}
+\bibinfo{author}{Ferreira\xfnm[ A.]}, \bibinfo{author}{Roque\xfnm[ C.]},
+  \bibinfo{author}{Martins\xfnm[ P.]}.
+\newblock \bibinfo{title}{Analysis of composite plates using higher-order shear
+  deformation theory and a finite point formulation based on the multiquadric
+  radial basis function method}.
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{year}{2003};\bibinfo{volume}{34}(\bibinfo{number}{7}):\bibinfo{pages}{627--636}.
+%Type = Article
+\bibitem[{Roque et~al.(2011)Roque, Ferreira, Neves, Soares, Reddy and
+  Jorge}]{roque2011transient}
+\bibinfo{author}{Roque\xfnm[ C.]}, \bibinfo{author}{Ferreira\xfnm[ A.]},
+  \bibinfo{author}{Neves\xfnm[ A.]}, \bibinfo{author}{Soares\xfnm[ C.M.]},
+  \bibinfo{author}{Reddy\xfnm[ J.]}, \bibinfo{author}{Jorge\xfnm[ R.]}.
+\newblock \bibinfo{title}{Transient analysis of composite and sandwich plates
+  by radial basis functions}.
+\newblock \bibinfo{journal}{Journal of Sandwich Structures \& Materials}
+  \bibinfo{year}{2011};\bibinfo{volume}{13}(\bibinfo{number}{6}):\bibinfo{pages}{681--704}.
+%Type = Article
+\bibitem[{Pagano and Hatfield(1972)}]{pagano1972elastic}
+\bibinfo{author}{Pagano\xfnm[ N.]}, \bibinfo{author}{Hatfield\xfnm[ H.J.]}.
+\newblock \bibinfo{title}{Elastic behavior of multilayered bidirectional
+  composites}.
+\newblock \bibinfo{journal}{AIAA journal}
+  \bibinfo{year}{1972};\bibinfo{volume}{10}(\bibinfo{number}{7}):\bibinfo{pages}{931--933}.
+%Type = Article
+\bibitem[{Pandya and Kant(1988)}]{pandya1988higher}
+\bibinfo{author}{Pandya\xfnm[ B.]}, \bibinfo{author}{Kant\xfnm[ T.]}.
+\newblock \bibinfo{title}{Higher-order shear deformable theories for flexure of
+  sandwich plates—finite element evaluations}.
+\newblock \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{year}{1988};\bibinfo{volume}{24}(\bibinfo{number}{12}):\bibinfo{pages}{1267--1286}.
+%Type = Article
+\bibitem[{Wang et~al.(2000)Wang, Ang, Yang and Watanabe}]{wang2000free}
+\bibinfo{author}{Wang\xfnm[ C.]}, \bibinfo{author}{Ang\xfnm[ K.]},
+  \bibinfo{author}{Yang\xfnm[ L.]}, \bibinfo{author}{Watanabe\xfnm[ E.]}.
+\newblock \bibinfo{title}{Free vibration of skew sandwich plates with laminated
+  facings}.
+\newblock \bibinfo{journal}{Journal of sound and vibration}
+  \bibinfo{year}{2000};\bibinfo{volume}{235}(\bibinfo{number}{2}):\bibinfo{pages}{317--340}.
+%Type = Article
+\bibitem[{Chakrabarti and Sheikh(2004)}]{chakrabarti2004vibration}
+\bibinfo{author}{Chakrabarti\xfnm[ A.]}, \bibinfo{author}{Sheikh\xfnm[ A.]}.
+\newblock \bibinfo{title}{Vibration of laminate-faced sandwich plate by a new
+  refined element}.
+\newblock \bibinfo{journal}{Journal of Aerospace Engineering}
+  \bibinfo{year}{2004};\bibinfo{volume}{17}(\bibinfo{number}{3}):\bibinfo{pages}{123--134}.
+
+\end{thebibliography}

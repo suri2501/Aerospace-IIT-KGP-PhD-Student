@@ -1,0 +1,61 @@
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+	\pagestyle{empty}
+	
+	
+	% Define block styles
+	\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+	text width=6em, text badly centered, node distance=3cm, inner sep=0pt]
+	\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+	text width=9em, text centered, rounded corners, minimum height=4em]
+	\tikzstyle{block2} = [rectangle, draw, fill=yellow!20, 
+	text width=9em, text centered, rounded corners, minimum height=4em]
+	\tikzstyle{line} = [draw]
+	
+	\begin{figure}
+		\centering
+		\hspace*{-60pt}
+		\vspace*{-120pt}
+		\begin{tikzpicture}[scale=0.2,node distance = 2cm, auto]
+		% nodes
+		\node [block2] (stage1) {\Large Composite material};
+		
+		\node [block2, below right of = stage1, node distance = 4cm] (stage22) {\Large Particle \\ reinforced};
+		\node [block2, below left of = stage1, node distance = 4cm] (stage21)
+		{\Large Fiber \\ reinforced};
+		
+		\node [block2, below left of = stage21, node distance = 4cm] (stage31)
+		{\Large continous \\ fiber};		
+		\node [block2, below right of = stage21, node distance = 4cm] (stage32)
+		{\Large discontinous \\ fiber};
+		
+		\node [block2, below of = stage31, node distance = 2cm] (stage42)
+		{\Large bi-directional};
+		\node [block2, left of = stage42, node distance = 4cm] (stage41)
+		{\Large unidirectional};
+		
+		\node [block2, below of = stage32, node distance = 2cm] (stage43)
+		{\Large random};		
+		\node [block2, right of = stage43, node distance = 4cm] (stage44)
+		{\Large preferred \\ orientation};
+		
+		% edges
+		\path [line] (stage1) -- (stage21);
+		\path [line] (stage1) -- (stage22);
+		
+		\path [line] (stage21) -- (stage31);
+		\path [line] (stage21) -- (stage32);
+		
+		\path [line] (stage31) -- (stage41);
+		\path [line] (stage31) -- (stage42);
+		\path [draw] (stage32) -- (stage43);
+		\path [draw] (stage32) -- (stage44);
+		
+		\end{tikzpicture}
+	\end{figure}
+	
+\end{document}

@@ -1,0 +1,221 @@
+\begin{figure}
+% \centering
+% \begin{minipage}{0.5\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Laminated_Plate_Final.eps}
+% \end{minipage}
+\caption{Schematic diagram of a laminated composite plate}
+\label{fig:LaminatedCompositePlate}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}{.45\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Quadratic.eps}
+\subcaption{$\Xi=\{0,0,0,\frac{1}{2},1,1,1\}$}
+\end{minipage}
+\begin{minipage}{{.45\textwidth}}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Cubic.eps}
+\subcaption{ $\Xi=\{0,0,0,0,\frac{1}{2},1,1,1,1\}$}
+\end{minipage}\vspace{0.2cm}\\
+\begin{minipage}{{.45\textwidth}}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Quartic.eps}
+\subcaption{$\Xi=\{0,0,0,0,0,\frac{1}{2},1,1,1,1,1\}$}
+\end{minipage}
+\caption{Illustration of $(a)$ Quadratic,  $(b)$ Cubic and $(c)$ Quartic B-spline basis functions respectively}
+\label{fig:B-spline basis}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Control_Mesh}
+\caption{Discretization of rectangular plate using IGA (Control Mesh)}
+\label{Figure:Discretization}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}[c]{\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[scale=0.33]{4Layer_Sigma_xx_IGA_NPSDT_Bending_h_By_a_1_10.eps}
+\end{minipage}
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[scale=0.33]{4Layer_Sigma_yz_IGA_NPSDT_Bending_h_By_a_1_10.eps}
+\end{minipage}
+\text{(E): equilibrium-derived}\\
+\text{(C): constitutively-derived}
+\caption{Variation of stresses, $\bar{\sigma}_{xx}$ and $\bar{\sigma}_{yz}$  across thickness for ($0^0/90^0/90^0/0^0$) laminated plate for $a/h=10$}
+\label{fig:Static_4layer}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[scale=0.23]{sandwichplate}
+\caption{Schematic diagram of a sandwich plate with face sheets and core}%\vspace*{-6pt}
+\label{fig:Sandwich}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[scale=0.3]{IGA_NPSDT_Transient_h_By_a_1_50.eps}
+\caption{\label{fig:TransientOrtho}Time history response of the transverse displacement of an orthotropic plate under step loading with spatial uniform distributed load of intensity $1 MPa$}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[scale=0.5]{Computational_Efficiency_Transient_IGA_FEM.eps}
+\caption{\label{fig:computational_efficiency_transient}The total simulation time plotted against the total number of elements for an orthotropic plate under step loading with spatial uniformly distributed load of intensity $1 MPa$ under transient analysis}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}{0.515\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Tran_Step_NPSDT_Transient_h_By_a_1_5.eps}\\
+\subcaption{\centering Step Loading}
+\end{minipage}\\
+\begin{minipage}{0.515\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Tran_Tri_NPSDT_Transient_h_By_a_1_5.eps}\\
+\subcaption{\centering Triangular Loading}
+\end{minipage}\\
+\begin{minipage}{0.515\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Tran_Sin_NPSDT_Transient_h_By_a_1_5.eps}\\
+\subcaption{\centering Sinusoidal Loading}
+\end{minipage}\\
+\begin{minipage}{0.515\textwidth}
+\graphicspath{{./All_Images/}}
+\centering
+\includegraphics[width=\linewidth]{Tran_Exp_NPSDT_Transient_h_By_a_1_5.eps}\\
+\subcaption{\centering Explosive Loading}
+\end{minipage}
+\caption{Effect of various dynamic loads on the deflection of the cross-ply ($0^0/90^0/0^0$) square laminated plate}
+\label{fig:Transient_Tran}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{Step_SSL_Sandwich_IGA_NPSDT_Transient_h_By_a_1_10.eps}}
+\subcaption{Sinusoidal Distribution of Load}
+\end{minipage}\vspace{0.5cm}
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{Step_UDL_Sandwich_IGA_NPSDT_Transient_h_By_a_1_10.eps}}
+\subcaption{Uniform Distribution of Load}
+\end{minipage}
+\caption{Sandwich plate under step loading}
+\label{fig:Transient_Sandwich}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{Structure_b_2_Tri_IGA_NPSDT_Transient_h_By_a_1_20.eps}}
+\subcaption{r=2 and $t_1=0.01 sec$}
+\end{minipage}\vspace{0.5cm}
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{Structure_b_2_5_Tri_IGA_NPSDT_Transient_h_By_a_1_20.eps}}
+\subcaption{r=2.5 and $t_1=0.004 sec$}
+\end{minipage}
+\caption{Time-history of the nondimensional central deflection of laminated composite plates to an asymmetric N-shaped pressure pulse}
+\label{fig:Transient_triangular}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{For_FFT_h_a_Time_Response.eps}}
+\subcaption{Time domain representation}
+\end{minipage}\vspace{0.5cm}
+\begin{minipage}{\textwidth}
+\graphicspath{{./All_Images./}}
+\centering
+{\includegraphics[scale=0.3]{For_FFT_h_a.eps}}
+\subcaption{Frequency domain representation}
+\end{minipage}
+\caption{Time-history response and its Fourier transform for the four-layered simply supported symmetric cross-ply square laminated plate under step loading with spatial sinusoidally distributed load}
+\label{fig:Transient_FFT_Response}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\begin{centering}
+\graphicspath{{./All_Images/}}
+\includegraphics[scale=0.3]{4_Layered_Sym_Cross_Ply_h_a.eps}
+\par\end{centering}
+\caption{Effect of span-to-thickness ratio on the transient response of cross-ply
+$(0^{0}/90^{0}/90^{0}/0^{0})$ laminated composite plate under sinusoidal loading with spatial uniformly distributed load with clamped boundary condition}
+\label{tran_a_h_study}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\begin{centering}
+\graphicspath{{./All_Images/}}
+\includegraphics[scale=0.3]{4_Layered_Sym_Cross_Ply_E1_E2.eps}
+\par\end{centering}
+\caption{Effect of anisotropy ratio on transient response of cross-ply $(0^{0}/90^{0}/90^{0}/0^{0})$
+laminated composite plate under sinusoidal loading with spatial uniformly distributed load with clamped boundary condition}
+\label{tran_E1_E2_study}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\begin{centering}
+\graphicspath{{./All_Images/}}
+\includegraphics[scale=0.3]{Number_Layered_Angle_Ply.eps}
+\par\end{centering}
+\caption{The effect of number of layers on transient response of angle-ply
+$(45^{0}/-45^{0})_{N}$ laminated composite plate under sinusoidal loading with spatial uniformly distributed load with clamped boundary condition}
+\label{tran_NOL_study}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\begin{centering}
+\graphicspath{{./All_Images/}}
+\includegraphics[scale=0.3]{4_Layered_Anti_Angle_Ply_Angle.eps}
+\par\end{centering}
+\caption{The effect of fiber orientation on the transient response of angle-ply
+$(\theta/-\theta/\theta/-\theta)$ laminated composite under sinusoidal loading with spatial uniformly distributed load with clamped
+boundary condition{\color{red} Figure need to be updated bt results are bad what to do?}}
+\label{tran_theta_study}
+\end{figure}

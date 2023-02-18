@@ -2,7 +2,7 @@
 
 ```sh
 "main.pdf" is the file which you are looking for.
-In order to download the content, click on green colored "codes" then download ZIP"
+In order to download the content, click on green colored "codes" then "download ZIP".
 ```
 ## Points
 - main.pdf
@@ -10,6 +10,11 @@ In order to download the content, click on green colored "codes" then download Z
 - How to write article in LyX 
 - Beamer presentation in LyX
 - Synopsis & Thesis submission procedure is also included (Thanks to Nagappa Siddgonde)
+- Useful youtube playlist by [Dr. Ranjan Ganguli](https://www.youtube.com/@RanjanGanguli/playlists) for M.Tech, Ph.D, and Post Doc.
+- List of playlist
+	```sh
+	Very useful playlist
+	```
 
 ## For thesis writing
 - Use [PHD thesis template for IIT KGP on overleaf](https://www.overleaf.com/latex/templates/phd-thesis-template-for-indian-institute-of-technology-kharagpur/dmwmpwsjpkyr)

@@ -1,0 +1,84 @@
+\documentclass[a5paper,12pt]{article}
+\usepackage{amsmath}
+
+\begin{document}
+	
+one centered formula, without label:
+\begin{equation*}
+a x^2 + b x + c = 0
+\end{equation*}
+
+one centered formula, with label:
+\begin{equation}
+a x^2 + b x + c = 0
+\end{equation}
+
+several centered formulas, without label:
+\begin{gather*}
+a x + b = 0 \\
+a x^2 + b x + c = 0 \\
+a x^3 + b x^2 + c x + d = 0
+\end{gather*}
+
+several centered formulas, one label for all of them:
+\begin{equation}
+\begin{gathered}
+a x + b = 0 \\
+a x^2 + b x + c = 0 \\
+a x^3 + b x^2 + c x + d = 0
+\end{gathered}
+\end{equation}
+
+several centered formulas, each with its own label
+\begin{gather}
+a x + b = 0 \\
+a x^2 + b x + c = 0 \\
+a x^3 + b x^2 + c x + d = 0
+\end{gather}
+ 
+several formulas, any alignment, without label:
+\begin{flalign*}
+10xy^2+15x^2y-5xy & =  5\left(2xy^2+3x^2y-xy\right) = \\
+   & = 5x\left(2y^2+3xy-y\right) = \\
+   & = 5xy\left(2y+3x-1\right)
+\end{flalign*}
+
+several formulas, any alignment, each with its own label:
+\begin{flalign}
+10xy^2+15x^2y-5xy & =  5\left(2xy^2+3x^2y-xy\right) = \\
+   & = 5x\left(2y^2+3xy-y\right) = \\
+   & = 5xy\left(2y+3x-1\right)
+\end{flalign}
+
+several formulas, any alignment, one label for all of them
+\begin{equation}
+\begin{split}
+10xy^2+15x^2y-5xy & =  5\left(2xy^2+3x^2y-xy\right) = \\
+   & = 5x\left(2y^2+3xy-y\right) = \\
+   & = 5xy\left(2y+3x-1\right)
+\end{split}
+\end{equation}
+
+splitting a long formula on several lines. The first line is left-aligned, the last one is right-aligned, all the others are centered:.
+\begin{multline}
+\left(1+x\right)^n  = 1 + nx + \frac{n\left(n-1\right)}{2!}x^2 +\\
++ \frac{n\left(n-1\right)\left(n-2\right)}{3!}x^3 +\\
++ \frac{n\left(n-1\right)\left(n-2\right)\left(n-3\right)}{4!}x^4 + \dots
+\end{multline}
+
+subordinate numbering:
+\begin{subequations}
+\begin{gather}
+a x + b = 0 \\
+a x^2 + b x + c = 0 \\
+a x^3 + b x^2 + c x + d = 0
+\end{gather}
+\end{subequations}
+
+boxed formula:
+\begin{equation*}
+\boxed{a x^2 + b x + c = 0}
+\end{equation*}
+
+
+\end{document}

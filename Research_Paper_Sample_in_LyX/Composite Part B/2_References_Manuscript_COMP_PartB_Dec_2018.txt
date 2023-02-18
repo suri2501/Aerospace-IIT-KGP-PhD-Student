@@ -1,0 +1,74 @@
+[1] Nikbakt S, Kamarian S, Shakeri M. A review on optimization of composite structures part i: Laminated composites. Composite Structures 2018;195:158–85.
+[2] Whitney J, Pagano N. Shear deformation in heterogeneous anisotropic plates. Journal of applied mechanics 1970;37(4):1031–6.
+[3] Vinson JR. The behavior of sandwich structures of isotropic and composite materials. Lancaster PA: Technomic Publishing Company; 1999.
+[4] Timoshenko SP, Woinowsky-Krieger S. Theory of plates and shells. McGraw-hill; 1959.
+[5] Reissner E. The effect of transverse shear deformation on the bending of elastic plates. J appl Mech
+[6] Pai PF. A new look at shear correction factors and warping functions of anisotropic laminates. International Journal of Solids and Structures 1995;32(16):2295–313.
+[7] Levinson M. An accurate, simple theory of the statics and dynamics of elastic plates. Mechanics Research Communications 1980;7(6):343–50.
+[8] Lo K, Christensen R, Wu E. A high-order theory of plate deformation—part 2: Laminated plates. Journal of applied mechanics 1977;44(4):669–76.
+[9] Reddy JN. A simple higher-order theory for laminated composite plates. Journal of applied mechanics 1984;51(4):745–52.
+[10] Mantari J, Oktem A, Soares CG. Static and dynamic analysis of laminated composite and sandwich plates and shells by using a new higher-order shear deformation theory. Composite structures 2011;94(1):37–49.
+[11] Mantari J, Oktem A, Soares CG. A new trigonometric shear deformation theory for isotropic, laminated composite and sandwich plates. International Journal of Solids and Structures 2012;49(1):43–53.
+[12] Mantari J, Oktem A, Soares CG. A new higher order shear deformation theory for sandwich and composite laminated plates. Composites Part B: Engineering 2012;43(3):1489–99.
+[13] El Meiche N, Tounsi A, Ziane N, Mechab I, et al. A new hyperbolic shear deformation theory for buckling and vibration of functionally graded sandwich plate. International Journal of Mechanical Sciences 2011;53(4):237–47.
+[14] Ambartsumian S. On the theory of bending plates. Izv Otd Tech Nauk AN SSSR 1958;5(5):69–77.
+[15] Touratier M. An efficient standard plate theory. International journal of engineering science 1991;29(8):901–16.
+[16] Soldatos K. A transverse shear deformation theory for homogeneous monoclinic plates. Acta Mechanica 1992;94(3):195–220.
+[17] Abrate S, Di Sciuva M. Equivalent single layer theories for composite and sandwich structures: A review. Composite Structures 2017;179:482–94.
+[18] Ghugal Y, Shimpi R. A review of refined shear deformation theories of isotropic and anisotropic laminated plates. Journal of Reinforced Plastics and Composites 2002;21(9):775–813.
+[19] Bhavikatti SS. Finite element analysis. New Age International, New Delhi; 2005.
+[20] Hughes TJ, Cottrell JA, Bazilevs Y. Isogeometric analysis: Cad, finite elements, nurbs, exact geometry and mesh refinement. Computer methods in applied mechanics and engineering 2005;194(39):4135–95.
+[21] Cottrell JA, Hughes TJ, Bazilevs Y. Isogeometric analysis: toward integration of CAD and FEA. New York, USA: John Wiley & Sons; 2009.
+[22] Piegl L, Tiller W. The NURBS book (Monographs in Visual Communication). Second ed.; New York, USA: Springer-Verlag; 1997.
+[23] Rogers D. An Introduction to NURBS: With Historical Perspective. San Diego, CA: Academic Press; 2001.
+[24] Kiendl J, Bletzinger KU, Linhard J, Wuchner R. Isogeometric shell analysis with kirchhoff–love elements. Computer Methods in Applied Mechanics and Engineering 2009;198(49):3902–14.
+[25] Benson D, Bazilevs Y, Hsu MC, Hughes T. Isogeometric shell analysis: the reissner–mindlin shell. Computer Methods in Applied Mechanics and Engineering 2010;199(5):276–89.
+[26] Casanova CF, Gallego A. Nurbs-based analysis of higher-order composite shells. Composite Structures 2013;104:125–33.
+[27] Thai CH, Nguyen-Xuan H, Nguyen-Thanh N, Le TH, Nguyen-Thoi T, Rabczuk T. Static, free vibration, and buckling analysis of laminated composite reissner–mindlin plates using nurbs-based isogeometric approach. International Journal for Numerical Methods in Engineering 2012;91(6):571–603.
+[28] Liu N, Jeffers AE. Adaptive isogeometric analysis in structural frames using a layer-based discretization to model spread of plasticity. Computers & Structures 2018;196:1–11.
+[29] Cottrell JA, Reali A, Bazilevs Y, Hughes TJ. Isogeometric analysis of structural vibrations. Computer methods in applied mechanics and engineering 2006;195(41):5257–96.
+[30] Wang D, Liu W, Zhang H. Novel higher order mass matrices for isogeometric structural vibration analysis. Computer Methods in Applied Mechanics and Engineering 2013;260:92–108.
+[31] Kiani Y. Isogeometric large amplitude free vibration of graphene reinforced laminated plates in thermal environment using nurbs formulation. Computer Methods in Applied Mechanics and Engineering 2018;332:86–101.
+[32] Pavan G, Rao KN. Bending analysis of laminated composite plates using isogeometric collocation method. Composite Structures 2017;176:715–28.
+[33] Liu N, Jeffers AE. Isogeometric analysis of laminated composite and functionally graded sandwich plates based on a layerwise displacement theory. Composite Structures 2017;176:143–53.
+[34] Thai S, Thai HT, Vo TP, Nguyen-Xuan H. Nonlinear static and transient isogeometric analysis of functionally graded microplates based on the modified strain gradient theory. Engineering Structures 2017;153:598–612.
+[35] Dufour JE, Antolin P, Sangalli G, Auricchio F, Reali A. A cost-effective isogeometric approach for composite plates based on a stress recovery procedure. Composites Part B: Engineering 2018;138:12-8.
+[36] Shojaee S, Valizadeh N, Izadpanah E, Bui T, Vu TV. Free vibration and buckling analysis of laminated composite plates using the nurbs-based isogeometric finite element method. Composite Structures 2012;94(5):1677–93.
+[37] Pekovic O, Stupar S, Simonovic A, Svorcan J, Trivkovic S. Free vibration and buckling analysis of higher order laminated composite plates using the isogeometric approach. Journal of Theoretical and Applied Mechanics 2015;53(2):453–66.
+[38] Thai CH, Ferreira A, Bordas SPA, Rabczuk T, Nguyen-Xuan H. Isogeometric analysis of laminated composite and sandwich plates using a new inverse trigonometric shear deformation theory. European Journal of Mechanics-A/Solids 2014;43:89–108.
+[39] Fantuzzi N, Tornabene F. Strong formulation isogeometric analysis (sfiga) for laminated composite arbitrarily shaped plates. Composites Part B: Engineering 2016;96:173 – 203.
+[40] Shi P, Dong C, Sun F, Liu W, Hu Q. A new higher order shear deformation theory for static, vibration and buckling responses of laminated plates with the isogeometric analysis. Composite Structures 2018;204:342–58.
+[41] Faroughi S, Shafei E, Eriksson A. Nurbs-based modeling of laminated composite beams with isogeometric displacement-only theory. Composites Part B: Engineering 2019;162:89 – 102.
+[42] Kapoor H, Kapania R. Geometrically nonlinear nurbs isogeometric finite element analysis of laminated composite plates. Composite Structures 2012;94(12):3434–47.
+[43] Tran LV, Lee J, Nguyen-Van H, Nguyen-Xuan H, Wahab MA. Geometrically nonlinear isogeometric analysis of laminated composite plates based on higher-order shear deformation theory. International Journal of Non-Linear Mechanics 2015;72:42–52.
+[44] Phung-Van P, Ferreira A, Nguyen-Xuan H, Wahab MA. An isogeometric approach for size-dependent geometrically nonlinear transient analysis of functionally graded nanoplates. Composites Part B: Engineering 2017;118:125–34.
+[45] Gupta A, Ghosh A. Transient analysis of anti-symmetric cross-ply and angle-ply laminated composite plates using nurbs-based isogeometric analysis. In: 58th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference. 2017, p. 1980.
+[46] Grover N, Maiti D, Singh B. A new inverse hyperbolic shear deformation theory for static and buckling analysis of laminated composite and sandwich plates. Composite Structures 2013;95:667–75.
+[47] Grover N, Maiti D, Singh B. An efficient c0 finite element modeling of an inverse hyperbolic shear deformation theory for the flexural and stability analysis of laminated composite and sandwich plates. Finite Elements in Analysis and Design 2014;80:11–22.
+[48] Talha M, Singh B. Static response and free vibration analysis of fgm plates using higher order shear deformation theory. Applied Mathematical Modelling 2010;34(12):3991–4011.
+[49] Reddy JN. Mechanics of laminated composite plates and shells: theory and analysis. Second ed.; Boca Raton, USA: CRC press; 2004.
+[50] Cottrell J, Hughes T, Reali A. Studies of refinement and continuity in isogeometric structural analysis. Computer methods in applied mechanics and engineering 2007;196(41):4160–83.
+[51] Krenk S. Non-linear modeling and analysis of solids and structures. Cambridge, England: Cambridge University Press; 2009.
+[52] Srinivas S. A refined analysis of composite laminates. Journal of Sound and Vibration 1973;30(4):495–507
+[53] Grover N, Singh B, Maiti D. Analytical and finite element modeling of laminated composite and sandwich plates: An assessment of a new shear deformation theory for free vibration response. International Journal of Mechanical Sciences 2013;67:89–99.
+[54] Kulkarni S, Kapuria S. Free vibration analysis of composite and sandwich plates using an improved discrete kirchhoff quadrilateral element based on third-order zigzag theory. Computational mechanics 2008;42(6):803–24.
+[55] Chen J, Dawe D, Wang S. Nonlinear transient analysis of rectangular composite laminated plates. Composite structures 2000;49(2):129–39.
+[56] Nosier A, Librescu L, Frederick D. The effects of time-dependent excitation on the oscillatory motion of viscously damped laminated composite flat panels. In: Studies in Applied Mechanics; vol. 24. Elsevier; 1990, p. 249–68.
+[57] Khdeir A, Reddy J. Dynamic response of antisymmetric angle-ply laminated plates subjected to arbitrary loading. Journal of Sound and Vibration 1988;126(3):437–45.
+[58] Kazancı Z. A review on the response of blast loaded laminated composite plates. Progress in Aerospace Sciences 2016;81:49–59.
+[59] Gupta AD, Gregory FH, Bitting RL, Bhattacharya S. Dynamic analysis of an explosively loaded hinged rectangular plate. Computers & structures 1987;26(1-2):339–44.
+[60] Adam C, Bouabdallah S, Zarroug M, Maitournam H. Improved numerical integration for locking treatment in isogeometric structural elements, part i: Beams. Computer Methods in Applied Mechanics and Engineering 2014;279:1–28.
+[61] Adam C, Bouabdallah S, Zarroug M, Maitournam H. Improved numerical integration for locking treatment in isogeometric structural elements. part ii: Plates and shells. Computer Methods in Applied Mechanics and Engineering 2015;284:106–37.
+[62] Prathap G. The finite element method in structural mechanics. Dordrecht, Boston: Kluwer Academic Publishers; 1993.
+[63] Hinton E, Campbell J. Local and global smoothing of discontinuous finite element functions using a least squares method. International Journal for Numerical Methods in Engineering 1974;8(3):461–80.
+[64] Hassani B, Ganjali A, Tavakkoli M. An isogeometrical approach to error estimation and stress recovery. European Journal of Mechanics-A/Solids 2012;31(1):101–9.
+[65] Karama M, Afaq K, Mistou S. A new theory for laminated composite plates. Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications 2009;223(2):53–62.
+[66] Rodrigues J, Roque C, Ferreira A, Cinefra M, Carrera E. Radial basis functions-differential quadrature collocation and a unified formulation for bending, vibration and buckling analysis of laminated plates, according to murakami’s zig-zag theory. Computers & Structures 2012;90:107–15.
+[67] Xiang S, Wang Km, Ai Yt, Sha Yd, Shi H. Analysis of isotropic, sandwich and laminated plates by a meshless method and various shear deformation theories. Composite Structures 2009;91(1):31–7.
+[68] Ferreira A, Roque C, Martins P. Analysis of composite plates using higher-order shear deformation theory and a finite point formulation based on the multiquadric radial basis function method. Composites Part B: Engineering 2003;34(7):627–36.
+[69] Roque C, Ferreira A, Neves A, Soares CM, Reddy J, Jorge R. Transient analysis of composite and sandwich plates by radial basis functions. Journal of Sandwich Structures & Materials 2011;13(6):681–704.
+[70] Pagano N, Hatfield HJ. Elastic behavior of multilayered bidirectional composites. AIAA journal 1972;10(7):931–3.
+[71] Pandya B, Kant T. Higher-order shear deformable theories for flexure of sandwich plates—finite element evaluations. International Journal of Solids and Structures 1988;24(12):1267–86.
+[72] Wang C, Ang K, Yang L, Watanabe E. Free vibration of skew sandwich plates with laminated facings. Journal of sound and vibration 2000;235(2):317–40.
+[73] Chakrabarti A, Sheikh A. Vibration of laminate-faced sandwich plate by a new refined element. Journal of Aerospace Engineering 2004;17(3):123–34.
+

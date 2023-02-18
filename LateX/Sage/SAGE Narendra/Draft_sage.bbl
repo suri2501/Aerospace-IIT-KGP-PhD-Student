@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{deo2008influence}
+Deo RC, Mi J and Nathan GJ.
+\newblock The influence of reynolds number on a plane jet.
+\newblock \emph{Physics of Fluids} 2008; 20(7): 075108.
+
+\bibitem{harima2005turbulent}
+Harima T, Fujita S and Osaka H.
+\newblock Turbulent properties of twin circular free jets with various nozzle
+  spacing.
+\newblock In \emph{Engineering Turbulence Modelling and Experiments 6}.
+  Elsevier, 2005.
+\newblock pp. 501--510.
+
+\bibitem{mi2010statistical}
+Mi J and Nathan G.
+\newblock Statistical properties of turbulent free jets issuing from nine
+  differently-shaped nozzles.
+\newblock \emph{Flow, turbulence and combustion} 2010; 84(4): 583--606.
+
+\bibitem{quinn2007experimental}
+Quinn W.
+\newblock Experimental study of the near field and transition region of a free
+  jet issuing from a sharp-edged elliptic orifice plate.
+\newblock \emph{European Journal of Mechanics-B/Fluids} 2007; 26(4): 583--614.
+
+\bibitem{quinn2005measurements}
+Quinn WR.
+\newblock Measurements in the near flow field of an isosceles triangular
+  turbulent free jet.
+\newblock \emph{Experiments in fluids} 2005; 39(1): 111--126.
+
+\bibitem{xu2014effect}
+Xu MY, Tong XQ, Yue DT et~al.
+\newblock Effect of noncircular orifice plates on the near flow field of
+  turbulent free jets.
+\newblock \emph{Chinese Physics B} 2014; 23(12): 124703.
+
+\bibitem{aleyasin2015low}
+Aleyasin S, Tachie MF, Koupriyanov M et~al.
+\newblock Low reynolds number effects on jets issuing from round and elliptic
+  orifices.
+\newblock In \emph{Eighth International Symposium on Turbulence Heat and Mass
+  Transfer}. Sarajevo, Bosnia and Herzegovina, p.~8.
+
+\bibitem{miller1960force}
+Miller DR and Comings EW.
+\newblock Force-momentum fields in a dual-jet flow.
+\newblock \emph{Journal of Fluid Mechanics} 1960; 7(2): 237--256.
+
+\bibitem{lin1990investigation}
+Lin Y and Sheu M.
+\newblock Investigation of two plane paralleltiinven ilated jets.
+\newblock \emph{Experiments in Fluids} 1990; 10(1): 17--22.
+
+\bibitem{laban2019experimental}
+Laban A, Aleyasin SS, Tachie MF et~al.
+\newblock Experimental investigation of nozzle spacing effects on
+  characteristics of round twin free jets.
+\newblock \emph{Journal of Fluids Engineering} 2019; 141(7).
+
+\bibitem{aleyasin2019statistical}
+Aleyasin SS and Tachie MF.
+\newblock Statistical properties and structural analysis of three-dimensional
+  twin round jets due to variation in reynolds number.
+\newblock \emph{International Journal of Heat and Fluid Flow} 2019; 76:
+  215--230.
+
+\bibitem{anderson2001experimental}
+Anderson EA and Spall RE.
+\newblock Experimental and numerical investigation of two-dimensional parallel
+  jets.
+\newblock \emph{J Fluids Eng} 2001; 123(2): 401--406.
+
+\bibitem{mosavati2021characteristics}
+Mosavati M, Balachandar R and Barron R.
+\newblock Characteristics of self-oscillating twin jets.
+\newblock \emph{Physics of Fluids} 2021; 33(3): 035129.
+
+\bibitem{morris2021particle}
+Morris EM, Biswas N, Aleyasin SS et~al.
+\newblock Particle image velocimetry measurements of turbulent jets issuing
+  from twin elliptic nozzles with various orientations.
+\newblock \emph{Journal of Fluids Engineering} 2021; 143(2).
+
+\bibitem{valencia2021analysis}
+Valencia A et~al.
+\newblock Analysis of submerged single and twin gas jet injection using
+  urans-cfd simulations.
+\newblock \emph{European Journal of Mechanics-B/Fluids} 2021; 90: 114--127.
+
+\bibitem{nasr1997comparison}
+Nasr A and Lai J.
+\newblock Comparison of flow characteristics in the near field of two parallel
+  plane jets and an offset plane jet.
+\newblock \emph{Physics of fluids} 1997; 9(10): 2919--2931.
+
+\bibitem{meslem2014comparison}
+Meslem A, Bode F, Croitoru C et~al.
+\newblock Comparison of turbulence models in simulating jet flow from a
+  cross-shaped orifice.
+\newblock \emph{European Journal of Mechanics-B/Fluids} 2014; 44: 100--120.
+
+\bibitem{anderson1995computational}
+Anderson JD and Wendt J.
+\newblock \emph{Computational fluid dynamics}, volume 206.
+\newblock Springer, 1995.
+
+\bibitem{leonard1979stable}
+Leonard BP.
+\newblock A stable and accurate convective modelling procedure based on
+  quadratic upstream interpolation.
+\newblock \emph{Computer methods in applied mechanics and engineering} 1979;
+  19(1): 59--98.
+
+\bibitem{patankar2018numerical}
+Patankar SV.
+\newblock \emph{Numerical heat transfer and fluid flow}.
+\newblock CRC press, 2018.
+
+\bibitem{menter1994two}
+Menter FR.
+\newblock Two-equation eddy-viscosity turbulence models for engineering
+  applications.
+\newblock \emph{AIAA journal} 1994; 32(8): 1598--1605.
+
+\end{thebibliography}

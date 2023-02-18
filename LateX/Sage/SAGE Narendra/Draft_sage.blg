@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Draft_sage.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: SageV.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "wu2017target"
+Warning--I didn't find a database entry for "ma2010adaptive"
+Warning--I didn't find a database entry for "park2016circling"
+Warning--I didn't find a database entry for "quigley2005target"
+Warning--I didn't find a database entry for "lawrence2003lyapunov"
+Warning--I didn't find a database entry for "frew2008coordinated"
+Warning--I didn't find a database entry for "chen2009tracking"
+Warning--I didn't find a database entry for "pothen2017curvature"
+Warning--I didn't find a database entry for "oh2014decentralised"
+Warning--I didn't find a database entry for "sun2019fast"
+Warning--I didn't find a database entry for "wilhelm2019vector"
+Warning--I didn't find a database entry for "zhu2019evaluation"
+Warning--I didn't find a database entry for "hota2009modified"
+Warning--I didn't find a database entry for "ranjanatime"
+Warning--I didn't find a database entry for "nelson2007vector"
+Warning--I didn't find a database entry for "liang2015combined"
+Warning--I didn't find a database entry for "lawrence2007lyapunov"
+Warning--I didn't find a database entry for "Aviones:UAVFlightSimulator"
+Warning--I didn't find a database entry for "hota2014optimal"
+Warning--I didn't find a database entry for "hota2014time"
+You've used 21 entries,
+            2484 wiz_defined-function locations,
+            699 strings with 8568 characters,
+and the built_in function-call counts, 20604 in all, are:
+= -- 2365
+> -- 200
+< -- 3
++ -- 100
+- -- 50
+* -- 1292
+:= -- 1884
+add.period$ -- 66
+call.type$ -- 21
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 2590
+empty$ -- 1798
+format.name$ -- 66
+if$ -- 4483
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 198
+newline$ -- 115
+num.names$ -- 21
+pop$ -- 1233
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 165
+stack$ -- 0
+substring$ -- 3025
+swap$ -- 478
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 119
+width$ -- 23
+write$ -- 240
+(There were 20 warnings)

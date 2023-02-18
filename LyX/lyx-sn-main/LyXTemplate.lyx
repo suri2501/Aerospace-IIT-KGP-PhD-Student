@@ -1,0 +1,655 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass springer-nature
+\begin_preamble
+\jyear{2022}
+\end_preamble
+\options lineno
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex8
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Article Title
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Short Title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Corr. Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+First
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+Second
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2,3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iiauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Equal Content
+status collapsed
+
+\begin_layout Plain Layout
+These authors contributed equally to this work.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+Third
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iiiauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Equal Content
+status collapsed
+
+\begin_layout Plain Layout
+These authors contributed equally to this work.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Corr. Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Abstract
+\end_layout
+
+\begin_layout sep
+
+\end_layout
+
+\begin_layout Keywords
+keyword1, Keyword2, Keyword3, Keyword4
+\end_layout
+
+\begin_layout sep
+
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Conclusions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib1"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Appendices
+
+\end_layout
+
+\begin_layout Appendix
+Section title of first appendix
+\end_layout
+
+\begin_layout Standard
+A
+\end_layout
+
+\begin_layout Appendix
+Example of another appendix section
+\end_layout
+
+\begin_layout Standard
+B
+\end_layout
+
+\begin_layout Appendices
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "sn-bibliography"
+options "sn-mathphys"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

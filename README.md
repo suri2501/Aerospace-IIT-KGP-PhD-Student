@@ -10,6 +10,8 @@ In order to download the content, click on green colored "codes" then "download 
 - How to write article in LyX 
 - Beamer presentation in LyX
 - Synopsis & Thesis submission procedure is also included (Thanks to Nagappa Siddgonde)
+- Useful youtube playlist by [Dr. Ranjan Ganguli](https://www.youtube.com/@RanjanGanguli/playlists) for M.Tech, Ph.D, and Post Doc.
+
 
 ## For thesis writing
 - Use [PHD thesis template for IIT KGP on overleaf](https://www.overleaf.com/latex/templates/phd-thesis-template-for-indian-institute-of-technology-kharagpur/dmwmpwsjpkyr)

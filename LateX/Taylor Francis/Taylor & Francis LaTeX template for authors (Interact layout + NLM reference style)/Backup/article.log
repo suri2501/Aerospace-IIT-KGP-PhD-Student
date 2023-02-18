@@ -1,0 +1,667 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.23)  23 AUG 2020 15:03
+entering extended mode
+**./article.tex
+(article.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07> (interact.cls
+Document Class: interact 2017/07/31 v1.05 Interact LaTeX document class
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.
+cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.c
+lo"
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsma
+th.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amste
+xt.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsge
+n.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbs
+y.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsop
+n.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks16
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amss
+ymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsf
+onts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm
+.sty"
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks25
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\book
+tabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen144
+\lightrulewidth=\dimen145
+\cmidrulewidth=\dimen146
+\belowrulesep=\dimen147
+\belowbottomsep=\dimen148
+\aboverulesep=\dimen149
+\abovetopsep=\dimen150
+\cmidrulesep=\dimen151
+\cmidrulekern=\dimen152
+\defaultaddspace=\dimen153
+\@cmidla=\count188
+\@cmidlb=\count189
+\@aboverulesep=\dimen154
+\@belowrulesep=\dimen155
+\@thisruleclass=\count190
+\@lastruleclass=\count191
+\@thisrulewidth=\dimen156
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsf
+ig.sty"
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\grap
+hicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyv
+al.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\grap
+hics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig
+.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\
+graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\
+pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+\epsfxsize=\dimen159
+\epsfysize=\dimen160
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rota
+ting.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.s
+ty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count192
+\rotFPtop=\skip55
+\rotFPbot=\skip56
+\rot@float@box=\box47
+\rot@mess@toks=\toks27
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geom
+etry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvte
+x.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex
+.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks28
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geom
+etry.cfg"))
+\c@mv@upright=\count196
+\c@mv@boldupright=\count197
+LaTeX Font Info:    Overwriting symbol font `letters' in version `upright'
+(Font)                  OML/cmm/m/it --> OML/eur/m/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldupright'
+(Font)                  OML/cmm/m/it --> OML/eur/b/n on input line 164.
+\LabelSep=\dimen169
+\TopSep=\skip57
+\figheight=\dimen170
+\figwidth=\dimen171
+\tabledim=\dimen172
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapf
+ig.sty"
+\wrapoverhang=\dimen173
+\WF@size=\dimen174
+\c@WF@wrappedlines=\count198
+\WF@box=\box48
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
+\c@aubio=\count199
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tabulary\tabu
+lary.sty"
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.s
+ty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box49
+\extrarowheight=\dimen176
+\NC@list=\toks30
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box50
+)
+\TY@count=\count266
+\TY@linewidth=\dimen177
+\tymin=\dimen178
+\tymax=\dimen179
+\TY@tablewidth=\dimen180
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.
+sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc
+.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.def
+"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.sty"
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-globa
+l.def"
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count267
+\uc@combtoks=\toks33
+\uc@combtoksb=\toks34
+\uc@temptokena=\toks35
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\sub
+figure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
+\subfigcaptopadj=\dimen181
+\subfigbottomskip=\skip62
+\subfigcapmargin=\dimen182
+\subfiglabelskip=\skip63
+\c@subfigure=\count268
+\c@lofdepth=\count269
+\c@subtable=\count270
+\c@lotdepth=\count271
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\sub
+figure.cfg")
+\subfig@top=\skip64
+\subfig@bottom=\skip65
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib
+.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip66
+\bibsep=\skip67
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count272
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mult
+irow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count273
+\multirow@dima=\skip69
+\bigstrutjot=\dimen183
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/morefloats\mo
+refloats.sty"
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvo
+ptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltx
+cmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\k
+vsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/floatflt\floa
+tflt.sty"
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count274
+\figbox=\box51
+\tabbox=\box52
+\pagebox=\box53
+\ffigcount=\count275
+\ftabcount=\count276
+\fftest=\count277
+\hangcount=\count278
+\nosuccesstryfig=\count279
+\nosuccesstrytab=\count280
+\figgutter=\dimen184
+\tabgutter=\dimen185
+\htdone=\dimen186
+\pageht=\dimen187
+\startpageht=\dimen188
+\tabbredd=\dimen189
+\floatfltwidth=\dimen190
+\fltitemwidth=\dimen191
+\outputpretest=\toks36
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cancel\cancel
+.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tfrupee\tfrup
+ee.sty"
+Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
+Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
+. Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colo
+rtbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\colo
+r.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\
+color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\everycr=\toks37
+\minrowclearance=\skip70
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor
+.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\
+color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\pifont
+.sty"
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upzd.f
+d"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upsy.f
+d"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\wasys
+ym.sty"
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxet
+ex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.s
+ty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count281
+\float@exts=\toks38
+\float@box=\box54
+\@float@everytoks=\toks39
+\@floatcapt=\box55
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3b
+ackend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count282
+\l__pdf_internal_box=\box56
+) (article.aux)
+\openout1 = `article.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\s
+upp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count283
+\scratchdimen=\dimen192
+\scratchbox=\box57
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count286
+\MPscratchDim=\dimen193
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks41
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\
+epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(94.75394pt, 408.0pt, 94.75394pt)
+* v-part:(T,H,B)=(78.01874pt, 650.0pt, 117.0281pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=408.0pt
+* \textheight=650.0pt
+* \oddsidemargin=22.48395pt
+* \evensidemargin=22.48395pt
+* \topmargin=-31.25125pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=12.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.d
+ef"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp
+.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 204.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 204.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 204.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 204.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 204.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 204.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 204
+.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa
+.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 204
+.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb
+.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
+4.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy
+.fd"
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 204.
+
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def
+"
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.de
+f"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+("C:\Users\dd10sverma\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-33.de
+f"
+File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+) [1
+
+
+
+{C:/Users/dd10sverma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package tabulary Warning: No suitable columns! on input line 273.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+ []\T1/cmr/bx/n/8 Table 1. \T1/cmr/m/n/8 Ta-ble 
+ []
+
+
+Package natbib Warning: Citation `ABC' on page 2 undefined on input line 302.
+
+[2] (article.bbl)
+\boxa=\box58
+\boxa=\box59
+
+
+Package natbib Warning: There were undefined citations.
+
+[3
+
+] (article.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6924 strings out of 481178
+ 92169 string characters out of 2900054
+ 345609 words of memory out of 3000000
+ 22353 multiletter control sequences out of 15000+200000
+ 555143 words of font info for 84 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 52i,11n,41p,1470b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecti1095.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\dd10sverma\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\dd10sv
+erma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <
+C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\tcrm0900.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/pub
+lic/wasy/dpi600\wasy9.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dd10sverma\AppData\Local\MiK
+TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\dd10sverma\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\User
+s\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm07
+00.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecrm0800.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\dd10sverma\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/dd10sverma/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+dd10sverma/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb>
+Output written on article.pdf (3 pages, 112031 bytes).
+PDF statistics:
+ 341 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,2958 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass springer-nature
+\begin_preamble
+\jyear{2022}
+\end_preamble
+\options lineno
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex8
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Please do not use 
+\backslash
+input{...} to include other tex files.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Submit your LaTeX manuscript as one .tex document.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+All additional figures and files should be attached separately and not embedded
+ in the document itself.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+to print line numbers in the margin use lineno option
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+to compile with pdflatex/xelatex use pdflatex option
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+documentclass[sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry
+ Reference Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-mathphys]{sn-jnl}% Math and Physical Sciences Reference
+ Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-aps]{sn-jnl}% American Physical Society (APS) Reference
+ Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-vancouver]{sn-jnl}% Vancouver Reference Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-apa]{sn-jnl}% APA Reference Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-chicago]{sn-jnl}% Chicago-based Humanities Reference Style
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[sn-standardnature]{sn-jnl}% Standard Nature Portfolio Reference
+ Style 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[default]{sn-jnl}% Default 
+\end_layout
+
+\begin_layout Itemize
+
+\backslash
+documentclass[default,iicol]{sn-jnl}% Default with double column layout
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+See preamble for further options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Article Title
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Short Title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Corr. Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+First
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+Second
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2,3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iiauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Equal Content
+status collapsed
+
+\begin_layout Plain Layout
+These authors contributed equally to this work.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Flex Author
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex FirstName
+status open
+
+\begin_layout Plain Layout
+Third
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex Surname
+status open
+
+\begin_layout Plain Layout
+Author
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Email
+status open
+
+\begin_layout Plain Layout
+iiiauthor@gmail.com
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Equal Content
+status collapsed
+
+\begin_layout Plain Layout
+These authors contributed equally to this work.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Corr. Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Affiliation
+\begin_inset Flex Affiliation
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Department
+status open
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Organization
+status open
+
+\begin_layout Plain Layout
+Organization
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Org. Address
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Street
+status open
+
+\begin_layout Plain Layout
+Street
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex City
+status open
+
+\begin_layout Plain Layout
+City
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex PostCode
+status open
+
+\begin_layout Plain Layout
+100190
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex State
+status open
+
+\begin_layout Plain Layout
+State
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Country
+status open
+
+\begin_layout Plain Layout
+Country
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The abstract serves both as a general introduction to the topic and as a
+ brief, non-technical summary of the main results and their implications.
+ Authors are advised to check the author instructions for the journal they
+ are submitting to for word limits and if structural elements like subheadings,
+ citations, or equations are permitted.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Sample for structured abstract
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Purpose:
+\series default
+ The abstract serves both as a general introduction to the topic and as
+ a brief, non-technical summary of the main results and their implications.
+ The abstract must not include subheadings (unless expressly permitted in
+ the journal's Instructions to Authors), equations or citations.
+ As a guide the abstract should not exceed 200 words.
+ Most journals do not set a hard limit however authors are advised to check
+ the author instructions for the journal they are submitting to.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Methods:
+\series default
+ The abstract serves both as a general introduction to the topic and as
+ a brief, non-technical summary of the main results and their implications.
+ The abstract must not include subheadings (unless expressly permitted in
+ the journal's Instructions to Authors), equations or citations.
+ As a guide the abstract should not exceed 200 words.
+ Most journals do not set a hard limit however authors are advised to check
+ the author instructions for the journal they are submitting to.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Results:
+\series default
+ The abstract serves both as a general introduction to the topic and as
+ a brief, non-technical summary of the main results and their implications.
+ The abstract must not include subheadings (unless expressly permitted in
+ the journal's Instructions to Authors), equations or citations.
+ As a guide the abstract should not exceed 200 words.
+ Most journals do not set a hard limit however authors are advised to check
+ the author instructions for the journal they are submitting to.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Conclusion:
+\series default
+ The abstract serves both as a general introduction to the topic and as
+ a brief, non-technical summary of the main results and their implications.
+ The abstract must not include subheadings (unless expressly permitted in
+ the journal's Instructions to Authors), equations or citations.
+ As a guide the abstract should not exceed 200 words.
+ Most journals do not set a hard limit however authors are advised to check
+ the author instructions for the journal they are submitting to.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout sep
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+leave this space
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Keywords
+keyword1, Keyword2, Keyword3, Keyword4
+\end_layout
+
+\begin_layout sep
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+leave this space
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Introduction section, of referenced text 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib1"
+literal "false"
+
+\end_inset
+
+ expands on the background of the work (some overlap with the Abstract is
+ acceptable).
+ The introduction should not include subheadings.
+\end_layout
+
+\begin_layout Standard
+Springer Nature does not impose a strict layout as standard however authors
+ are advised to check the individual requirements for the journal they are
+ planning to submit to as there may be journal-level preferences.
+ When preparing your text please also be aware that some stylistic choices
+ are not supported in full text XML (publication version), including coloured
+ font.
+ These will not be replicated in the typeset article if it is accepted.
+ 
+\end_layout
+
+\begin_layout Section
+Results
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Results"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+\end_layout
+
+\begin_layout Section
+This is an example for first level head—section head
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:1st-level"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+This is an example for second level head—subsection head
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:2nd-level"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+This is an example for third level head—subsubsection head
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:3rd-level"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ Sample body text.
+ 
+\end_layout
+
+\begin_layout Section
+Equations
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Equations"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equations in \SpecialChar LyX
+ can either be inline or on-a-line by itself (
+\begin_inset Quotes eld
+\end_inset
+
+display equations
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The equation 
+\begin_inset Formula $H\psi=E\psi$
+\end_inset
+
+ is inline.
+ For display equations (with auto generated equation numbers) one can use
+ the 
+\noun on
+equation
+\noun default
+ or 
+\noun on
+EqnArray
+\noun default
+ environments: 
+\begin_inset Formula 
+\begin{equation}
+\|\tilde{X}(k)\|^{2}\leq\frac{\sum\limits _{i=1}^{p}\left\Vert \tilde{Y}_{i}(k)\right\Vert ^{2}+\sum\limits _{j=1}^{q}\left\Vert \tilde{Z}_{j}(k)\right\Vert ^{2}}{p+q}\label{eq:tildeX}
+\end{equation}
+
+\end_inset
+
+where
+\begin_inset Formula 
+\begin{eqnarray}
+D_{\mu} & = & \partial_{\mu}-ig\frac{\lambda^{a}}{2}A_{\mu}^{a}\nonumber \\
+F_{\mu\nu}^{a} & = & \partial_{\mu}A_{\nu}^{a}-\partial_{\nu}A_{\mu}^{a}+gf^{abc}A_{\mu}^{b}A_{\nu}^{a}\label{eq:D_mu}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y_{\infty}=\left(\frac{m}{\textrm{GeV}}\right)^{-3}\left[1+\frac{3\ln(m/\textrm{GeV})}{15}+\frac{\ln(c_{2}/5)}{15}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Commands like 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathscr{R}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathcal{R}$
+\end_inset
+
+ are also supported.
+\end_layout
+
+\begin_layout Section
+Tables
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Tables"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tables can be inserted via the normal table and tabular environment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Caption text
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Caption-text"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Column 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Column 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Column 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Column 4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+row 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+row 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 5
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+row 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+data 9
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+Source: This is an example of table footnote.
+ This is an example of table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+Example for a first table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+Example for a second table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of a lengthy table which is set to full textwidth
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Lengthy-table"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="8">
+<features tabularvalignment="middle" tabularwidth="100text%">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 1
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 2
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Project
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{calc}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{expt}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{calc}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{expt}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+990 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1168
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1547±12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+780 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1166
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1239±100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+961
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+922±10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1268
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1092±40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+Note: This is an example of table footnote.
+ This is an example of table footnote this is an example of table footnote
+ this is an example of~table footnote this is an example of table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+Example for a first table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+Example for a second table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement ph
+wide false
+sideways true
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100theight%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of a rotated large table
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Large-table-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="8">
+<features tabularvalignment="middle" tabularwidth="100theight%">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 1
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 2
+\begin_inset Flex Table footnotemark
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Project
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{calc}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{expt}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{calc}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{expt}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+990 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1168
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1547±12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+780 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1166
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1239±100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+961
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+922±10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1268
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1092±40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+990 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1168
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1547±12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+780 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1166
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1239±100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="default" bottomspace="default" interlinespace="default">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Element 6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+961
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+922±10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1268
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1092±40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+Note: This is an example of table footnote.
+ This is an example of table footnote this is an example of table footnote
+ this is an example of~table footnote this is an example of table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+Example for a first table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Table footnote
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+Example for a second table footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Figures
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Figures"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figures are included as usual
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\family typewriter
+
+\backslash
+includegraphics[options]{<eps-file>}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This is a widefig.
+ This is an example of long caption this is an example of long caption 
+ this is an example of long caption this is an example of long caption
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:large-fig"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Cross referencing
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Cross-referencing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Environments such as figure, table, equation and align can have a label
+ declared, using the \SpecialChar LyX
+ 
+\begin_inset Quotes eld
+\end_inset
+
+insert label
+\begin_inset Quotes erd
+\end_inset
+
+ function.
+ For figures and table environments put the label inside the caption.
+ You can refer to labels by using the 
+\begin_inset Quotes eld
+\end_inset
+
+Insert cross reference
+\begin_inset Quotes erd
+\end_inset
+
+ function.
+ Examples: Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:large-fig"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:D_mu"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:tildeX"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ on page 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "tab:Caption-text"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:large-fig"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "fig:large-fig"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Section 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, label 
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "sec:Results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+To reference line numbers in an algorithm, consider the label declared for
+ the line number 2 of Algorithm
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "alg:exp"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is 
+\family typewriter
+algln2
+\family default
+.
+ To cross-reference it, use ERT, e.g.
+ line
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{algln2}
+\end_layout
+
+\end_inset
+
+ of Algorithm
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:exp"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Details on reference citations
+\end_layout
+
+\begin_layout Standard
+To support both numerical and author-year citations this template uses 
+\noun on
+natbib
+\noun default
+ package.
+ For style guidance please refer to the template user manual.
+ 
+\end_layout
+
+\begin_layout Standard
+Here is an example of citation: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bib1"
+literal "false"
+
+\end_inset
+
+.
+ All cited bib entries are printed at the end of this article: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib2,bib10,bib11,bib12"
+literal "false"
+
+\end_inset
+
+, refs.
+ 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "bib3,bib4,bib5"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib6,bib7,bib8"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+Discussions should be brief and focused.
+ In some disciplines use of Discussion or Conclusion is interchangeable.
+ It is not mandatory to use both.
+ Some journals prefer a section Results and Discussion followed by a section
+ Conclusion.
+ Please refer to Journal-level guidance for any specific requirements.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib1"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bib2,bib3"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Conclusions may be used to restate your hypothesis or research question,
+ restate your major findings, explain the relevance and the added value
+ of your work, highlight any limitations of your study, describe future
+ directions for research and recommendations.
+ 
+\end_layout
+
+\begin_layout Standard
+In some disciplines use of Discussion or Conclusion is interchangeable.
+ It is not mandatory to use both.
+ Please refer to Journal-level guidance for any specific requirements.
+ 
+\end_layout
+
+\begin_layout Backmatter heading
+Supplementary Information
+\end_layout
+
+\begin_layout Standard
+If your article has accompanying supplementary file/s please state so here.
+ Authors reporting data from electrophoretic gels and blots should supply
+ the full unprocessed scans for key as part of their Supplementary information.
+ This may be requested by the editorial team/s if it is missing.
+ Please refer to Journal-level guidance for any specific requirements.
+\end_layout
+
+\begin_layout Backmatter heading
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+Acknowledgments are not compulsory.
+ Where included they should be brief.
+ Grant or contribution numbers may be acknowledged.
+ Please refer to Journal-level guidance for any specific requirements.
+\end_layout
+
+\begin_layout Section*
+Declarations
+\end_layout
+
+\begin_layout Standard
+Some journals require declarations to be submitted in a standardised format.
+ Please check the Instructions for Authors of the journal to which you are
+ submitting to see if you need to complete this section.
+ If yes, your manuscript must contain the following sections under the heading
+ `Declarations':
+\end_layout
+
+\begin_layout Itemize
+Funding
+\end_layout
+
+\begin_layout Itemize
+Conflict of interest/Competing interests (check journal-specific guidelines
+ for which heading to use)
+\end_layout
+
+\begin_layout Itemize
+Ethics approval 
+\end_layout
+
+\begin_layout Itemize
+Consent to participate
+\end_layout
+
+\begin_layout Itemize
+Consent for publication
+\end_layout
+
+\begin_layout Itemize
+Availability of data and materials
+\end_layout
+
+\begin_layout Itemize
+Code availability
+\end_layout
+
+\begin_layout Itemize
+Authors' contributions
+\end_layout
+
+\begin_layout Standard
+If any of the sections are not relevant to your manuscript, please include
+ the heading and write `Not applicable' for that section.
+ 
+\end_layout
+
+\begin_layout Standard
+Editorial Policies for:
+\end_layout
+
+\begin_layout Itemize
+Springer journals and proceedings: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.springer.com/gp/editorial-policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Nature Portfolio journals: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.nature.com/nature-research/editorial-policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Scientific Reports
+\emph default
+: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.nature.com/srep/journal-policies/editorial-policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+BMC journals: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.biomedcentral.com/getpublished/editorial-policies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Appendices
+
+\end_layout
+
+\begin_layout Appendix
+Section title of first appendix
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+For submissions to Nature Portfolio Journals please use the heading ``Extended
+ Data''.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An appendix contains supplementary information that is not an essential
+ part of the text itself but which may be helpful in providing a more comprehens
+ive understanding of the research problem or it is information that is too
+ cumbersome to be included in the body of the paper.
+\end_layout
+
+\begin_layout Appendix
+Example of another appendix section
+\end_layout
+
+\begin_layout Standard
+Appendices may be used for helpful, supporting or essential material that
+ would otherwise clutter, break up or be distracting to the text.
+ Appendices can consist of sections, figures, tables and equations etc.
+\end_layout
+
+\begin_layout Appendices
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "sn-bibliography"
+options "sn-mathphys"
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+If you are submitting to one of the Nature Portfolio journals, using the
+ eJP submission system, please include the references within the manuscript
+ file itself.
+ You may do this by copying the reference list from your .bbl file, paste
+ it into the main manuscript .tex file, and delete the associated 
+\noun on
+
+\backslash
+bibliography
+\noun default
+ commands.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

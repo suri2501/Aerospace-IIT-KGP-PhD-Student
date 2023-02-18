@@ -1,0 +1,301 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\bar under
+\color black
+Reviewer: 1
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+In this paper an effective numerical approach is proposed to investigate
+ static and dynamic isogeometric analysis using inverse hyperbolic shear
+ deformation theory.
+\end_layout
+
+\begin_layout Standard
+
+\color black
+The manuscript is clearly written and the results are well presented.
+ The results appear to be valid and the methodology is appropriate.
+ The following revision is asked:
+\begin_inset VSpace 0.4cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Query1:
+\series default
+ The novelty of this work must be more demonstrated.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Reply:
+\series default
+ 
+\color purple
+The novelty of this work has been highlighted using purple color text and
+ the same is included in introduction and conclusion section.
+ 
+\color black
+
+\begin_inset VSpace 0.4cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Query2:
+\series default
+ Authors must compare the proposed theory with other advanced HSDTs with
+ only four variables.
+ A detailed literature review will provide the authors several papers that
+ need to be included.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Reply:
+\series default
+ 
+\color purple
+A comparision of the propsed IGA-IHSDT theory with advanced HSDTs with only
+ four variable has been included and highlighted in section 4.2.2.
+ Also a detailed literature review has been included in introduction section
+ regarding same in and changes are highlighted using purple color text.
+ 
+\color black
+
+\begin_inset VSpace 0.4cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Query3:
+\series default
+ In this work, the stretching effect is not considered.
+ Thus authors are encouraged to discuss this effect based on the following
+ works:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Reply:
+\series default
+ 
+\color purple
+It has been rewritten and changes are highlighted using blue color text.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+\color black
+Reviewer: 2
+\end_layout
+
+\begin_layout Standard
+
+\color black
+I strongly agree the publication of this paper after minor revision.
+ This is a complete work.
+ Authors should improve the state of art with recent non-polynomial shear
+ deformation theories published in this journal and others.
+ A detailed literature review will provide the authors several papers that
+ need to be included.
+ 
+\begin_inset VSpace 0.4cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Reply:
+\series default
+\color purple
+ It has been rewritten and changes are highlighted using blue color text.
+ 
+\color black
+
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+\color black
+Editor's Comments:
+\end_layout
+
+\begin_layout Standard
+As can be seen both the reviewers point to insufficient inclusion of relevant
+ literature.
+ I strongly recommend the authors to conduct a detailed literature review
+ and fill this shortcomings.
+ While both reviewers provided a list of papers to include, i decided not
+ to include those here, in the interest of avoiding self-citation and bias
+ from the reviewers - rather i would urge the authors to conduct your own
+ literature review to address the reviewer comments.
+\color black
+
+\begin_inset VSpace 0.4cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align block
+
+\series bold
+\color black
+Reply:
+\series default
+\color purple
+ It has been implemented and changes are highlighted using blue color text.
+\end_layout
+
+\end_body
+\end_document

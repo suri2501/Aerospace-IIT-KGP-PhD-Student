@@ -1,0 +1,548 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[sn-jnl,natbib.sty]{Springer Nature}
+#  \DeclareCategory{Articles}
+# --------
+#
+# Taken from initial LyX source code
+# Author : Matthias Ettrich <ettrich@informatik.uni-tuebingen.de>
+# Adapted from svjour/jog by Cengiz Gunay in 2003.
+# Transposed by Pascal André <andre@via.ecp.fr>
+# Heavily modified and enhanced by serveral developers.
+# Revision svjour version 3.2 by Uwe Stöhr in September 2009
+# Revised by Marcus Kriele and Uwe Stöhr in April 2011
+#
+# see ftp://ftp.springer.de/pub/tex/latex/svjour3/ for class files
+
+Format 66
+
+#Input svcommon.inc
+
+# This is just to show how to declare the default font.
+# The defaults are exactly those shown here.
+DefaultFont
+	Family			Roman
+	Series			Medium
+	Shape			Up
+	Size			Normal
+	Color			None
+EndFont
+
+
+Style Standard
+	Category		MainText
+	Margin			Static
+	LatexType		Paragraph
+	LatexName		dummy
+	ParIndent		MM
+	ParSkip			0.4
+	Align			Block
+	AlignPossible	Block, Left, Right, Center
+	LabelType		No_Label
+End
+
+Input stdcounters.inc
+Input stdfloats.inc
+Input stdlists.inc
+Input stdinsets.inc
+Input stdsections.inc
+Input stdstarsections.inc
+Input stdlayouts.inc
+Input stdtitle.inc
+#Input numreport.inc
+
+NoStyle Author
+NoStyle Part
+NoCounter part
+NoStyle Part*
+NoStyle Chapter
+NoCounter chapter
+NoStyle Chapter*
+NoStyle Subparagraph
+
+
+Counter theorem
+End
+
+Counter example
+
+End
+
+Counter remark
+End
+
+Counter definition
+End
+
+Counter appendix
+End
+
+Style Title
+	Align		Center
+	AlignPossible	Center
+	Font
+	  Family	Roman
+	  Series	Medium
+	  Size      Largest
+	EndFont
+	Argument 1
+	    LabelString "Short Title"
+	    Tooltip		"Running title on each page"
+	    Font
+	        Series Medium
+	        Shape Italic
+	        Size Normal
+	        #Color gray
+	    EndFont
+	EndArgument
+End
+
+
+
+
+Style Author
+	Margin			Static
+	InTitle         1
+	#LatexType		Command
+	Category		FrontMatter
+	#Argument 1
+	#  LabelString	"affil-num"
+	#  Tooltip		"Affiliation index(es)."
+	#EndArgument
+	#LatexName
+	LabelSep		xxx
+	ParSkip			0.4
+	TopSep			1.3
+	BottomSep		0.7
+	ParSep			0.7
+	Align			Center
+	LabelType		No_Label
+	Font
+	  Size			Large
+	EndFont
+	Spellcheck      0
+End
+
+Style Affiliation
+	Margin			Static
+	InTitle         1
+	Category		FrontMatter
+	LabelSep		xxx
+	ParSkip			0.4
+	TopSep			1.3
+	BottomSep		0.7
+	ParSep			0.7
+	Align			Center
+	LabelType		No_Label
+	Font
+	  Size			Normal
+	EndFont
+	Spellcheck      0
+End
+
+InsetLayout Flex:Author
+    LyxType         custom
+	LatexType		command
+	Argument 1
+	  LabelString	"affil-num"
+	  Tooltip		"Affiliation index(es)."
+	EndArgument
+	LatexName		author
+	LabelString		"Contributing Author"
+	Font
+	  Size			Large
+	EndFont
+End
+
+InsetLayout "Flex:Corr. Author"
+    CopyStyle       Flex:Author
+    LabelString     "Corresponding Author"
+    LatexName       author*
+End
+
+InsetLayout Flex:Email
+    LyxType         custom
+    LatexType       command
+    LatexName       email
+    Font
+        Color       blue
+    EndFont
+    Spellcheck      0
+    LabelString     E-mail
+End
+
+InsetLayout Flex:FirstName
+    #Decoration      Conglomerate
+    LyxType			custom
+	LatexType		command
+	ForcePlain		1
+	LatexName		fnm
+	LabelString		"First name"
+	Spellcheck      0
+	Font
+	  Color			foreground
+	  #Size			Small
+	  Family		Roman
+	  Shape			Up
+	  Series		Medium
+	  Misc			No_Emph
+	  Misc			No_Noun
+	  Misc			No_Bar
+	EndFont
+	LabelFont
+	  Color			latex
+	  Size			Small
+	EndFont
+End
+
+InsetLayout Flex:Surname
+    CopyStyle Flex:FirstName
+	LatexName		sur
+	LabelString		"Surname"
+End
+
+InsetLayout "Flex:Equal Content"
+    LyxType     custom
+    LatexType   command
+    LatexName   equalcont
+    Decoration  classic
+    #LeftDelim   "These authors contributed equally to this work."
+    LabelString "ECA"
+    Font
+        size footnotesize
+    EndFont
+    LabelFont
+        size footnotesize
+    EndFont
+
+End
+
+InsetLayout Flex:Affiliation
+    LyxType         custom
+	LatexType		command
+	Argument 1
+	  LabelString	"affil-num"
+	  Tooltip		"Affiliation index"
+	EndArgument
+	LatexName		affil
+	LabelString		"Affiliation"
+	Font
+	  Size			Large
+	EndFont
+End
+
+InsetLayout "Flex:Corr. Affiliation"
+    CopyStyle       Flex:Affiliation
+    LabelString     "Correspondence Affiliation"
+    LatexName       affil*
+End
+
+InsetLayout Flex:Department
+    LyxType			custom
+	LatexType		command
+	ForcePlain		1
+	LatexName		orgdiv
+	LabelString		"Department"
+	Font
+	  Color			foreground
+	  #Size			Small
+	  Family		Roman
+	  Shape			Up
+	  Series		Medium
+	  Misc			No_Emph
+	  Misc			No_Noun
+	  Misc			No_Bar
+	EndFont
+	LabelFont
+	  Color			latex
+	  Size			Small
+	EndFont
+End
+
+InsetLayout Flex:Organization
+    CopyStyle       Flex:Department
+    LatexName       orgname
+    LabelString		Organization
+End
+
+InsetLayout "Flex:Org. Address"
+    CopyStyle       Flex:Department
+    LatexName       orgaddress
+    LabelString		"Address"
+End
+
+InsetLayout Flex:Street
+    CopyStyle       Flex:Department
+    LatexName       street
+    LabelString		"Street"
+End
+
+InsetLayout Flex:City
+    CopyStyle       Flex:Street
+    LatexName       city
+    LabelString		"City"
+End
+
+InsetLayout Flex:PostCode
+    CopyStyle       Flex:Street
+    LatexName       postcode
+    LabelString		"Postcode"
+End
+
+InsetLayout Flex:State
+    CopyStyle       Flex:Street
+    LatexName       state
+    LabelString		"State"
+End
+
+InsetLayout Flex:Country
+    CopyStyle       Flex:Street
+    LatexName       country
+    LabelString		"Country"
+End
+
+
+Style Abstract
+	Margin			Static
+	LatexType		command
+	LatexName		abstract
+	Category		FrontMatter
+	InTitle			1
+	NextNoIndent	1
+	LeftMargin		MMM
+	RightMargin		MMM
+	#ParIndent		MM
+	ItemSep			0
+	TopSep			0.7
+	BottomSep		0.7
+	ParSep			0
+	Align			Block
+	AlignPossible	Block
+	LabelType		Centered
+	LabelString		"Abstract"
+	LabelBottomSep	0.5
+	Font
+	  Size			Small
+	EndFont
+	LabelFont
+	  Series		Bold
+	  Size			Large
+	EndFont
+End
+
+Style sep
+    Category		FrontMatter
+    InTitle 1
+    KeepEmpty 1
+End
+
+Style   Keywords
+    CopyStyle Abstract
+    Margin          Dynamic
+    InTitle 1
+    LatexType       command
+    LatexName       keywords
+    LabelType       Static
+    LabelString     "Keywords "
+    LabelFont
+        Size Small
+    EndFont
+End
+
+Style PACS
+    CopyStyle       Keywords
+    LabelString	"PACS"
+    LatexName       pacs
+    Argument 1
+      LabelString	"Classification"
+	  Tooltip		"Classification (JEL Classification, MSC Classification, etc."
+    EndArgument
+
+End
+
+InsetLayout "Flex:Table footnotemark"
+    LyxType     custom
+    LatexType   None
+    LeftDelim   "\footnotemark["
+    RightDelim  "]"
+    Font
+        Size    Tiny
+    EndFont
+    Decoration   minimalistic
+End
+
+InsetLayout "Flex:Table footnote"
+    LyxType     custom
+    Argument 1
+        LabelString "Table footnote mark"
+        Tooltip     "(optional) mark used in the table"
+        Decoration  minimalistic
+    EndArgument
+    LatexType       command
+    LatexName       footnotetext
+    Font
+        Size        small
+    EndFont
+    Decoration      classic
+    LabelString     "Table footnote"
+    LabelFont
+        Size        small
+    EndFont
+End
+
+
+
+Style Theorem
+	Category              Reasoning
+	Margin                First_Dynamic
+	LatexType             Environment
+	LatexName             theorem
+	NextNoIndent          1
+	ResetArgs             1
+	IsTocCaption          1
+	Argument 1
+		LabelString    "Additional Text"
+		Tooltip        "Additional text appended to the header"
+		IsTocCaption      1
+	EndArgument
+	LabelSep              xx
+	ParIndent             MMM
+	ParSkip               0.4
+	ItemSep               0.2
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0.3
+	Align                 Block
+	AlignPossible         Left
+	LabelType             Static
+	LabelCounter          theorem
+	LabelString           "Theorem \thetheorem."
+	Font
+	  Shape               Italic
+	  Size                Small
+	EndFont
+	LabelFont
+	  Shape               Up
+	  Series              Bold
+	EndFont
+End
+
+Style Proposition
+	CopyStyle             Theorem
+	DependsOn             Theorem
+	LatexName             proposition
+	LabelString           "Proposition \thetheorem."
+End
+
+Style Definition
+    CopyStyle               Theorem
+	LatexName             definition
+	LabelCounter          definition
+	LabelString           "Definition \thedefinition."
+	Font
+	    Shape           Up
+    EndFont
+    LabelFont
+	  Shape               Up
+	  Series              Bold
+	EndFont
+End
+
+
+Style Example
+	CopyStyle             Theorem
+	LatexName             example
+	LabelCounter          example
+	LabelString           "Example \theexample."
+	LabelFont
+	    Series          Medium
+	    Shape           Italic
+	EndFont
+	Font
+	    Shape           Up
+    EndFont
+End
+
+Style Remark
+    CopyStyle       Example
+    LatexName       remark
+    LabelCounter    remark
+	LabelString     "Remark \theremark."
+End
+
+Style Proof
+	Category              Reasoning
+	Margin                First_Dynamic
+	LatexType             Environment
+	LatexName             proof
+	NextNoIndent          1
+	ResetArgs             1
+	Argument 1
+		LabelString   "Alternative Proof String"
+		Tooltip       "Alternative proof string"
+	EndArgument
+	LabelSep              xx
+	ParIndent             MMM
+	ParSkip               0.4
+	ItemSep               0.2
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0.3
+	Align                 Block
+	AlignPossible         Block, Left
+	LabelType             Static
+	LabelString           "Proof"
+	EndLabelType          Box
+	Font
+	  Shape               Up
+	  Size                Small
+	EndFont
+	LabelFont
+	  Shape               Italic
+	EndFont
+End
+
+Style Quote
+    Font
+        Size Small
+    EndFont
+End
+
+Style "Backmatter heading"
+    Category    BackMatter
+    LatexType   command
+    LatexName   bmhead
+    Font
+        Series Bold
+    EndFont
+    NextNoIndent    1
+End
+
+Style Appendices
+  Margin	Dynamic
+  LatexType	Environment
+  LatexName	appendices
+  Category	BackMatter
+  KeepEmpty	1
+  ParSkip	0.4
+  Align		Block
+  LabelSep	xx
+  LabelType	Static
+  LabelString	"Appendices"
+  LabelFont
+    Series	Bold
+    Color	Green
+  EndFont
+End
+
+Style Appendix
+  CopyStyle	Section
+  Category	BackMatter
+  LabelCounter  appendix
+  LabelString	"Appendix \Alph{appendix}"
+  Argument 1
+    LabelString	"Short Title"
+    Tooltip	"Short title for the appendix"
+    InsertCotext 1
+  EndArgument
+End
+####################################################

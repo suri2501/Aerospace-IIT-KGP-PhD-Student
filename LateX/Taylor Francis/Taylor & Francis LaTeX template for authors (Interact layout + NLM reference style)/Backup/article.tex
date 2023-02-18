@@ -1,0 +1,349 @@
+\documentclass[]{interact}
+\makeatletter\if@twocolumn\PassOptionsToPackage{switch}{lineno}\else\fi\makeatother
+
+      \makeatletter
+\usepackage{wrapfig}
+\newcounter{aubio}
+
+\long\def\bioItem{%
+\@ifnextchar[{\@bioItem}{\@@bioItem}}
+
+\long\def\@bioItem[#1]#2#3{
+ \stepcounter{aubio}
+ \expandafter\gdef\csname authorImage\theaubio\endcsname{#1}
+ \expandafter\gdef\csname authorName\theaubio\endcsname{#2}
+ \expandafter\gdef\csname authorDetails\theaubio\endcsname{#3}
+}
+
+\long\def\@@bioItem#1#2{
+ \stepcounter{aubio}
+ \expandafter\gdef\csname authorName\theaubio\endcsname{#1}
+ \expandafter\gdef\csname authorDetails\theaubio\endcsname{#2}
+}
+
+\newcommand{\checkheight}[1]{%
+  \par \penalty-100\begingroup%
+  \setbox8=\hbox{#1}%
+  \setlength{\dimen@}{\ht8}%
+  \dimen@ii\pagegoal \advance\dimen@ii-\pagetotal
+  \ifdim \dimen@>\dimen@ii
+    \break
+  \fi\endgroup}
+
+\def\printBio{%
+  \@tempcnta=0
+   \loop
+     \advance \@tempcnta by 1
+     \def\aubioCnt{\the\@tempcnta}
+     \setlength{\intextsep}{0pt}%
+     \setlength{\columnsep}{10pt}%
+     \newbox\boxa%
+     \setbox\boxa\vbox{\csname authorDetails\aubioCnt\endcsname}
+     \expandafter\ifx\csname authorImage\aubioCnt\endcsname\relax%
+      \else%
+       \checkheight{\includegraphics[height=1.25in,width=1in,keepaspectratio]{\csname authorImage\aubioCnt\endcsname}}
+        \begin{wrapfigure}{l}{25mm}
+         \includegraphics[height=1.25in,width=1in,keepaspectratio]{\csname authorImage\aubioCnt\endcsname}%height=145pt
+        \end{wrapfigure}\par
+      \fi
+     {\parindent0pt\textbf{\csname authorName\aubioCnt\endcsname}\csname authorDetails\aubioCnt\endcsname \par\bigskip%
+     \expandafter\ifx\csname authorImage\aubioCnt\endcsname\relax\else%
+      \ifdim\the\ht\boxa < 90pt\vskip\dimexpr(90pt -\the\ht\boxa-1pc)\fi%
+     \fi}%for adding additional vskip for avoiding image overlap.
+      \ifnum\@tempcnta < \theaubio
+   \repeat
+   }
+
+\makeatother
+
+      
+
+\usepackage{tabulary,graphicx}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsthm,amssymb,url,amsmath}
+\usepackage{subfigure}
+\usepackage[numbers,sort&compress]{natbib}% Citation support using natbib.sty
+
+
+\bibpunct[, ]{[}{]}{,}{n}{,}{,}% Citation support using natbib.sty
+
+\renewcommand\bibfont{\fontsize{10}{12}\selectfont}% Bibliography support using natbib.sty
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Following additional macros are required to function some 
+% functions which are not available in the class used.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url,multirow,morefloats,floatflt,cancel,tfrupee}
+\makeatletter
+
+
+\AtBeginDocument{\@ifpackageloaded{textcomp}{}{\usepackage{textcomp}}}
+\makeatother
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage[nointegrals]{wasysym}
+\urlstyle{rm}
+\makeatletter
+
+%%%For Table column width calculation.
+\def\mcWidth#1{\csname TY@F#1\endcsname+\tabcolsep}
+
+%%Hacking center and right align for table
+\def\cAlignHack{\rightskip\@flushglue\leftskip\@flushglue\parindent\z@\parfillskip\z@skip}
+\def\rAlignHack{\rightskip\z@skip\leftskip\@flushglue \parindent\z@\parfillskip\z@skip}
+
+%Etal definition in references
+\@ifundefined{etal}{\def\etal{\textit{et~al}}}{}
+
+
+%\if@twocolumn\usepackage{dblfloatfix}\fi
+\usepackage{ifxetex}
+\ifxetex\else\if@twocolumn\@ifpackageloaded{stfloats}{}{\usepackage{dblfloatfix}}\fi\fi
+
+\AtBeginDocument{
+\expandafter\ifx\csname eqalign\endcsname\relax
+\def\eqalign#1{\null\vcenter{\def\\{\cr}\openup\jot\m@th
+  \ialign{\strut$\displaystyle{##}$\hfil&$\displaystyle{{}##}$\hfil
+      \crcr#1\crcr}}\,}
+\fi
+}
+
+%For fixing hardfail when unicode letters appear inside table with endfloat
+\AtBeginDocument{%
+  \@ifpackageloaded{endfloat}%
+   {\renewcommand\efloat@iwrite[1]{\immediate\expandafter\protected@write\csname efloat@post#1\endcsname{}}}{\newif\ifefloat@tables}%
+}%
+
+\def\BreakURLText#1{\@tfor\brk@tempa:=#1\do{\brk@tempa\hskip0pt}}
+\let\lt=<
+\let\gt=>
+\def\processVert{\ifmmode|\else\textbar\fi}
+\let\processvert\processVert
+
+\@ifundefined{subparagraph}{
+\def\subparagraph{\@startsection{paragraph}{5}{2\parindent}{0ex plus 0.1ex minus 0.1ex}%
+{0ex}{\normalfont\small\itshape}}%
+}{}
+
+% These are now gobbled, so won't appear in the PDF.
+\newcommand\role[1]{\unskip}
+\newcommand\aucollab[1]{\unskip}
+  
+\@ifundefined{tsGraphicsScaleX}{\gdef\tsGraphicsScaleX{1}}{}
+\@ifundefined{tsGraphicsScaleY}{\gdef\tsGraphicsScaleY{.9}}{}
+% To automatically resize figures to fit inside the text area
+\def\checkGraphicsWidth{\ifdim\Gin@nat@width>\linewidth
+	\tsGraphicsScaleX\linewidth\else\Gin@nat@width\fi}
+
+\def\checkGraphicsHeight{\ifdim\Gin@nat@height>.9\textheight
+	\tsGraphicsScaleY\textheight\else\Gin@nat@height\fi}
+
+\def\fixFloatSize#1{}%\@ifundefined{processdelayedfloats}{\setbox0=\hbox{\includegraphics{#1}}\ifnum\wd0<\columnwidth\relax\renewenvironment{figure*}{\begin{figure}}{\end{figure}}\fi}{}}
+\let\ts@includegraphics\includegraphics
+
+\def\inlinegraphic[#1]#2{{\edef\@tempa{#1}\edef\baseline@shift{\ifx\@tempa\@empty0\else#1\fi}\edef\tempZ{\the\numexpr(\numexpr(\baseline@shift*\f@size/100))}\protect\raisebox{\tempZ pt}{\ts@includegraphics{#2}}}}
+
+%\renewcommand{\includegraphics}[1]{\ts@includegraphics[width=\checkGraphicsWidth]{#1}}
+\AtBeginDocument{\def\includegraphics{\@ifnextchar[{\ts@includegraphics}{\ts@includegraphics[width=\checkGraphicsWidth,height=\checkGraphicsHeight,keepaspectratio]}}}
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\def\URL#1#2{\@ifundefined{href}{#2}{\href{#1}{#2}}}
+
+%%For url break
+\def\UrlOrds{\do\*\do\-\do\~\do\'\do\"\do\-}%
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+
+
+
+\edef\fntEncoding{\f@encoding}
+\def\EUoneEnc{EU1}
+\makeatother
+\def\floatpagefraction{0.8} 
+\def\dblfloatpagefraction{0.8}
+\def\style#1#2{#2}
+\def\xxxguillemotleft{\fontencoding{T1}\selectfont\guillemotleft}
+\def\xxxguillemotright{\fontencoding{T1}\selectfont\guillemotright}
+
+\newif\ifmultipleabstract\multipleabstractfalse%
+\newenvironment{typesetAbstractGroup}{}{}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \makeatletter
+  \def\fig@textbf{\textbf}
+   \AtBeginDocument{\renewcommand\floatc@plain[2]{\setbox\@tempboxa\hbox{\textbf{\footnotesize#1.}\footnotesize\hskip.5em#2}%
+    \ifdim\wd\@tempboxa>\hsize {\fig@textbf{\footnotesize#1.}}\footnotesize\hskip.5em#2\par
+        \else\hbox to\hsize{\hfil\box\@tempboxa\hfil}\fi}}
+    \makeatother
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Feature enabled:
+%full-reference: true
+
+\usepackage{float}
+
+\begin{document}
+
+\nocite{*}
+
+
+%\articletype{ARTICLE TEMPLATE}
+
+\title{The importance of full geometric nonlinearity in modeling multilayered composite plate using third-order and non-polynomial shear deformation theory}
+
+  
+\author{
+\name{Abha Gupta\textsuperscript{a}\thanks{CONTACT  Abha Gupta. Email: absc@gmail.com} and Surendra Verma\textsuperscript{a}\thanks{Email: abcd@gmail.com (Surendra Verma)}}
+\affil{\textsuperscript{a}AER\unskip, 
+    ABCD Institute}}
+
+\maketitle 
+
+
+\begin{abstract}
+In this paper, a computationally efficient isogeometric plate model,
+employing nonpolynomial shear deformation theory (NPSDT), for static
+and dynamic analysis of laminated and sandwich composite plates under
+hygrothermal environment is presented. The nonuniform rational B-splines
+(NURBS) based formulation for IGA-NPSDT model inherit the nonlinear
+characteristics of transverse stresses with traction-free boundary
+condition and attribute only five-degree of freedom. A total Lagrangian
+approach in conjunction with Hamiltonâ€™s principle is utilized to formulate
+the governing equations for thermal bending and subsequent dynamic
+analysis of multilayered composite plates. The plate discretization
+is based on the IGA technique, which facilitates the use of NURBS
+basis functions to easily satisfy the stringent continuity requirement
+of the NPSDT model (C1-continuity) without any additional variables.
+To model stress stiffening effect due to hygrothermal load, both von
+Karman and Green-Lagrange strain displacement relations are incorporated
+and obtained solutions are compared. The advantages of Green-Lagrange
+strain relationship is also highlighted. A wide variety of numerical
+examples considering both cross-ply and angle-ply laminated plates
+subjected to mechanical and hygrothermal loads are analyzed for validation
+and parametric study. Obtained results using present IGA-IHSDT model
+are compared with other available results to demonstrate the accuracy
+and applicability of the NURBS-based isogeometric model.
+\end{abstract}
+\def\keywordstitle{Keywords}
+\begin{keywords}
+Static analysis; Dynamic analysis; Multilayered composite plate; Hygrothermal
+environment; Nonpolynomial shear deformation theory (NPSDT); von Karman
+and Green-Lagrange nonlinearity
+\end{keywords}
+
+
+\section{Introduction}
+The multilayered composites like laminated and sandwich plates structures are widely used in the engineering manufacturing and infrastructures; and often undergo large deflection of the order of their thickness. The range of their applications lies in aerospace, automobile, defense, railways, shipbuilding, biomedical and other fields polymeric electronic. In other words, these multilayered composite material has almost covered every engineering sector ranging from the deep ocean to high in the sky. The reason for this wide application may be attributed to high stiffness-to-weight ratio, high strength-to-weight ratio accommodated by the composite material through the optimized ply orientation and thickness variation of plies. Particularly, in aeronautical and aerospace industries, these materials in the form of thin or thick plate structures are profoundly utilized for various applications. Further, the transverse loads are often prominent in these areas of application which in turn make it necessary to consider the shear deformation and the transverse direction characteristic behavor. In addition, the composite plate exhibits more transverse shear effects in compare to isotropic plate due to their low transverse shear moduli relative to the in-plane Young's moduli. Hence, for a reliable prediction of deformation characteristics of composite plates, the consideration of shear deformation in the formulation is need to be accounted.
+    
+\section{Mathematical formulation}
+Ram Ram Hare Hare
+
+
+\begin{table*}[!htbp]
+\tbl{{{Table Caption1} }
+\label{tw-624c929aa61f}}
+{
+\ignorespaces 
+\centering 
+\begin{tabulary}{\linewidth}{LLLL}
+\toprule x & y & z~& w\\
+\midrule 
+1 &
+  3 &
+  3 &
+  5\\
+ &
+   &
+   &
+  \\
+ &
+   &
+   &
+  \\
+ &
+  5 &
+   &
+  \\
+\bottomrule 
+\end{tabulary}\par 
+}
+\end{table*}
+
+\bgroup
+\fixFloatSize{images/0d42bbf8-91d3-4da7-af99-e0bd48d4186d-uphd_search.jpg}
+\begin{figure*}[!htbp]
+\centering \makeatletter\IfFileExists{images/0d42bbf8-91d3-4da7-af99-e0bd48d4186d-uphd_search.jpg}{\includegraphics{images/0d42bbf8-91d3-4da7-af99-e0bd48d4186d-uphd_search.jpg}}{}
+\makeatother 
+\caption{{Figure insertion}}
+\label{f-1ca028c19394}
+\end{figure*}
+\egroup
+$x=y $
+\let\saveeqnno\theequation
+\let\savefrac\frac
+\def\dispfrac{\displaystyle\savefrac}
+\begin{eqnarray}
+\let\frac\dispfrac
+\gdef\theequation{1}
+\let\theHequation\theequation
+\label{dfg-35d87bbbd3e2}
+\begin{array}{@{}l}y=z=p\end{array}
+\end{eqnarray}
+\global\let\theequation\saveeqnno
+\addtocounter{equation}{-1}\ignorespaces 
+\footnote{this ia foot note example}
+
+h
+
+\unskip~\cite{ABC}
+
+h
+
+\clearpage Figure~\ref{f-1ca028c19394}
+
+Table~\ref{tw-624c929aa61f}
+
+Equation~(\ref{dfg-35d87bbbd3e2})
+
+Appendix~\ref{appendix-title-d832092dc346}
+
+
+
+\subsection{}
+
+
+
+\subsubsection{h3 para}gh~
+
+ghgghgghhh simple para
+
+~~
+
+
+
+\subsection{Section 2}
+\section*{Acknowledgements}Krishna Krishna Hare Hare 
+\appendix 
+
+\section{Appendix}\label{appendix-title-d832092dc346}
+     It is appendix section
+    
+
+\bibliographystyle{tfnlm}
+
+\bibliography{article}
+
+\section*{Author biography}
+
+\bioItem{Abha Gupta}{ Hari bol}
+
+\smallskip\noindent 
+
+\bioItem{Surendra Verma}{ Jay Sri Krishna}
+\printBio 
+
+\end{document}

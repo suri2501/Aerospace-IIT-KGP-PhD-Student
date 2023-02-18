@@ -1,0 +1,166 @@
+\begin{table}
+\caption{\label{tab:Static_4layer}Non-dimensional deflection and stresses for simply supported square laminated $\left(0^{0}/90^{0}/90^{0}/0^{0}\right)$ plate under sinusoidal load}
+\centering{}%
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{llllllll}
+\hline
+$a/h$ & Source / Model & $\bar{w}(\frac{a}{2},\frac{b}{2})$ & $\bar{\sigma}_{xx}(\frac{a}{2},\frac{b}{2},\frac{h}{2})$ & $\bar{\sigma}_{yy}(\frac{a}{2},\frac{b}{2},\frac{h}{4})$ & $\bar{\sigma}_{xy}(0,0,\frac{h}{2})$ & $\bar{\sigma}_{yz}(\frac{a}{2},0,0)$ & $\bar{\sigma}_{xz}(0,\frac{b}{2},0)$\tabularnewline
+\hline
+4 & Pagano \cite{pagano1972elastic} & 1.954 & 0.72 & 0.663 & 0.047 & 0.291 & 0.219\tabularnewline
+& Mantari \cite{mantari2012new}& 1.921 & 0.74 & 0.635 & 0.048 & 0.269 & 0.254\tabularnewline
+& Karama \cite{karama2009new} & 1.919 & 0.699 & 0.636 & 0.0459 & 0.226 & 0.226\tabularnewline
+& Reddy \cite{reddy1984simple} & 1.893 & 0.665 & 0.632 & 0.044 & 0.239 & 0.206\tabularnewline
+& Rodrigues \cite{rodrigues2012radial} & 1.8931 & 0.6408 & 0.8506 & 0.0436 & - & 0.216\tabularnewline
+& Quasi-3D \cite{tran2018static} & 1.9072 & 0.6535 & 0.6326 & - & 0.2949 & 0.2192\tabularnewline
+& CFS-IHSDT \cite{grover2013new} & 1.9257 & 0.7255 & 0.639 & 0.0473 & 0.27 & 0.25\tabularnewline
+& IGA-IHSDT (Present) & 1.9257 & 0.7240 & 0.6396 & 0.0473 & 0.2699 & 0.2505\tabularnewline
+&  &  &  &  &  &  & \tabularnewline
+10 & Pagano \cite{pagano1972elastic} & 0.743 & 0.559 & 0.401 & 0.028 & 0.196 & 0.301\tabularnewline
+& Mantari \cite{mantari2012new} & 0.73 & 0.561 & 0.395 & 0.028 & 0.176 & 0.3287\tabularnewline
+& Karama \cite{karama2009new} & 0.724 & 0.553 & 0.393 & 0.027 & 0.163 & 0.294\tabularnewline
+& Reddy \cite{reddy1984simple} & 0.715 & 0.546 & 0.389 & 0.027 & 0.153 & 0.264\tabularnewline
+& Rodrigues \cite{rodrigues2012radial} & 0.7227 & 0.546 & 0.4194 & 0.0269 & - & 0.2978\tabularnewline
+& Quasi-3D \cite{tran2018static} & 0.7161 & 0.5424 & 0.3877 & - & 0.1903 & 0.3022\tabularnewline
+& CFS-IHSDT \cite{grover2013new} & 0.7284 & 0.5578 & 0.3947 & 0.0275 & 0.176 & 0.3287\tabularnewline
+& IGA-IHSDT (Present) & 0.7284 & 0.5572 & 0.3949 & 0.0274 & 0.1763 & 0.3289\tabularnewline
+&  &  &  &  &  &  & \tabularnewline
+100 & Pagano \cite{pagano1972elastic} & 0.439 & 0.539 & 0.276 & 0.022 & 0.141 & 0.337\tabularnewline
+& Mantari \cite{mantari2012new} & 0.435 & 0.539 & 0.271 & 0.021 & 0.119 & 0.332\tabularnewline
+& Karama \cite{karama2009new} & 0.435 & 0.538 & 0.27 & 0.021 & 0.118 & 0.324\tabularnewline
+& Reddy \cite{reddy1984simple} & 0.434 & 0.538 & 0.27 & 0.021 & 0.112 & 0.29\tabularnewline
+& Rodrigues\cite{rodrigues2012radial} & 0.4303 & 0.5374 & 0.2704 & 0.0212 & - & 0.3352\tabularnewline
+& Quasi-3D \cite{tran2018static} & 0.4343 & 0.5368 & 0.2699 & - & 0.1376 & 0.3355\tabularnewline
+& CFS-IHSDT\cite{grover2013new} & 0.4345 & 0.5388 & 0.271 & 0.0214 & 0.1271 & 0.3643\tabularnewline
+& IGA-IHSDT (Present) & 0.4344 & 0.5385 & 0.2710 & 0.0213 & 0.1269 & 0.3643\tabularnewline
+\hline
+\end{tabular}
+}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{Non-dimensional deflection for simply supported square laminated $\left(0^{0}/90^{0}\right)$ plate under sinusoidally distributed load with $a/h$ ratios}
+\begin{centering}
+\begin{tabular}{lllll}
+\hline
+\multirow{2}{} Source / Method & \multicolumn{4}{c}{$a/h$}\tabularnewline
+\hline
+& 5 & 10 & 20 & 100\tabularnewline
+\hline
+Pagano \cite{pagano1970exact} & 1.7287 & 1.2318 & 1.1060 & 1.0742\tabularnewline
+Reddy \cite{kant2002analytical}{**} & 1.6670 & 1.2161 & 1.1018 & 1.0651\tabularnewline
+Senthilnathan et al. \cite{kant2002analytical}{*} & 1.6670 & 1.2161 & 1.1018 & 1.0651\tabularnewline
+Karama \cite{tran2014isogeometric}{*} & 1.6382 & 1.2096 & 1.1002 & 1.0650\tabularnewline
+IZT-FEM \cite{SSarangan2017}${\dagger}$ & 1.6449 & 1.2087 & - & -\tabularnewline
+IGA-IHSDT (Present){**} & 1.6009 & 1.2009 & 1.0981 & 1.0650\tabularnewline
+\hline
+\multicolumn{5}{l}
+{${\dagger}$ IZT-FEM - Inverse hyperbolic zigzag theory}\tabularnewline
+\multicolumn{5}{l}
+{${*}$ Four variable HSDT}\tabularnewline
+\multicolumn{5}{l}
+{${**}$ Five variable HSDT}\tabularnewline
+\end{tabular}
+\par\end{centering}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{\label{tab:Static_sandwich}Static behavior of simply supported sandwich plate $(0^0/C/0^0)$ subjected to uniform load}
+\centering{}%
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lllllllll}
+\hline
+$\mathcal{R}$ & Source / Model & $\bar{w}$ & $\bar{\sigma}_{xx}^{1}$ & $\bar{\sigma}_{xx}^{2}$ & $\bar{\sigma}_{xx}^{3}$ & $\bar{\sigma}_{yy}^{1}$ & $\bar{\sigma}_{yy}^{2}$ & $\bar{\sigma}_{yy}^{3}$\tabularnewline
+\hline
+\multirow{9}{*}{5} & Pagano \cite{srinivas1973refined} & 258.97 & 60.353 & 46.623 & 9.34 & 38.491 & 30.097 & 6.161\tabularnewline
+& Pandya and Kant \cite{pandya1988higher} & 258.74 & 62.38 & 46.91 & 9.382 & 38.93 & 30.33 & 6.065\tabularnewline
+& Touratier \cite{xiang2009analysis}{$\dagger$} & 253.989 & 60.123 & 47.097 & 9.419 & 38.249 & 30.187 & 6.037\tabularnewline
+& Karama \cite{xiang2009analysis}{$\dagger$} & 253.638 & 60.124 & 46.703 & 9.34 & 38.242 & 30.02 & 6.004\tabularnewline
+& Ferreira et al. \cite{ferreira2003analysis} & 257.11 & 60.366 & 47.003 & 9.401 & 38.456 & 30.242 & 6.048\tabularnewline
+& Mantari et al. \cite{mantari2012new}& 256.706 & 60.525 & 47.061 & 9.412 & 38.452 & 30.177 & 6.035\tabularnewline
+& FEM-IHSDT \cite{grover2014efficient} & 255.28 & 59.7731 & 46.5043 & 9.3008 & 38.0231 & 29.8858 & 5.9772\tabularnewline
+& CFS-IHSDT \cite{grover2013new} & 255.644 & 60.6752 & 47.055 & 9.4109 & 38.5223 & 30.2056 & 6.0411\tabularnewline
+& IGA-IHSDT (Present) & 255.623 & 60.55 & 47.033 & 9.4066 & 38.447 & 30.189 & 6.0377\tabularnewline
+&  &  &  &  &  &  &  & \tabularnewline
+\multirow{9}{*}{15} & Pagano \cite{srinivas1973refined}& 121.72 & 66.787 & 48.299 & 3.232 & 46.424 & 34.955 & 2.494\tabularnewline
+& Pandya and Kant \cite{pandya1988higher}& 110.43 & 66.62 & 51.97 & 3.465 & 44.92 & 35.41 & 2.361\tabularnewline
+& Touratier \cite{xiang2009analysis}{$\dagger$} & 113.964 & 66.544 & 50.679 & 3.378 & 45.431 & 35.278 & 2.351\tabularnewline
+& Karama \cite{xiang2009analysis}{$\dagger$} & 114.585 & 66.621 & 49.663 & 3.31 & 45.546 & 34.919 & 2.327\tabularnewline
+& Ferreira et al. \cite{ferreira2003analysis}& 114.644 & 66.92 & 50.323 & 3.355 & 45.623 & 35.17 & 2.345\tabularnewline
+& Mantari et al. \cite{mantari2012new}& 115.919 & 67.185 & 49.769 & 3.318 & 45.91 & 35.081 & 2.339\tabularnewline
+& FEM-IHSDT \cite{grover2014efficient}& 115.83 & 66.4816 & 49.1148 & 3.2743 & 45.4806 & 34.6972 & 2.3131\tabularnewline
+& CFS-IHSDT \cite{grover2013new}& 115.82 & 67.2717 & 49.8129 & 3.3209 & 45.9669 & 35.088 & 2.3392\tabularnewline
+& IGA-IHSDT (Present) & 115.811 & 67.08 & 49.849 & 3.3232 & 45.85 & 35.103 & 2.3402\tabularnewline
+\hline
+\multicolumn{8}{l}
+{${\dagger}$ Xiang et al. \cite{xiang2009analysis}}
+\end{tabular}
+}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{\label{tab:Free_Vib_Sandwich}A non-dimensional natural frequency parameter $\bar{\omega}=(100\omega a)(\rho_{c}/E_{1f})^{1/2}$ of a $\left(0^{0}/90^{0}/C/90^{0}/0^{0}\right)$ simply supported square sandwich plate with $h_{c}/h=0.8$}
+\centering{}%
+\begin{tabular}{llll}
+\hline
+Source / Model &   \multicolumn{3}{c}{$a/h$}\tabularnewline
+\cline{2-4}
+& 6.67 & 10 & 20\tabularnewline
+\hline
+3-Dimensional \cite{kulkarni2008free} & 10.5235 & 9.8281 & 7.6882\tabularnewline
+Wang \cite{wang2000free} & 11.414 & 10.555 & 8.029\tabularnewline
+FEM-TOT \cite{kulkarni2008free} & 13.315 & 12.088 & 8.721\tabularnewline
+CFS-IHSDT \cite{grover2013analytical}& 12.1389 & 11.1572 & 8.3258\tabularnewline
+IGA-IHSDT (Present) & 12.1395 & 11.1575 & 8.3259\tabularnewline
+\hline
+\end{tabular}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{\label{tab:Free_Vib_antisymmetric}First six natural frequencies of anti-symmetric laminated plate $\left(0^{0}/90^{0}/0^{0}/90^{0}\right)$ under simply supported boundary condition with $a/h=10$}
+\centering{}%
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lllllll}
+\hline
+Mode & CFS-IHSDT${*}$  & IGA-IHSDT (Present) & FEM-IHSDT \cite{grover2013analytical} & 3D \cite{kulkarni2008free} & ZZ \cite{kulkarni2008free} & ZZ \cite{chakrabarti2004vibration} \tabularnewline
+\hline
+1 & 14.8390 & 14.8390 & 14.8302 & 14.7668 & 14.754 & 14.712\tabularnewline
+2 & 33.1887 & 33.1901 & 33.1266 & 32.7998 & 32.772 & 32.178\tabularnewline
+3 & 33.1887 & 33.1901 & 33.1266 & 32.7998 & 32.772 & 32.178\tabularnewline
+4 & 44.7320 & 44.7341 & 44.6260 & 44.1645 & 44.011 & 42.651\tabularnewline
+5 & 55.6689 & 55.6916 & 55.4164 & 54.5818 & 54.571 & 51.827\tabularnewline
+6 & 55.6689 & 55.6916 & 55.4164 & 54.818 & 54.571 & 51.827\tabularnewline
+\hline
+\multicolumn{6}{l}
+{${*}$ Results obtained using method prescribed in the literature \cite{grover2013analytical}}\tabularnewline
+\end{tabular}
+}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{\label{tab:Trans_Laminated1}A non-dimensional natural frequency parameter $\bar{\omega}=(\omega a^{2}/h)(\rho/E_{2})^{1/2}$ of a $\left(0^{0}/90^{0}/90^{0}/0^{0}\right)$ simply supported laminated square plate for various $a/h$ using step loading}
+\centering{}%
+\begin{tabular}{llll}
+\hline
+Source / Model &  \multicolumn{3}{c}{$a/h$}\tabularnewline
+\cline{2-4}
+& 5 & 10 & 20\tabularnewline
+\hline
+3-Dimensional${\dagger}$ \cite{kulkarni2008free}& 8.5611 & 11.2981 & 12.721\tabularnewline
+CFS-TOT${\dagger}$ \cite{kulkarni2008free} & 8.7167 & 11.424 & 12.771\tabularnewline
+CFS-SDTSF${\dagger}$ \cite{grover2013new} & 8.7170 & 11.4243 & 12.7711\tabularnewline
+CFS-ITSDT${\dagger}$ \cite{grover2013new} & 8.6241 & 11.3507 & 12.7424\tabularnewline
+CFS-IHSDT${\dagger}$ \cite{grover2013new} & 8.6216 & 11.3481 & 12.7413\tabularnewline
+IGA-IHSDT${\dagger}$ (Present) & 8.62155 & 11.348 & 12.7413\tabularnewline
+FFT (Present)${*}$ & 8.694 & 11.340 & 12.740\tabularnewline
+\hline
+\multicolumn{4}{l}
+{${\dagger}$ Eigenvalue}\tabularnewline
+\multicolumn{4}{l}
+{${*}$ Fast Fourier Transform (FFT)}\tabularnewline
+\end{tabular}
+\end{table}

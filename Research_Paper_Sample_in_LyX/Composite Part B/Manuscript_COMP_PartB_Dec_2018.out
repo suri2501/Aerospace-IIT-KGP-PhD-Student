@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Nonpolynomial shear deformation theory for composite plates}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Displacement field model}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Strain-displacement relation}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Constitutive equation}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Equations of motion}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Isogeometric formulation for composite plate}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{NURBS functions and surfaces}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Knot vectors}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Basis functions}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.3}{NURBS surface}{subsection.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.2}{NURBS based discretization}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Numerical results}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Material properties}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Various dynamic loads}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Boundary conditions}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Numerical examples and discussions }{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Four-layered simply supported square laminated plate}{subsection.4.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.4.2}{purpleTwo-layer anti-symmetric square plate}{subsection.4.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Three-layered simply supported square sandwich plate}{subsection.4.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Five-layered simply supported square sandwich plate}{subsection.4.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Higher modes of vibration for simply supported anti-symmetric cross-ply laminated plate}{subsection.4.4}% 22
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Simply supported orthotropic plate under uniform step loading}{subsection.4.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.4.7}{Effect of various dynamic loadings on symmetric cross-ply laminated plate}{subsection.4.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.4.8}{Three-layered square sandwich plate under step loading}{subsection.4.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.4.9}{Nine-layered square laminated plate under N-shaped pressure pulse}{subsection.4.4}% 26
+\BOOKMARK [3][-]{subsubsection.4.4.10}{Time-history response and its Fourier transform for the square laminated plate}{subsection.4.4}% 27
+\BOOKMARK [3][-]{subsubsection.4.4.11}{Effect of various parameter on transient response of laminated composite plate}{subsection.4.4}% 28
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 29

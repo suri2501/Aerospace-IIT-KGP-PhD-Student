@@ -1,0 +1,7 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Manuscript_COMP_PartB_Dec_2018.aux
+The style file: model3-num-names.bst
+Database file #1: mybibfile.bib
+`journal' is a missing field, not a string, for entry morgantis2014ices
+while executing---line 1685 of file model3-num-names.bst
+Warning--empty journal in morgantis2014ices
+(There was 1 error message)
