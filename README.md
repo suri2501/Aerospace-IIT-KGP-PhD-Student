@@ -7,6 +7,7 @@ In order to download the content, click on green colored "codes" then "download 
 ## Points
 - main.pdf
 - How to remote lab system (see remote.mp4).
+- How to structure a research paper [click here](https://www.nature.com/scitable/topicpage/scientific-papers-13815490/)
 - How to write article in LyX 
 - Beamer presentation in LyX
 - Synopsis & Thesis submission procedure is also included (Thanks to Nagappa Siddgonde)
@@ -58,6 +59,6 @@ In order to download the content, click on green colored "codes" then "download 
 - Special thanks to Nandi Da (Rana Nandi)
 - [Abha Gupta](https://pec.ac.in/abha-gupta) (Structures), abha.gupta91@gmail.com
 - Narayan Sharma (Structures), +91 9003243450, narayan.sharma43450@gmail.com
-- Narendra Kumar (Aerodynamics), +91 9948022902, chnarendrakumar06@gmail.com
+
  
 ### Eternally indebted to '[Bhagavad Gita As It Is](https://vedabase.io/en/library/bg/)'🙂. Enjoy
